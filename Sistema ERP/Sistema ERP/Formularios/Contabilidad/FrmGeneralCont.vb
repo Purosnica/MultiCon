@@ -12,4 +12,26 @@ Public Class FrmGeneralCont
         End Select
 
     End Sub
+
+    Private Sub BarButtonItem1_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles BarButtonItem1.ItemClick
+        Select Case Llamadatos
+
+            Case "CatCTE"
+                Dim x As New Frm_AgregaCte
+                x.Tipo = 1
+                x.ShowDialog()
+
+        End Select
+    End Sub
+
+    Private Sub btnedita_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles btnedita.ItemClick
+        Select Case Llamadatos
+
+            Case "CatCTE"
+                Dim x As New Frm_AgregaCte
+                x.Codigo = GvGeneral.GetFocusedRow(0)
+                x.ShowDialog()
+
+        End Select
+    End Sub
 End Class

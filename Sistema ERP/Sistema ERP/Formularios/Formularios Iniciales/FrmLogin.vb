@@ -36,6 +36,7 @@ Public Class FrmLogin
                 txtusuario.Text = Nothing
                 txtpass.Text = Nothing
                 txtusuario.Focus()
+                salida = ""
 
             Else
                 Me.Hide()

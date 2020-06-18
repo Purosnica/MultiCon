@@ -358,3 +358,4 @@ C:\Users\Soporte\Desktop\Desarrollo\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\S
 C:\Users\Soporte\Desktop\Desarrollo\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.vbproj.GenerateResource.Cache
 C:\Users\Soporte\Desktop\Desarrollo\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.exe.licenses
 C:\Users\Soporte\Desktop\Desarrollo\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmGeneralCont.resources
+C:\Users\Soporte\Desktop\Desarrollo\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_AgregaCte.resources
