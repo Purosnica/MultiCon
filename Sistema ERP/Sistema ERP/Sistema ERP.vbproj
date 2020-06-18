@@ -156,6 +156,12 @@
     <Compile Include="Formularios\Adquisiciones\Frm_UM.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Formularios\Contabilidad\FrmGeneralCont.Designer.vb">
+      <DependentUpon>FrmGeneralCont.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\FrmGeneralCont.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Formularios\Formularios Iniciales\FrmLogin.Designer.vb">
       <DependentUpon>FrmLogin.vb</DependentUpon>
     </Compile>
@@ -271,6 +277,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Adquisiciones\Frm_UM.resx">
       <DependentUpon>Frm_UM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\FrmGeneralCont.resx">
+      <DependentUpon>FrmGeneralCont.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Formularios Iniciales\FrmLogin.resx">
       <DependentUpon>FrmLogin.vb</DependentUpon>

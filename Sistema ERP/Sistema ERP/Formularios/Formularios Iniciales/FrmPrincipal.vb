@@ -85,10 +85,30 @@ Partial Public Class FrmPrincipal
     Private Sub btntasa_ItemClick(sender As Object, e As ItemClickEventArgs) Handles btntasa.ItemClick
         Dim x As New FrmCat_General
         x.Llamadatos = "Tasa"
+        x.Text = "Tasa de Cambio"
         x.ShowDialog()
     End Sub
 
     Private Sub FrmPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub cmdSalir_ItemClick(sender As Object, e As ItemClickEventArgs) Handles cmdSalir.ItemClick
+        End
+
+    End Sub
+
+    Private Sub cmdTasa_ItemClick(sender As Object, e As ItemClickEventArgs) Handles cmdTasa.ItemClick
+        Dim x As New FrmCat_General
+        x.Llamadatos = "Tasa"
+        x.Text = "Tasa de Cambio"
+        x.ShowDialog()
+    End Sub
+
+    Private Sub cmdCta_Comprobante_ItemClick(sender As Object, e As ItemClickEventArgs) Handles cmdCta_Comprobante.ItemClick
+        Dim x As New FrmGeneralCont
+        x.Llamadatos = "CatCTE"
+        x.ShowDialog()
 
     End Sub
 End Class
