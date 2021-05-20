@@ -344,6 +344,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Formularios\Compra\" />
+    <Folder Include="Formularios\Inventario\" />
+    <Folder Include="Formularios\Punto de Venta\" />
     <Folder Include="Reportes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
