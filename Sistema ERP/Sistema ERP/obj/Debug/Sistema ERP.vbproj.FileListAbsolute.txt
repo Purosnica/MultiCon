@@ -475,3 +475,119 @@ C:\Users\SxC\Documents\GitHub\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema
 C:\Users\SxC\Documents\GitHub\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.exe
 C:\Users\SxC\Documents\GitHub\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.xml
 C:\Users\SxC\Documents\GitHub\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.pdb
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\Sistema ERP.exe.config
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\Sistema ERP.exe
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\Sistema ERP.pdb
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\Sistema ERP.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.Pdf.v17.1.Core.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.XtraTreeList.v17.1.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevComponents.DotNetBar.SuperGrid.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevComponents.Instrumentation.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.Data.v17.1.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.DataAccess.v17.1.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.Office.v17.1.Core.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.Printing.v17.1.Core.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.RichEdit.v17.1.Core.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.Sparkline.v17.1.Core.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.Utils.v17.1.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.Xpo.v17.1.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.XtraBars.v17.1.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.XtraEditors.v17.1.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.XtraGrid.v17.1.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.XtraLayout.v17.1.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.XtraPrinting.v17.1.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.Pdf.v17.1.Core.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.XtraTreeList.v17.1.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\de\DevExpress.Data.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\es\DevExpress.Data.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ja\DevExpress.Data.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ru\DevExpress.Data.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\de\DevExpress.Utils.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\es\DevExpress.Utils.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ja\DevExpress.Utils.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ru\DevExpress.Utils.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.vbproj.AssemblyReference.cache
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmEmpleado.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmAdq_ElaboraSol.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmCat_General.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_CreaSolAdq.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Departamento.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Producto.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Proveedor.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Servicios.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Solicitante.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_UM.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmGeneralCont.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_AgregaCte.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmLogin.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmPrincipal.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmArticulo.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmReasignar.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmUbicacion.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmCat_Areasvb.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmCat_Articulos.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmCat_Empleado.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmCat_Ubicacion.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmUsuarios.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_AgreTC.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Resources.resources
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.vbproj.GenerateResource.cache
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.exe.licenses
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.vbproj.CoreCompileInputs.cache
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.vbproj.CopyComplete
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.exe
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.xml
+C:\Users\PC\Source\Repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.pdb
