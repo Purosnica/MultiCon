@@ -89,14 +89,6 @@ Partial Public Class FrmPrincipal
         x.ShowDialog()
     End Sub
 
-    Private Sub FrmPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
-    Private Sub cmdSalir_ItemClick(sender As Object, e As ItemClickEventArgs) Handles cmdSalir.ItemClick
-        End
-
-    End Sub
 
     Private Sub cmdTasa_ItemClick(sender As Object, e As ItemClickEventArgs) Handles cmdTasa.ItemClick
         Dim x As New FrmCat_General
@@ -110,5 +102,11 @@ Partial Public Class FrmPrincipal
         x.Llamadatos = "CatCTE"
         x.ShowDialog()
 
+    End Sub
+
+    Private Sub btnCliente_ItemClick(sender As Object, e As ItemClickEventArgs) Handles btnCliente.ItemClick
+        Dim x As New Frm_Cliente
+        x.Llamadatos = "Cliente"
+        x.ShowDialog()
     End Sub
 End Class
