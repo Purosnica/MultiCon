@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C46F3DB-5165-4826-B5FA-062DDAE29295}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sistema_ERP.My.MyApplication</StartupObject>
+    <RootNamespace>Sistema_ERP</RootNamespace>
+    <AssemblyName>Sistema ERP</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Sistema ERP.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Sistema ERP.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=12.5.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=12.5.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.Instrumentation, Version=12.5.0.2, Culture=neutral, PublicKeyToken=bc4a9d761ea44ef0" />
+    <Reference Include="DevExpress.CodeParser.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Images.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Formularios\Activo FIjo\Formularios Inserccion\FrmEmpleado.Designer.vb">
+      <DependentUpon>FrmEmpleado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Activo FIjo\Formularios Inserccion\FrmEmpleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\FrmAdq_ElaboraSol.Designer.vb">
+      <DependentUpon>FrmAdq_ElaboraSol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\FrmAdq_ElaboraSol.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\FrmCat_General.Designer.vb">
+      <DependentUpon>FrmCat_General.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\FrmCat_General.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\Frm_CreaSolAdq.Designer.vb">
+      <DependentUpon>Frm_CreaSolAdq.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\Frm_CreaSolAdq.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\Frm_Departamento.Designer.vb">
+      <DependentUpon>Frm_Departamento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\Frm_Departamento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\Frm_Producto.Designer.vb">
+      <DependentUpon>Frm_Producto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\Frm_Producto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\Frm_Proveedor.Designer.vb">
+      <DependentUpon>Frm_Proveedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\Frm_Proveedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\Frm_Servicios.Designer.vb">
+      <DependentUpon>Frm_Servicios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\Frm_Servicios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\Frm_Solicitante.Designer.vb">
+      <DependentUpon>Frm_Solicitante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\Frm_Solicitante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\Frm_UM.Designer.vb">
+      <DependentUpon>Frm_UM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\Frm_UM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\FrmGeneralCont.Designer.vb">
+      <DependentUpon>FrmGeneralCont.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\FrmGeneralCont.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\Frm_AgregaCte.Designer.vb">
+      <DependentUpon>Frm_AgregaCte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Contabilidad\Frm_AgregaCte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Formularios Iniciales\FrmLogin.Designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Formularios Iniciales\FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Formularios Iniciales\FrmPrincipal.Designer.vb">
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Formularios Iniciales\FrmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Activo FIjo\Formularios Inserccion\FrmArticulo.Designer.vb">
+      <DependentUpon>FrmArticulo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Activo FIjo\Formularios Inserccion\FrmArticulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Activo FIjo\Formularios Inserccion\FrmReasignar.Designer.vb">
+      <DependentUpon>FrmReasignar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Activo FIjo\Formularios Inserccion\FrmReasignar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Activo FIjo\Formularios Inserccion\FrmUbicacion.Designer.vb">
+      <DependentUpon>FrmUbicacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Activo FIjo\Formularios Inserccion\FrmUbicacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Activo FIjo\Formularios Primordiales\FrmCat_Areasvb.Designer.vb">
+      <DependentUpon>FrmCat_Areasvb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Activo FIjo\Formularios Primordiales\FrmCat_Areasvb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Activo FIjo\Formularios Primordiales\FrmCat_Articulos.Designer.vb">
+      <DependentUpon>FrmCat_Articulos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Activo FIjo\Formularios Primordiales\FrmCat_Articulos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Activo FIjo\Formularios Primordiales\FrmCat_Empleado.Designer.vb">
+      <DependentUpon>FrmCat_Empleado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Activo FIjo\Formularios Primordiales\FrmCat_Empleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Activo FIjo\Formularios Primordiales\FrmCat_Ubicacion.Designer.vb">
+      <DependentUpon>FrmCat_Ubicacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Activo FIjo\Formularios Primordiales\FrmCat_Ubicacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Formularios Iniciales\FrmUsuarios.Designer.vb">
+      <DependentUpon>FrmUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Formularios Iniciales\FrmUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Formularios Iniciales\Frm_AgreTC.Designer.vb">
+      <DependentUpon>Frm_AgreTC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Formularios Iniciales\Frm_AgreTC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Conect.vb" />
+    <Compile Include="Modulos\Conexion.vb" />
+    <Compile Include="Modulos\M_Variable.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Formularios\Activo FIjo\Formularios Inserccion\FrmEmpleado.resx">
+      <DependentUpon>FrmEmpleado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Adquisiciones\FrmAdq_ElaboraSol.resx">
+      <DependentUpon>FrmAdq_ElaboraSol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Adquisiciones\FrmCat_General.resx">
+      <DependentUpon>FrmCat_General.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Adquisiciones\Frm_CreaSolAdq.resx">
+      <DependentUpon>Frm_CreaSolAdq.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Adquisiciones\Frm_Departamento.resx">
+      <DependentUpon>Frm_Departamento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Adquisiciones\Frm_Producto.resx">
+      <DependentUpon>Frm_Producto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Adquisiciones\Frm_Proveedor.resx">
+      <DependentUpon>Frm_Proveedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Adquisiciones\Frm_Servicios.resx">
+      <DependentUpon>Frm_Servicios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Adquisiciones\Frm_Solicitante.resx">
+      <DependentUpon>Frm_Solicitante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Adquisiciones\Frm_UM.resx">
+      <DependentUpon>Frm_UM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\FrmGeneralCont.resx">
+      <DependentUpon>FrmGeneralCont.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Contabilidad\Frm_AgregaCte.resx">
+      <DependentUpon>Frm_AgregaCte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Formularios Iniciales\FrmLogin.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Formularios Iniciales\FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Activo FIjo\Formularios Inserccion\FrmArticulo.resx">
+      <DependentUpon>FrmArticulo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Activo FIjo\Formularios Inserccion\FrmReasignar.resx">
+      <DependentUpon>FrmReasignar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Activo FIjo\Formularios Inserccion\FrmUbicacion.resx">
+      <DependentUpon>FrmUbicacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Activo FIjo\Formularios Primordiales\FrmCat_Areasvb.resx">
+      <DependentUpon>FrmCat_Areasvb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Activo FIjo\Formularios Primordiales\FrmCat_Articulos.resx">
+      <DependentUpon>FrmCat_Articulos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Activo FIjo\Formularios Primordiales\FrmCat_Empleado.resx">
+      <DependentUpon>FrmCat_Empleado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Activo FIjo\Formularios Primordiales\FrmCat_Ubicacion.resx">
+      <DependentUpon>FrmCat_Ubicacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Formularios Iniciales\FrmUsuarios.resx">
+      <DependentUpon>FrmUsuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Formularios Iniciales\Frm_AgreTC.resx">
+      <DependentUpon>Frm_AgreTC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Formularios\Compra\" />
+    <Folder Include="Formularios\Inventario\" />
+    <Folder Include="Formularios\Punto de Venta\" />
+    <Folder Include="Reportes\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

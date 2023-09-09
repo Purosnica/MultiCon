@@ -54,10 +54,22 @@ Partial Public Class FrmPrincipal
         Me.btnCorreoOC = New DevExpress.XtraBars.BarButtonItem()
         Me.btnSolicitantes = New DevExpress.XtraBars.BarButtonItem()
         Me.btntasa = New DevExpress.XtraBars.BarButtonItem()
+        Me.BarSubItem1 = New DevExpress.XtraBars.BarSubItem()
+        Me.cmd_CatCuenta = New DevExpress.XtraBars.BarButtonItem()
+        Me.cmd_AsientoD = New DevExpress.XtraBars.BarButtonItem()
+        Me.cmdCta_Comprobante = New DevExpress.XtraBars.BarButtonItem()
+        Me.BarButtonItem12 = New DevExpress.XtraBars.BarButtonItem()
+        Me.cmdTasa = New DevExpress.XtraBars.BarButtonItem()
+        Me.cmdSalir = New DevExpress.XtraBars.BarButtonItem()
+        Me.BarSubItem2 = New DevExpress.XtraBars.BarSubItem()
+        Me.BarSubItem3 = New DevExpress.XtraBars.BarSubItem()
+        Me.BarSubItem4 = New DevExpress.XtraBars.BarSubItem()
         Me.RibbonPage1 = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.RibbonPageGroup1 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPageGroup9 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPageGroup2 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
+        Me.RibbonPage5 = New DevExpress.XtraBars.Ribbon.RibbonPage()
+        Me.RibbonPageGroup11 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPage4 = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.RibbonPageGroup10 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPageGroup8 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
@@ -68,18 +80,9 @@ Partial Public Class FrmPrincipal
         Me.RibbonPageGroup6 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPageGroup7 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPage2 = New DevExpress.XtraBars.Ribbon.RibbonPage()
-        Me.RibbonPage5 = New DevExpress.XtraBars.Ribbon.RibbonPage()
-        Me.RibbonPageGroup11 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
-        Me.BarSubItem1 = New DevExpress.XtraBars.BarSubItem()
-        Me.BarSubItem2 = New DevExpress.XtraBars.BarSubItem()
-        Me.BarSubItem3 = New DevExpress.XtraBars.BarSubItem()
-        Me.BarSubItem4 = New DevExpress.XtraBars.BarSubItem()
-        Me.cmd_CatCuenta = New DevExpress.XtraBars.BarButtonItem()
-        Me.cmd_AsientoD = New DevExpress.XtraBars.BarButtonItem()
-        Me.cmdCta_Comprobante = New DevExpress.XtraBars.BarButtonItem()
-        Me.cmdTasa = New DevExpress.XtraBars.BarButtonItem()
-        Me.cmdSalir = New DevExpress.XtraBars.BarButtonItem()
-        Me.BarButtonItem12 = New DevExpress.XtraBars.BarButtonItem()
+        Me.RibbonPage6 = New DevExpress.XtraBars.Ribbon.RibbonPage()
+        Me.RibbonPageGroup12 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
+        Me.btnCliente = New DevExpress.XtraBars.BarButtonItem()
         CType(Me.ApplicationMenu1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RibbonControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -93,12 +96,13 @@ Partial Public Class FrmPrincipal
         '
         Me.RibbonControl1.ApplicationButtonDropDownControl = Me.ApplicationMenu1
         Me.RibbonControl1.ExpandCollapseItem.Id = 0
-        Me.RibbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl1.ExpandCollapseItem, Me.BarButtonItem1, Me.BarButtonItem2, Me.BarButtonItem4, Me.BarButtonItem3, Me.BarButtonItem5, Me.BarButtonItem6, Me.BarButtonItem7, Me.btnarea, Me.BarButtonItem8, Me.BarButtonItem9, Me.btnproveedor, Me.btnproductos, Me.btnNuevaSol, Me.BarButtonItem13, Me.BarButtonItem14, Me.btndepartamentos, Me.btnunidadmedida, Me.BtnServicios, Me.btncorreo, Me.BarButtonItem10, Me.BarButtonItem11, Me.btngenerarOC, Me.BarButtonItem15, Me.btnCorreoOC, Me.btnSolicitantes, Me.btntasa, Me.BarSubItem1, Me.BarSubItem2, Me.BarSubItem3, Me.BarSubItem4, Me.cmd_CatCuenta, Me.cmd_AsientoD, Me.cmdCta_Comprobante, Me.cmdTasa, Me.cmdSalir, Me.BarButtonItem12})
+        Me.RibbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl1.ExpandCollapseItem, Me.BarButtonItem1, Me.BarButtonItem2, Me.BarButtonItem4, Me.BarButtonItem3, Me.BarButtonItem5, Me.BarButtonItem6, Me.BarButtonItem7, Me.btnarea, Me.BarButtonItem8, Me.BarButtonItem9, Me.btnproveedor, Me.btnproductos, Me.btnNuevaSol, Me.BarButtonItem13, Me.BarButtonItem14, Me.btndepartamentos, Me.btnunidadmedida, Me.BtnServicios, Me.btncorreo, Me.BarButtonItem10, Me.BarButtonItem11, Me.btngenerarOC, Me.BarButtonItem15, Me.btnCorreoOC, Me.btnSolicitantes, Me.btntasa, Me.BarSubItem1, Me.BarSubItem2, Me.BarSubItem3, Me.BarSubItem4, Me.cmd_CatCuenta, Me.cmd_AsientoD, Me.cmdCta_Comprobante, Me.cmdTasa, Me.cmdSalir, Me.BarButtonItem12, Me.btnCliente})
         Me.RibbonControl1.Location = New System.Drawing.Point(0, 0)
-        Me.RibbonControl1.MaxItemId = 42
+        Me.RibbonControl1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.RibbonControl1.MaxItemId = 43
         Me.RibbonControl1.Name = "RibbonControl1"
-        Me.RibbonControl1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.RibbonPage1, Me.RibbonPage5, Me.RibbonPage4, Me.RibbonPage3})
-        Me.RibbonControl1.Size = New System.Drawing.Size(1209, 143)
+        Me.RibbonControl1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.RibbonPage1, Me.RibbonPage5, Me.RibbonPage4, Me.RibbonPage3, Me.RibbonPage6})
+        Me.RibbonControl1.Size = New System.Drawing.Size(1814, 219)
         '
         'BarButtonItem1
         '
@@ -300,6 +304,85 @@ Partial Public Class FrmPrincipal
         Me.btntasa.ImageOptions.LargeImage = CType(resources.GetObject("btntasa.ImageOptions.LargeImage"), System.Drawing.Image)
         Me.btntasa.Name = "btntasa"
         '
+        'BarSubItem1
+        '
+        Me.BarSubItem1.Caption = "Archivos"
+        Me.BarSubItem1.Id = 30
+        Me.BarSubItem1.ImageOptions.Image = CType(resources.GetObject("BarSubItem1.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarSubItem1.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem1.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarSubItem1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.cmd_CatCuenta), New DevExpress.XtraBars.LinkPersistInfo(Me.cmd_AsientoD), New DevExpress.XtraBars.LinkPersistInfo(Me.cmdCta_Comprobante), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem12), New DevExpress.XtraBars.LinkPersistInfo(Me.cmdTasa), New DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, Me.cmdSalir, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph)})
+        Me.BarSubItem1.Name = "BarSubItem1"
+        '
+        'cmd_CatCuenta
+        '
+        Me.cmd_CatCuenta.Caption = "Catalogo de Cuentas"
+        Me.cmd_CatCuenta.Id = 36
+        Me.cmd_CatCuenta.ImageOptions.Image = CType(resources.GetObject("cmd_CatCuenta.ImageOptions.Image"), System.Drawing.Image)
+        Me.cmd_CatCuenta.ImageOptions.LargeImage = CType(resources.GetObject("cmd_CatCuenta.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.cmd_CatCuenta.Name = "cmd_CatCuenta"
+        '
+        'cmd_AsientoD
+        '
+        Me.cmd_AsientoD.Caption = "Asientos Diario"
+        Me.cmd_AsientoD.Id = 37
+        Me.cmd_AsientoD.ImageOptions.Image = CType(resources.GetObject("cmd_AsientoD.ImageOptions.Image"), System.Drawing.Image)
+        Me.cmd_AsientoD.ImageOptions.LargeImage = CType(resources.GetObject("cmd_AsientoD.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.cmd_AsientoD.Name = "cmd_AsientoD"
+        '
+        'cmdCta_Comprobante
+        '
+        Me.cmdCta_Comprobante.Caption = "Catalo de Comprobante"
+        Me.cmdCta_Comprobante.Id = 38
+        Me.cmdCta_Comprobante.ImageOptions.Image = CType(resources.GetObject("cmdCta_Comprobante.ImageOptions.Image"), System.Drawing.Image)
+        Me.cmdCta_Comprobante.ImageOptions.LargeImage = CType(resources.GetObject("cmdCta_Comprobante.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.cmdCta_Comprobante.Name = "cmdCta_Comprobante"
+        '
+        'BarButtonItem12
+        '
+        Me.BarButtonItem12.Caption = "Catalogo Centro de Costo"
+        Me.BarButtonItem12.Id = 41
+        Me.BarButtonItem12.Name = "BarButtonItem12"
+        '
+        'cmdTasa
+        '
+        Me.cmdTasa.Caption = "Tasa de Cambio"
+        Me.cmdTasa.Id = 39
+        Me.cmdTasa.ImageOptions.Image = CType(resources.GetObject("cmdTasa.ImageOptions.Image"), System.Drawing.Image)
+        Me.cmdTasa.ImageOptions.LargeImage = CType(resources.GetObject("cmdTasa.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.cmdTasa.Name = "cmdTasa"
+        '
+        'cmdSalir
+        '
+        Me.cmdSalir.Caption = "Salir"
+        Me.cmdSalir.Id = 40
+        Me.cmdSalir.ImageOptions.Image = CType(resources.GetObject("cmdSalir.ImageOptions.Image"), System.Drawing.Image)
+        Me.cmdSalir.ImageOptions.LargeImage = CType(resources.GetObject("cmdSalir.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.cmdSalir.Name = "cmdSalir"
+        '
+        'BarSubItem2
+        '
+        Me.BarSubItem2.Caption = "Reportes"
+        Me.BarSubItem2.Id = 32
+        Me.BarSubItem2.ImageOptions.Image = CType(resources.GetObject("BarSubItem2.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarSubItem2.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem2.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarSubItem2.Name = "BarSubItem2"
+        '
+        'BarSubItem3
+        '
+        Me.BarSubItem3.Caption = "Procesos"
+        Me.BarSubItem3.Id = 33
+        Me.BarSubItem3.ImageOptions.Image = CType(resources.GetObject("BarSubItem3.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarSubItem3.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem3.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarSubItem3.Name = "BarSubItem3"
+        '
+        'BarSubItem4
+        '
+        Me.BarSubItem4.Caption = "Herramientas"
+        Me.BarSubItem4.Id = 35
+        Me.BarSubItem4.ImageOptions.Image = CType(resources.GetObject("BarSubItem4.ImageOptions.Image"), System.Drawing.Image)
+        Me.BarSubItem4.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem4.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarSubItem4.Name = "BarSubItem4"
+        '
         'RibbonPage1
         '
         Me.RibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup1, Me.RibbonPageGroup9, Me.RibbonPageGroup2})
@@ -324,6 +407,20 @@ Partial Public Class FrmPrincipal
         '
         Me.RibbonPageGroup2.Name = "RibbonPageGroup2"
         Me.RibbonPageGroup2.Text = "Acerca de"
+        '
+        'RibbonPage5
+        '
+        Me.RibbonPage5.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup11})
+        Me.RibbonPage5.Name = "RibbonPage5"
+        Me.RibbonPage5.Text = "Contabilidad"
+        '
+        'RibbonPageGroup11
+        '
+        Me.RibbonPageGroup11.ItemLinks.Add(Me.BarSubItem1)
+        Me.RibbonPageGroup11.ItemLinks.Add(Me.BarSubItem2)
+        Me.RibbonPageGroup11.ItemLinks.Add(Me.BarSubItem3)
+        Me.RibbonPageGroup11.ItemLinks.Add(Me.BarSubItem4)
+        Me.RibbonPageGroup11.Name = "RibbonPageGroup11"
         '
         'RibbonPage4
         '
@@ -368,6 +465,7 @@ Partial Public Class FrmPrincipal
         Me.RibbonPageGroup4.ItemLinks.Add(Me.btnunidadmedida)
         Me.RibbonPageGroup4.ItemLinks.Add(Me.btnproductos)
         Me.RibbonPageGroup4.ItemLinks.Add(Me.BtnServicios)
+        Me.RibbonPageGroup4.ItemLinks.Add(Me.btnCliente)
         Me.RibbonPageGroup4.Name = "RibbonPageGroup4"
         Me.RibbonPageGroup4.Text = "Catalogos"
         '
@@ -400,107 +498,33 @@ Partial Public Class FrmPrincipal
         Me.RibbonPage2.Name = "RibbonPage2"
         Me.RibbonPage2.Text = "RibbonPage2"
         '
-        'RibbonPage5
+        'RibbonPage6
         '
-        Me.RibbonPage5.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup11})
-        Me.RibbonPage5.Name = "RibbonPage5"
-        Me.RibbonPage5.Text = "Contabilidad"
+        Me.RibbonPage6.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup12})
+        Me.RibbonPage6.Name = "RibbonPage6"
+        Me.RibbonPage6.Text = "Publicidad"
         '
-        'RibbonPageGroup11
+        'RibbonPageGroup12
         '
-        Me.RibbonPageGroup11.ItemLinks.Add(Me.BarSubItem1)
-        Me.RibbonPageGroup11.ItemLinks.Add(Me.BarSubItem2)
-        Me.RibbonPageGroup11.ItemLinks.Add(Me.BarSubItem3)
-        Me.RibbonPageGroup11.ItemLinks.Add(Me.BarSubItem4)
-        Me.RibbonPageGroup11.Name = "RibbonPageGroup11"
+        Me.RibbonPageGroup12.Name = "RibbonPageGroup12"
+        Me.RibbonPageGroup12.Text = "RibbonPageGroup12"
         '
-        'BarSubItem1
+        'btnCliente
         '
-        Me.BarSubItem1.Caption = "Archivos"
-        Me.BarSubItem1.Id = 30
-        Me.BarSubItem1.ImageOptions.Image = CType(resources.GetObject("BarSubItem1.ImageOptions.Image"), System.Drawing.Image)
-        Me.BarSubItem1.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem1.ImageOptions.LargeImage"), System.Drawing.Image)
-        Me.BarSubItem1.LinksPersistInfo.AddRange(New DevExpress.XtraBars.LinkPersistInfo() {New DevExpress.XtraBars.LinkPersistInfo(Me.cmd_CatCuenta), New DevExpress.XtraBars.LinkPersistInfo(Me.cmd_AsientoD), New DevExpress.XtraBars.LinkPersistInfo(Me.cmdCta_Comprobante), New DevExpress.XtraBars.LinkPersistInfo(Me.BarButtonItem12), New DevExpress.XtraBars.LinkPersistInfo(Me.cmdTasa), New DevExpress.XtraBars.LinkPersistInfo(DevExpress.XtraBars.BarLinkUserDefines.PaintStyle, Me.cmdSalir, DevExpress.XtraBars.BarItemPaintStyle.CaptionGlyph)})
-        Me.BarSubItem1.Name = "BarSubItem1"
-        '
-        'BarSubItem2
-        '
-        Me.BarSubItem2.Caption = "Reportes"
-        Me.BarSubItem2.Id = 32
-        Me.BarSubItem2.ImageOptions.Image = CType(resources.GetObject("BarSubItem2.ImageOptions.Image"), System.Drawing.Image)
-        Me.BarSubItem2.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem2.ImageOptions.LargeImage"), System.Drawing.Image)
-        Me.BarSubItem2.Name = "BarSubItem2"
-        '
-        'BarSubItem3
-        '
-        Me.BarSubItem3.Caption = "Procesos"
-        Me.BarSubItem3.Id = 33
-        Me.BarSubItem3.ImageOptions.Image = CType(resources.GetObject("BarSubItem3.ImageOptions.Image"), System.Drawing.Image)
-        Me.BarSubItem3.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem3.ImageOptions.LargeImage"), System.Drawing.Image)
-        Me.BarSubItem3.Name = "BarSubItem3"
-        '
-        'BarSubItem4
-        '
-        Me.BarSubItem4.Caption = "Herramientas"
-        Me.BarSubItem4.Id = 35
-        Me.BarSubItem4.ImageOptions.Image = CType(resources.GetObject("BarSubItem4.ImageOptions.Image"), System.Drawing.Image)
-        Me.BarSubItem4.ImageOptions.LargeImage = CType(resources.GetObject("BarSubItem4.ImageOptions.LargeImage"), System.Drawing.Image)
-        Me.BarSubItem4.Name = "BarSubItem4"
-        '
-        'cmd_CatCuenta
-        '
-        Me.cmd_CatCuenta.Caption = "Catalogo de Cuentas"
-        Me.cmd_CatCuenta.Id = 36
-        Me.cmd_CatCuenta.ImageOptions.Image = CType(resources.GetObject("BarButtonItem12.ImageOptions.Image"), System.Drawing.Image)
-        Me.cmd_CatCuenta.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem12.ImageOptions.LargeImage"), System.Drawing.Image)
-        Me.cmd_CatCuenta.Name = "cmd_CatCuenta"
-        '
-        'cmd_AsientoD
-        '
-        Me.cmd_AsientoD.Caption = "Asientos Diario"
-        Me.cmd_AsientoD.Id = 37
-        Me.cmd_AsientoD.ImageOptions.Image = CType(resources.GetObject("BarButtonItem16.ImageOptions.Image"), System.Drawing.Image)
-        Me.cmd_AsientoD.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem16.ImageOptions.LargeImage"), System.Drawing.Image)
-        Me.cmd_AsientoD.Name = "cmd_AsientoD"
-        '
-        'cmdCta_Comprobante
-        '
-        Me.cmdCta_Comprobante.Caption = "Catalo de Comprobante"
-        Me.cmdCta_Comprobante.Id = 38
-        Me.cmdCta_Comprobante.ImageOptions.Image = CType(resources.GetObject("BarButtonItem17.ImageOptions.Image"), System.Drawing.Image)
-        Me.cmdCta_Comprobante.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem17.ImageOptions.LargeImage"), System.Drawing.Image)
-        Me.cmdCta_Comprobante.Name = "cmdCta_Comprobante"
-        '
-        'cmdTasa
-        '
-        Me.cmdTasa.Caption = "Tasa de Cambio"
-        Me.cmdTasa.Id = 39
-        Me.cmdTasa.ImageOptions.Image = CType(resources.GetObject("BarButtonItem18.ImageOptions.Image"), System.Drawing.Image)
-        Me.cmdTasa.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem18.ImageOptions.LargeImage"), System.Drawing.Image)
-        Me.cmdTasa.Name = "cmdTasa"
-        '
-        'cmdSalir
-        '
-        Me.cmdSalir.Caption = "Salir"
-        Me.cmdSalir.Id = 40
-        Me.cmdSalir.ImageOptions.Image = CType(resources.GetObject("BarButtonItem19.ImageOptions.Image"), System.Drawing.Image)
-        Me.cmdSalir.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem19.ImageOptions.LargeImage"), System.Drawing.Image)
-        Me.cmdSalir.Name = "cmdSalir"
-        '
-        'BarButtonItem12
-        '
-        Me.BarButtonItem12.Caption = "Catalogo Centro de Costo"
-        Me.BarButtonItem12.Id = 41
-        Me.BarButtonItem12.Name = "BarButtonItem12"
+        Me.btnCliente.Caption = "Cliente"
+        Me.btnCliente.Id = 42
+        Me.btnCliente.ImageOptions.LargeImage = CType(resources.GetObject("btnCliente.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.btnCliente.Name = "btnCliente"
         '
         'FrmPrincipal
         '
         Me.Appearance.BackColor = System.Drawing.Color.White
         Me.Appearance.Options.UseBackColor = True
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1209, 591)
+        Me.ClientSize = New System.Drawing.Size(1814, 864)
         Me.Controls.Add(Me.RibbonControl1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "FrmPrincipal"
         Me.Ribbon = Me.RibbonControl1
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -566,6 +590,9 @@ Partial Public Class FrmPrincipal
     Friend WithEvents cmdTasa As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents cmdSalir As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents BarButtonItem12 As DevExpress.XtraBars.BarButtonItem
+    Friend WithEvents btnCliente As DevExpress.XtraBars.BarButtonItem
+    Friend WithEvents RibbonPage6 As DevExpress.XtraBars.Ribbon.RibbonPage
+    Friend WithEvents RibbonPageGroup12 As DevExpress.XtraBars.Ribbon.RibbonPageGroup
 
 #End Region
 End Class

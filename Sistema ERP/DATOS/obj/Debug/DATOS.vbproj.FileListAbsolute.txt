@@ -8,3 +8,13 @@ C:\Users\SxC\Documents\GitHub\MultiCon\Sistema ERP\DATOS\obj\Debug\DATOS.vbproj.
 C:\Users\SxC\Documents\GitHub\MultiCon\Sistema ERP\DATOS\obj\Debug\DATOS.dll
 C:\Users\SxC\Documents\GitHub\MultiCon\Sistema ERP\DATOS\obj\Debug\DATOS.xml
 C:\Users\SxC\Documents\GitHub\MultiCon\Sistema ERP\DATOS\obj\Debug\DATOS.pdb
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\DATOS\bin\Debug\DATOS.dll
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\DATOS\bin\Debug\DATOS.pdb
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\DATOS\bin\Debug\DATOS.xml
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\DATOS\obj\Debug\DATOS.vbprojAssemblyReference.cache
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\DATOS\obj\Debug\DATOS.Resources.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\DATOS\obj\Debug\DATOS.vbproj.GenerateResource.cache
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\DATOS\obj\Debug\DATOS.vbproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\DATOS\obj\Debug\DATOS.dll
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\DATOS\obj\Debug\DATOS.xml
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\DATOS\obj\Debug\DATOS.pdb
