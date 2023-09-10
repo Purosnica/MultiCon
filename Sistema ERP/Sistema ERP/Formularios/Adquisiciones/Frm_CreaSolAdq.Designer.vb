@@ -102,7 +102,7 @@ Partial Class Frm_CreaSolAdq
         Me.MetroStatusBar2.ItemSpacing = 10
         Me.MetroStatusBar2.Location = New System.Drawing.Point(816, 10)
         Me.MetroStatusBar2.Name = "MetroStatusBar2"
-        Me.MetroStatusBar2.Size = New System.Drawing.Size(11, 561)
+        Me.MetroStatusBar2.Size = New System.Drawing.Size(11, 585)
         Me.MetroStatusBar2.TabIndex = 285
         Me.MetroStatusBar2.TabStop = False
         Me.MetroStatusBar2.Text = "MetroStatusBar2"
@@ -121,7 +121,7 @@ Partial Class Frm_CreaSolAdq
         Me.MetroStatusBar5.Font = New System.Drawing.Font("Segoe UI", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MetroStatusBar5.ForeColor = System.Drawing.Color.Black
         Me.MetroStatusBar5.ItemSpacing = 10
-        Me.MetroStatusBar5.Location = New System.Drawing.Point(11, 571)
+        Me.MetroStatusBar5.Location = New System.Drawing.Point(11, 595)
         Me.MetroStatusBar5.Name = "MetroStatusBar5"
         Me.MetroStatusBar5.Size = New System.Drawing.Size(816, 10)
         Me.MetroStatusBar5.TabIndex = 284
@@ -144,7 +144,7 @@ Partial Class Frm_CreaSolAdq
         Me.MetroStatusBar1.ItemSpacing = 10
         Me.MetroStatusBar1.Location = New System.Drawing.Point(0, 10)
         Me.MetroStatusBar1.Name = "MetroStatusBar1"
-        Me.MetroStatusBar1.Size = New System.Drawing.Size(11, 571)
+        Me.MetroStatusBar1.Size = New System.Drawing.Size(11, 595)
         Me.MetroStatusBar1.TabIndex = 283
         Me.MetroStatusBar1.TabStop = False
         Me.MetroStatusBar1.Text = "MetroStatusBar1"
@@ -188,14 +188,14 @@ Partial Class Frm_CreaSolAdq
         Me.GroupControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupControl1.Location = New System.Drawing.Point(11, 10)
         Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(805, 561)
+        Me.GroupControl1.Size = New System.Drawing.Size(805, 585)
         Me.GroupControl1.TabIndex = 286
         '
         'SimpleButton2
         '
         Me.SimpleButton2.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.SimpleButton2.ImageOptions.Image = CType(resources.GetObject("SimpleButton2.ImageOptions.Image"), System.Drawing.Image)
-        Me.SimpleButton2.Location = New System.Drawing.Point(535, 574)
+        Me.SimpleButton2.Location = New System.Drawing.Point(533, 548)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(84, 29)
         Me.SimpleButton2.TabIndex = 301
@@ -205,7 +205,7 @@ Partial Class Frm_CreaSolAdq
         '
         Me.SimpleButton1.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.SimpleButton1.ImageOptions.Image = CType(resources.GetObject("SimpleButton1.ImageOptions.Image"), System.Drawing.Image)
-        Me.SimpleButton1.Location = New System.Drawing.Point(436, 574)
+        Me.SimpleButton1.Location = New System.Drawing.Point(434, 548)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(84, 29)
         Me.SimpleButton1.TabIndex = 300
@@ -215,7 +215,7 @@ Partial Class Frm_CreaSolAdq
         '
         Me.Btnsalir.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.Btnsalir.ImageOptions.Image = CType(resources.GetObject("Btnsalir.ImageOptions.Image"), System.Drawing.Image)
-        Me.Btnsalir.Location = New System.Drawing.Point(718, 574)
+        Me.Btnsalir.Location = New System.Drawing.Point(716, 548)
         Me.Btnsalir.Name = "Btnsalir"
         Me.Btnsalir.Size = New System.Drawing.Size(79, 29)
         Me.Btnsalir.TabIndex = 299
@@ -225,7 +225,7 @@ Partial Class Frm_CreaSolAdq
         '
         Me.btnGuardar.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.btnGuardar.ImageOptions.Image = CType(resources.GetObject("btnGuardar.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnGuardar.Location = New System.Drawing.Point(346, 574)
+        Me.btnGuardar.Location = New System.Drawing.Point(344, 548)
         Me.btnGuardar.Name = "btnGuardar"
         Me.btnGuardar.Size = New System.Drawing.Size(84, 29)
         Me.btnGuardar.TabIndex = 298
@@ -236,9 +236,9 @@ Partial Class Frm_CreaSolAdq
         Me.Label12.BackColor = System.Drawing.Color.Transparent
         Me.Label12.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.Black
-        Me.Label12.Location = New System.Drawing.Point(713, 196)
+        Me.Label12.Location = New System.Drawing.Point(702, 196)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(62, 19)
+        Me.Label12.Size = New System.Drawing.Size(73, 19)
         Me.Label12.TabIndex = 297
         Me.Label12.Text = "Cantidad"
         Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -248,9 +248,9 @@ Partial Class Frm_CreaSolAdq
         Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(630, 196)
+        Me.Label11.Location = New System.Drawing.Point(611, 196)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(52, 19)
+        Me.Label11.Size = New System.Drawing.Size(71, 19)
         Me.Label11.TabIndex = 296
         Me.Label11.Text = "Medida"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -259,7 +259,7 @@ Partial Class Frm_CreaSolAdq
         '
         Me.txtcantidad.Location = New System.Drawing.Point(702, 218)
         Me.txtcantidad.Name = "txtcantidad"
-        Me.txtcantidad.Size = New System.Drawing.Size(95, 20)
+        Me.txtcantidad.Size = New System.Drawing.Size(95, 26)
         Me.txtcantidad.TabIndex = 295
         '
         'txtmedida
@@ -267,7 +267,7 @@ Partial Class Frm_CreaSolAdq
         Me.txtmedida.Enabled = False
         Me.txtmedida.Location = New System.Drawing.Point(611, 218)
         Me.txtmedida.Name = "txtmedida"
-        Me.txtmedida.Size = New System.Drawing.Size(88, 20)
+        Me.txtmedida.Size = New System.Drawing.Size(88, 26)
         Me.txtmedida.TabIndex = 294
         '
         'txtdescicod
@@ -275,7 +275,7 @@ Partial Class Frm_CreaSolAdq
         Me.txtdescicod.Enabled = False
         Me.txtdescicod.Location = New System.Drawing.Point(319, 218)
         Me.txtdescicod.Name = "txtdescicod"
-        Me.txtdescicod.Size = New System.Drawing.Size(286, 20)
+        Me.txtdescicod.Size = New System.Drawing.Size(286, 26)
         Me.txtdescicod.TabIndex = 293
         '
         'btnbuscar
@@ -290,7 +290,7 @@ Partial Class Frm_CreaSolAdq
         '
         Me.txtcodigo.Location = New System.Drawing.Point(123, 218)
         Me.txtcodigo.Name = "txtcodigo"
-        Me.txtcodigo.Size = New System.Drawing.Size(109, 20)
+        Me.txtcodigo.Size = New System.Drawing.Size(109, 26)
         Me.txtcodigo.TabIndex = 291
         '
         'Label10
@@ -298,9 +298,9 @@ Partial Class Frm_CreaSolAdq
         Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.Black
-        Me.Label10.Location = New System.Drawing.Point(6, 216)
+        Me.Label10.Location = New System.Drawing.Point(19, 216)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(110, 22)
+        Me.Label10.Size = New System.Drawing.Size(97, 22)
         Me.Label10.TabIndex = 290
         Me.Label10.Text = "Digite el Codigo"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -309,18 +309,18 @@ Partial Class Frm_CreaSolAdq
         '
         Me.GroupControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.GroupControl2.Controls.Add(Me.grdsolicitud)
-        Me.GroupControl2.Location = New System.Drawing.Point(7, 241)
+        Me.GroupControl2.Location = New System.Drawing.Point(7, 250)
         Me.GroupControl2.Name = "GroupControl2"
-        Me.GroupControl2.Size = New System.Drawing.Size(790, 327)
+        Me.GroupControl2.Size = New System.Drawing.Size(790, 292)
         Me.GroupControl2.TabIndex = 289
         '
         'grdsolicitud
         '
         Me.grdsolicitud.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdsolicitud.Location = New System.Drawing.Point(2, 20)
+        Me.grdsolicitud.Location = New System.Drawing.Point(3, 30)
         Me.grdsolicitud.MainView = Me.gvsolicitud
         Me.grdsolicitud.Name = "grdsolicitud"
-        Me.grdsolicitud.Size = New System.Drawing.Size(786, 305)
+        Me.grdsolicitud.Size = New System.Drawing.Size(784, 259)
         Me.grdsolicitud.TabIndex = 0
         Me.grdsolicitud.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.gvsolicitud})
         '
@@ -328,6 +328,7 @@ Partial Class Frm_CreaSolAdq
         '
         Me.gvsolicitud.GridControl = Me.grdsolicitud
         Me.gvsolicitud.Name = "gvsolicitud"
+        Me.gvsolicitud.OptionsView.ShowGroupPanel = False
         '
         'GroupControl3
         '
@@ -359,7 +360,7 @@ Partial Class Frm_CreaSolAdq
         '
         Me.txtobs.Location = New System.Drawing.Point(123, 146)
         Me.txtobs.Name = "txtobs"
-        Me.txtobs.Size = New System.Drawing.Size(630, 20)
+        Me.txtobs.Size = New System.Drawing.Size(630, 26)
         Me.txtobs.TabIndex = 290
         '
         'Label9
@@ -393,7 +394,7 @@ Partial Class Frm_CreaSolAdq
         Me.fecha.Name = "fecha"
         Me.fecha.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.fecha.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.fecha.Size = New System.Drawing.Size(202, 20)
+        Me.fecha.Size = New System.Drawing.Size(202, 26)
         Me.fecha.TabIndex = 285
         '
         'cmbuso
@@ -404,7 +405,7 @@ Partial Class Frm_CreaSolAdq
         Me.cmbuso.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cmbuso.Properties.DropDownRows = 2
         Me.cmbuso.Properties.Items.AddRange(New Object() {"USO DIRECTO", "EXISTENCIA"})
-        Me.cmbuso.Size = New System.Drawing.Size(202, 20)
+        Me.cmbuso.Size = New System.Drawing.Size(202, 26)
         Me.cmbuso.TabIndex = 284
         '
         'cmbcompraT
@@ -417,7 +418,7 @@ Partial Class Frm_CreaSolAdq
         Me.cmbcompraT.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cmbcompraT.Properties.DropDownRows = 2
         Me.cmbcompraT.Properties.Items.AddRange(New Object() {"COMPRA", "SERVICIOS"})
-        Me.cmbcompraT.Size = New System.Drawing.Size(202, 22)
+        Me.cmbcompraT.Size = New System.Drawing.Size(202, 28)
         Me.cmbcompraT.TabIndex = 283
         '
         'Label7
@@ -461,7 +462,7 @@ Partial Class Frm_CreaSolAdq
         Me.txtdepto.Enabled = False
         Me.txtdepto.Location = New System.Drawing.Point(136, 115)
         Me.txtdepto.Name = "txtdepto"
-        Me.txtdepto.Size = New System.Drawing.Size(217, 20)
+        Me.txtdepto.Size = New System.Drawing.Size(217, 26)
         Me.txtdepto.TabIndex = 279
         '
         'txtcargo
@@ -469,7 +470,7 @@ Partial Class Frm_CreaSolAdq
         Me.txtcargo.Enabled = False
         Me.txtcargo.Location = New System.Drawing.Point(136, 84)
         Me.txtcargo.Name = "txtcargo"
-        Me.txtcargo.Size = New System.Drawing.Size(217, 20)
+        Me.txtcargo.Size = New System.Drawing.Size(217, 26)
         Me.txtcargo.TabIndex = 278
         '
         'cmbcompra
@@ -482,7 +483,7 @@ Partial Class Frm_CreaSolAdq
         Me.cmbcompra.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cmbcompra.Properties.DropDownRows = 2
         Me.cmbcompra.Properties.Items.AddRange(New Object() {"LOCAL", "IMPORTACIONES"})
-        Me.cmbcompra.Size = New System.Drawing.Size(219, 22)
+        Me.cmbcompra.Size = New System.Drawing.Size(219, 28)
         Me.cmbcompra.TabIndex = 276
         '
         'Label4
@@ -544,7 +545,7 @@ Partial Class Frm_CreaSolAdq
         Me.cmbsolicitante.Properties.NullText = ""
         Me.cmbsolicitante.Properties.PopupSizeable = False
         Me.cmbsolicitante.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.cmbsolicitante.Size = New System.Drawing.Size(219, 22)
+        Me.cmbsolicitante.Size = New System.Drawing.Size(219, 28)
         Me.cmbsolicitante.TabIndex = 291
         '
         'cmbdeptodes
@@ -555,14 +556,14 @@ Partial Class Frm_CreaSolAdq
         Me.cmbdeptodes.Properties.NullText = ""
         Me.cmbdeptodes.Properties.PopupSizeable = False
         Me.cmbdeptodes.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.cmbdeptodes.Size = New System.Drawing.Size(202, 20)
+        Me.cmbdeptodes.Size = New System.Drawing.Size(202, 26)
         Me.cmbdeptodes.TabIndex = 287
         '
         'Frm_CreaSolAdq
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 23.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(827, 581)
+        Me.ClientSize = New System.Drawing.Size(827, 605)
         Me.Controls.Add(Me.GroupControl1)
         Me.Controls.Add(Me.MetroStatusBar2)
         Me.Controls.Add(Me.MetroStatusBar5)

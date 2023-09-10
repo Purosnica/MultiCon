@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SYSERPModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Tbl_ADQ_Tipocompra">
+    <Key>
+      <PropertyRef Name="Id_TipoCompra" />
+    </Key>
+    <Property Name="Id_TipoCompra" Type="String" MaxLength="3" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Descripcion_Compra" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Tbl_Areas">
+    <Key>
+      <PropertyRef Name="Cod_Area" />
+    </Key>
+    <Property Name="Cod_Area" Type="String" MaxLength="2" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DFecha" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Tbl_Articulo">
+    <Key>
+      <PropertyRef Name="Cod_Activo" />
+    </Key>
+    <Property Name="Id_Articulo" Type="Int32" Nullable="false" />
+    <Property Name="Cod_Activo" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Marca" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Modelo" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Serie" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Dimensiones" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Asignado" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Cod_Area" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Cod_Ubicacion_F" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Estado" Type="String" MaxLength="2" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Tbl_Clientes">
+    <Key>
+      <PropertyRef Name="IdCliente" />
+    </Key>
+    <Property Name="IdCliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Apellidos" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="FechaNacimiento" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="IdTipoIdentificacion" Type="Int32" Nullable="false" />
+    <Property Name="Cedula" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IdTipoPersona" Type="Int32" Nullable="false" />
+    <Property Name="IdPais" Type="Int32" Nullable="false" />
+    <Property Name="Correo" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Telefono_Casa" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="Telefono_Celular" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="Estado" Type="Boolean" Nullable="false" />
+    <Property Name="FechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FechaModificacion" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Tbl_CTComprobantes">
+    <Key>
+      <PropertyRef Name="Cod_Comprobante" />
+    </Key>
+    <Property Name="Cod_Comprobante" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descripcion" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Siglas" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Fecha_Creacion" Type="DateTime" Precision="3" />
+    <Property Name="Us_Crea" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Tbl_Departamento">
+    <Key>
+      <PropertyRef Name="IdDepartamento" />
+    </Key>
+    <Property Name="IdDepartamento" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cod_Departamento" Type="String" MaxLength="2" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Fecha_Crea" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Tbl_Medidas">
+    <Key>
+      <PropertyRef Name="Cod_Medida" />
+    </Key>
+    <Property Name="Cod_Medida" Type="String" MaxLength="3" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Abreviatura" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="Descripcion" Type="String" MaxLength="70" FixedLength="false" Unicode="true" />
+    <Property Name="Estado" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Tbl_Producto">
+    <Key>
+      <PropertyRef Name="Cod_Producto" />
+    </Key>
+    <Property Name="Cod_Producto" Type="String" MaxLength="15" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="70" FixedLength="false" Unicode="true" />
+    <Property Name="Descripcion_L" Type="String" MaxLength="170" FixedLength="false" Unicode="true" />
+    <Property Name="Cod_UM" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="Uscrea" Type="String" MaxLength="5" FixedLength="true" Unicode="true" />
+    <Property Name="Fecha_Crea" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Tbl_Proveedor">
+    <Key>
+      <PropertyRef Name="CCODPVE" />
+    </Key>
+    <Property Name="CCODPVE" Type="String" MaxLength="5" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="CRAZON" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CNOMBRE" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CDIRECC" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="CCIUDAD" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CTELEFO" Type="String" MaxLength="8" FixedLength="false" Unicode="true" />
+    <Property Name="CCONTAC" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CCARGO" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CREFERE" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CMAIL" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
+    <Property Name="CNUMRUC" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="CESTADO" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="ITIPPVE" Type="Int32" />
+    <Property Name="IEXEN_IR" Type="Int32" />
+    <Property Name="IEXEN_ALMA" Type="Int32" />
+    <Property Name="CCUENTA" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Tbl_Servicios">
+    <Key>
+      <PropertyRef Name="Cod_Servicio" />
+    </Key>
+    <Property Name="Cod_Servicio" Type="String" MaxLength="3" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Fecha_Crea" Type="DateTime" Precision="3" />
+    <Property Name="Uscrea" Type="String" MaxLength="5" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Tbl_Solicitante">
+    <Key>
+      <PropertyRef Name="Cod_empleado" />
+    </Key>
+    <Property Name="Cod_empleado" Type="String" MaxLength="5" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Nombres" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+    <Property Name="Cod_Departamento" Type="String" MaxLength="2" FixedLength="true" Unicode="true" />
+    <Property Name="Cargo" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Tbl_Solicitudes_Enc">
+    <Key>
+      <PropertyRef Name="No_Solicitud" />
+    </Key>
+    <Property Name="No_Solicitud" Type="String" MaxLength="6" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Tipo_Compra" Type="String" MaxLength="2" FixedLength="true" Unicode="true" />
+    <Property Name="Tipo_Compra_L" Type="String" MaxLength="2" FixedLength="true" Unicode="true" />
+    <Property Name="Tipo_Uso" Type="String" MaxLength="2" FixedLength="true" Unicode="true" />
+    <Property Name="Cod_Solicitante" Type="String" MaxLength="5" FixedLength="true" Unicode="true" />
+    <Property Name="Cod_Departamento" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="Cod_Depto_Destino" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="Aprobado" Type="Boolean" />
+    <Property Name="Cod_Aprobado" Type="String" MaxLength="5" FixedLength="true" Unicode="true" />
+    <Property Name="Cod_Analista" Type="String" MaxLength="5" FixedLength="true" Unicode="true" />
+    <Property Name="Fecha_Asigna_Analista" Type="DateTime" Precision="3" />
+    <Property Name="Estatus" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Estado" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="Observacion" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Fecha_Solicitud" Type="DateTime" Precision="3" />
+    <Property Name="Fecha_Crea" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Tbl_Tasacambio">
+    <Key>
+      <PropertyRef Name="IdTasaCambio" />
+    </Key>
+    <Property Name="IdTasaCambio" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TipoCambio" Type="Decimal" Precision="18" Scale="4" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tbl_TipoIdentificacion">
+    <Key>
+      <PropertyRef Name="IdTipoIdentificacion" />
+    </Key>
+    <Property Name="IdTipoIdentificacion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descripcion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Estado" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tbl_TipoPersona">
+    <Key>
+      <PropertyRef Name="IdTipoPersona" />
+    </Key>
+    <Property Name="IdTipoPersona" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodTipoPersona" Type="String" MaxLength="3" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Estado" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tbl_Ubicacion">
+    <Key>
+      <PropertyRef Name="IdUbicacion" />
+    </Key>
+    <Property Name="IdUbicacion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cod_Ubicacion" Type="String" MaxLength="2" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DFecha" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Tbl_Usuario">
+    <Key>
+      <PropertyRef Name="IdUsuario" />
+    </Key>
+    <Property Name="IdUsuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Usuario" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Pass" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Correo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="V_Producto">
+    <Key>
+      <PropertyRef Name="Cod_Producto" />
+    </Key>
+    <Property Name="Cod_Producto" Type="String" MaxLength="15" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="70" FixedLength="false" Unicode="true" />
+    <Property Name="Descripcion_L" Type="String" MaxLength="170" FixedLength="false" Unicode="true" />
+    <Property Name="Medida" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="SYSERPEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Tbl_ADQ_Tipocompra" EntityType="Self.Tbl_ADQ_Tipocompra" />
+    <EntitySet Name="Tbl_Areas" EntityType="Self.Tbl_Areas" />
+    <EntitySet Name="Tbl_Articulo" EntityType="Self.Tbl_Articulo" />
+    <EntitySet Name="Tbl_Clientes" EntityType="Self.Tbl_Clientes" />
+    <EntitySet Name="Tbl_CTComprobantes" EntityType="Self.Tbl_CTComprobantes" />
+    <EntitySet Name="Tbl_Departamento" EntityType="Self.Tbl_Departamento" />
+    <EntitySet Name="Tbl_Medidas" EntityType="Self.Tbl_Medidas" />
+    <EntitySet Name="Tbl_Producto" EntityType="Self.Tbl_Producto" />
+    <EntitySet Name="Tbl_Proveedor" EntityType="Self.Tbl_Proveedor" />
+    <EntitySet Name="Tbl_Servicios" EntityType="Self.Tbl_Servicios" />
+    <EntitySet Name="Tbl_Solicitante" EntityType="Self.Tbl_Solicitante" />
+    <EntitySet Name="Tbl_Solicitudes_Enc" EntityType="Self.Tbl_Solicitudes_Enc" />
+    <EntitySet Name="Tbl_Tasacambio" EntityType="Self.Tbl_Tasacambio" />
+    <EntitySet Name="Tbl_TipoIdentificacion" EntityType="Self.Tbl_TipoIdentificacion" />
+    <EntitySet Name="Tbl_TipoPersona" EntityType="Self.Tbl_TipoPersona" />
+    <EntitySet Name="Tbl_Ubicacion" EntityType="Self.Tbl_Ubicacion" />
+    <EntitySet Name="Tbl_Usuario" EntityType="Self.Tbl_Usuario" />
+    <EntitySet Name="V_Producto" EntityType="Self.V_Producto" />
+  </EntityContainer>
+</Schema>

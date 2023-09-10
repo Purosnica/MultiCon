@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SYSERPModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Tbl_ADQ_Tipocompra">
+    <Key>
+      <PropertyRef Name="Id_TipoCompra" />
+    </Key>
+    <Property Name="Id_TipoCompra" Type="nvarchar" MaxLength="3" Nullable="false" />
+    <Property Name="Descripcion_Compra" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="Tbl_Areas">
+    <Key>
+      <PropertyRef Name="Cod_Area" />
+    </Key>
+    <Property Name="Cod_Area" Type="nchar" MaxLength="2" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="DFecha" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Tbl_Articulo">
+    <Key>
+      <PropertyRef Name="Cod_Activo" />
+    </Key>
+    <Property Name="Id_Articulo" Type="int" Nullable="false" />
+    <Property Name="Cod_Activo" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar(max)" />
+    <Property Name="Marca" Type="nvarchar" MaxLength="500" />
+    <Property Name="Modelo" Type="nvarchar" MaxLength="500" />
+    <Property Name="Serie" Type="nvarchar" MaxLength="500" />
+    <Property Name="Dimensiones" Type="nvarchar" MaxLength="500" />
+    <Property Name="Asignado" Type="nchar" MaxLength="10" />
+    <Property Name="Cod_Area" Type="nchar" MaxLength="10" />
+    <Property Name="Cod_Ubicacion_F" Type="nchar" MaxLength="10" />
+    <Property Name="Estado" Type="nchar" MaxLength="2" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Tbl_Clientes">
+    <Key>
+      <PropertyRef Name="IdCliente" />
+    </Key>
+    <Property Name="IdCliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="Apellidos" Type="nvarchar" MaxLength="100" />
+    <Property Name="FechaNacimiento" Type="date" Nullable="false" />
+    <Property Name="IdTipoIdentificacion" Type="int" Nullable="false" />
+    <Property Name="Cedula" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="IdTipoPersona" Type="int" Nullable="false" />
+    <Property Name="IdPais" Type="int" Nullable="false" />
+    <Property Name="Correo" Type="nvarchar" MaxLength="150" />
+    <Property Name="Telefono_Casa" Type="nvarchar" MaxLength="12" />
+    <Property Name="Telefono_Celular" Type="nvarchar" MaxLength="12" />
+    <Property Name="Estado" Type="bit" Nullable="false" />
+    <Property Name="FechaRegistro" Type="datetime" Nullable="false" />
+    <Property Name="FechaModificacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Tbl_CTComprobantes">
+    <Key>
+      <PropertyRef Name="Cod_Comprobante" />
+    </Key>
+    <Property Name="Cod_Comprobante" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Siglas" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Fecha_Creacion" Type="datetime" />
+    <Property Name="Us_Crea" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Tbl_Departamento">
+    <Key>
+      <PropertyRef Name="IdDepartamento" />
+    </Key>
+    <Property Name="IdDepartamento" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cod_Departamento" Type="nchar" MaxLength="2" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Fecha_Crea" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Tbl_Medidas">
+    <Key>
+      <PropertyRef Name="Cod_Medida" />
+    </Key>
+    <Property Name="Cod_Medida" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="Abreviatura" Type="nchar" MaxLength="3" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="70" />
+    <Property Name="Estado" Type="nchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="Tbl_Producto">
+    <Key>
+      <PropertyRef Name="Cod_Producto" />
+    </Key>
+    <Property Name="Cod_Producto" Type="nchar" MaxLength="15" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="70" />
+    <Property Name="Descripcion_L" Type="nvarchar" MaxLength="170" />
+    <Property Name="Cod_UM" Type="nchar" MaxLength="3" />
+    <Property Name="Uscrea" Type="nchar" MaxLength="5" />
+    <Property Name="Fecha_Crea" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Tbl_Proveedor">
+    <Key>
+      <PropertyRef Name="CCODPVE" />
+    </Key>
+    <Property Name="CCODPVE" Type="nchar" MaxLength="5" Nullable="false" />
+    <Property Name="CRAZON" Type="nvarchar" MaxLength="100" />
+    <Property Name="CNOMBRE" Type="nvarchar" MaxLength="100" />
+    <Property Name="CDIRECC" Type="nvarchar" MaxLength="300" />
+    <Property Name="CCIUDAD" Type="nvarchar" MaxLength="100" />
+    <Property Name="CTELEFO" Type="nvarchar" MaxLength="8" />
+    <Property Name="CCONTAC" Type="nvarchar" MaxLength="100" />
+    <Property Name="CCARGO" Type="nvarchar" MaxLength="100" />
+    <Property Name="CREFERE" Type="nvarchar" MaxLength="100" />
+    <Property Name="CMAIL" Type="nvarchar" MaxLength="300" />
+    <Property Name="CNUMRUC" Type="nvarchar" MaxLength="30" />
+    <Property Name="CESTADO" Type="nchar" MaxLength="1" />
+    <Property Name="ITIPPVE" Type="int" />
+    <Property Name="IEXEN_IR" Type="int" />
+    <Property Name="IEXEN_ALMA" Type="int" />
+    <Property Name="CCUENTA" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Tbl_Servicios">
+    <Key>
+      <PropertyRef Name="Cod_Servicio" />
+    </Key>
+    <Property Name="Cod_Servicio" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="150" />
+    <Property Name="Fecha_Crea" Type="datetime" />
+    <Property Name="Uscrea" Type="nchar" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="Tbl_Solicitante">
+    <Key>
+      <PropertyRef Name="Cod_empleado" />
+    </Key>
+    <Property Name="Cod_empleado" Type="nchar" MaxLength="5" Nullable="false" />
+    <Property Name="Nombres" Type="nvarchar" MaxLength="80" />
+    <Property Name="Cod_Departamento" Type="nchar" MaxLength="2" />
+    <Property Name="Cargo" Type="nvarchar" MaxLength="80" />
+  </EntityType>
+  <EntityType Name="Tbl_Solicitudes_Enc">
+    <Key>
+      <PropertyRef Name="No_Solicitud" />
+    </Key>
+    <Property Name="No_Solicitud" Type="nchar" MaxLength="6" Nullable="false" />
+    <Property Name="Tipo_Compra" Type="nchar" MaxLength="2" />
+    <Property Name="Tipo_Compra_L" Type="nchar" MaxLength="2" />
+    <Property Name="Tipo_Uso" Type="nchar" MaxLength="2" />
+    <Property Name="Cod_Solicitante" Type="nchar" MaxLength="5" />
+    <Property Name="Cod_Departamento" Type="nchar" MaxLength="3" />
+    <Property Name="Cod_Depto_Destino" Type="nchar" MaxLength="3" />
+    <Property Name="Aprobado" Type="bit" />
+    <Property Name="Cod_Aprobado" Type="nchar" MaxLength="5" />
+    <Property Name="Cod_Analista" Type="nchar" MaxLength="5" />
+    <Property Name="Fecha_Asigna_Analista" Type="datetime" />
+    <Property Name="Estatus" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="Estado" Type="nchar" MaxLength="1" />
+    <Property Name="Observacion" Type="nvarchar" MaxLength="250" />
+    <Property Name="Fecha_Solicitud" Type="datetime" />
+    <Property Name="Fecha_Crea" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Tbl_Tasacambio">
+    <Key>
+      <PropertyRef Name="IdTasaCambio" />
+    </Key>
+    <Property Name="IdTasaCambio" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" Nullable="false" />
+    <Property Name="TipoCambio" Type="numeric" Precision="18" Scale="4" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tbl_TipoIdentificacion">
+    <Key>
+      <PropertyRef Name="IdTipoIdentificacion" />
+    </Key>
+    <Property Name="IdTipoIdentificacion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Estado" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tbl_TipoPersona">
+    <Key>
+      <PropertyRef Name="IdTipoPersona" />
+    </Key>
+    <Property Name="IdTipoPersona" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodTipoPersona" Type="nvarchar" MaxLength="3" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="Estado" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tbl_Ubicacion">
+    <Key>
+      <PropertyRef Name="IdUbicacion" />
+    </Key>
+    <Property Name="IdUbicacion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cod_Ubicacion" Type="nchar" MaxLength="2" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="DFecha" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Tbl_Usuario">
+    <Key>
+      <PropertyRef Name="IdUsuario" />
+    </Key>
+    <Property Name="IdUsuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Usuario" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Pass" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Correo" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'SYSERP.dbo.V_Producto' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="V_Producto">
+    <Key>
+      <PropertyRef Name="Cod_Producto" />
+    </Key>
+    <Property Name="Cod_Producto" Type="nchar" MaxLength="15" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="70" />
+    <Property Name="Descripcion_L" Type="nvarchar" MaxLength="170" />
+    <Property Name="Medida" Type="nchar" MaxLength="3" />
+  </EntityType>
+  <EntityContainer Name="SYSERPModelStoreContainer">
+    <EntitySet Name="Tbl_ADQ_Tipocompra" EntityType="Self.Tbl_ADQ_Tipocompra" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Areas" EntityType="Self.Tbl_Areas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Articulo" EntityType="Self.Tbl_Articulo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Clientes" EntityType="Self.Tbl_Clientes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_CTComprobantes" EntityType="Self.Tbl_CTComprobantes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Departamento" EntityType="Self.Tbl_Departamento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Medidas" EntityType="Self.Tbl_Medidas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Producto" EntityType="Self.Tbl_Producto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Proveedor" EntityType="Self.Tbl_Proveedor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Servicios" EntityType="Self.Tbl_Servicios" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Solicitante" EntityType="Self.Tbl_Solicitante" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Solicitudes_Enc" EntityType="Self.Tbl_Solicitudes_Enc" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Tasacambio" EntityType="Self.Tbl_Tasacambio" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_TipoIdentificacion" EntityType="Self.Tbl_TipoIdentificacion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_TipoPersona" EntityType="Self.Tbl_TipoPersona" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Ubicacion" EntityType="Self.Tbl_Ubicacion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Usuario" EntityType="Self.Tbl_Usuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="V_Producto" EntityType="Self.V_Producto" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [V_Producto].[Cod_Producto] AS [Cod_Producto], 
+    [V_Producto].[Descripcion] AS [Descripcion], 
+    [V_Producto].[Descripcion_L] AS [Descripcion_L], 
+    [V_Producto].[Medida] AS [Medida]
+    FROM [dbo].[V_Producto] AS [V_Producto]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

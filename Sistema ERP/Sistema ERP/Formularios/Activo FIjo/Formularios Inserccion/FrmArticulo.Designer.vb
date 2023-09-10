@@ -22,6 +22,7 @@ Partial Class FrmArticulo
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmArticulo))
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl3 = New DevExpress.XtraEditors.LabelControl()
@@ -62,7 +63,7 @@ Partial Class FrmArticulo
         '
         Me.LabelControl1.Location = New System.Drawing.Point(34, 38)
         Me.LabelControl1.Name = "LabelControl1"
-        Me.LabelControl1.Size = New System.Drawing.Size(64, 13)
+        Me.LabelControl1.Size = New System.Drawing.Size(97, 19)
         Me.LabelControl1.TabIndex = 0
         Me.LabelControl1.Text = "Cod_Articulo "
         '
@@ -70,7 +71,7 @@ Partial Class FrmArticulo
         '
         Me.LabelControl2.Location = New System.Drawing.Point(34, 75)
         Me.LabelControl2.Name = "LabelControl2"
-        Me.LabelControl2.Size = New System.Drawing.Size(54, 13)
+        Me.LabelControl2.Size = New System.Drawing.Size(81, 19)
         Me.LabelControl2.TabIndex = 1
         Me.LabelControl2.Text = "Descripcion"
         '
@@ -78,7 +79,7 @@ Partial Class FrmArticulo
         '
         Me.LabelControl3.Location = New System.Drawing.Point(33, 107)
         Me.LabelControl3.Name = "LabelControl3"
-        Me.LabelControl3.Size = New System.Drawing.Size(29, 13)
+        Me.LabelControl3.Size = New System.Drawing.Size(41, 19)
         Me.LabelControl3.TabIndex = 2
         Me.LabelControl3.Text = "Marca"
         '
@@ -86,7 +87,7 @@ Partial Class FrmArticulo
         '
         Me.LabelControl4.Location = New System.Drawing.Point(33, 148)
         Me.LabelControl4.Name = "LabelControl4"
-        Me.LabelControl4.Size = New System.Drawing.Size(34, 13)
+        Me.LabelControl4.Size = New System.Drawing.Size(51, 19)
         Me.LabelControl4.TabIndex = 3
         Me.LabelControl4.Text = "Modelo"
         '
@@ -94,7 +95,7 @@ Partial Class FrmArticulo
         '
         Me.LabelControl5.Location = New System.Drawing.Point(33, 183)
         Me.LabelControl5.Name = "LabelControl5"
-        Me.LabelControl5.Size = New System.Drawing.Size(24, 13)
+        Me.LabelControl5.Size = New System.Drawing.Size(35, 19)
         Me.LabelControl5.TabIndex = 4
         Me.LabelControl5.Text = "Serie"
         '
@@ -102,7 +103,7 @@ Partial Class FrmArticulo
         '
         Me.LabelControl6.Location = New System.Drawing.Point(33, 215)
         Me.LabelControl6.Name = "LabelControl6"
-        Me.LabelControl6.Size = New System.Drawing.Size(59, 13)
+        Me.LabelControl6.Size = New System.Drawing.Size(90, 19)
         Me.LabelControl6.TabIndex = 5
         Me.LabelControl6.Text = "Dimensiones"
         '
@@ -110,7 +111,7 @@ Partial Class FrmArticulo
         '
         Me.LabelControl7.Location = New System.Drawing.Point(34, 250)
         Me.LabelControl7.Name = "LabelControl7"
-        Me.LabelControl7.Size = New System.Drawing.Size(44, 13)
+        Me.LabelControl7.Size = New System.Drawing.Size(66, 19)
         Me.LabelControl7.TabIndex = 6
         Me.LabelControl7.Text = "Asignado"
         '
@@ -118,7 +119,7 @@ Partial Class FrmArticulo
         '
         Me.LabelControl8.Location = New System.Drawing.Point(34, 287)
         Me.LabelControl8.Name = "LabelControl8"
-        Me.LabelControl8.Size = New System.Drawing.Size(23, 13)
+        Me.LabelControl8.Size = New System.Drawing.Size(33, 19)
         Me.LabelControl8.TabIndex = 7
         Me.LabelControl8.Text = "Area"
         '
@@ -126,7 +127,7 @@ Partial Class FrmArticulo
         '
         Me.LabelControl9.Location = New System.Drawing.Point(33, 320)
         Me.LabelControl9.Name = "LabelControl9"
-        Me.LabelControl9.Size = New System.Drawing.Size(48, 13)
+        Me.LabelControl9.Size = New System.Drawing.Size(73, 19)
         Me.LabelControl9.TabIndex = 8
         Me.LabelControl9.Text = " Ubicacion"
         '
@@ -134,59 +135,61 @@ Partial Class FrmArticulo
         '
         Me.txtcodart.Location = New System.Drawing.Point(123, 30)
         Me.txtcodart.Name = "txtcodart"
-        Me.txtcodart.Size = New System.Drawing.Size(154, 20)
+        Me.txtcodart.Size = New System.Drawing.Size(154, 26)
         Me.txtcodart.TabIndex = 9
         '
         'txtdescri
         '
         Me.txtdescri.Location = New System.Drawing.Point(123, 68)
         Me.txtdescri.Name = "txtdescri"
-        Me.txtdescri.Size = New System.Drawing.Size(154, 20)
+        Me.txtdescri.Size = New System.Drawing.Size(154, 26)
         Me.txtdescri.TabIndex = 10
         '
         'txtmarca
         '
         Me.txtmarca.Location = New System.Drawing.Point(123, 104)
         Me.txtmarca.Name = "txtmarca"
-        Me.txtmarca.Size = New System.Drawing.Size(154, 20)
+        Me.txtmarca.Size = New System.Drawing.Size(154, 26)
         Me.txtmarca.TabIndex = 11
         '
         'txtmodelo
         '
         Me.txtmodelo.Location = New System.Drawing.Point(123, 141)
         Me.txtmodelo.Name = "txtmodelo"
-        Me.txtmodelo.Size = New System.Drawing.Size(154, 20)
+        Me.txtmodelo.Size = New System.Drawing.Size(154, 26)
         Me.txtmodelo.TabIndex = 12
         '
         'txtserie
         '
         Me.txtserie.Location = New System.Drawing.Point(123, 176)
         Me.txtserie.Name = "txtserie"
-        Me.txtserie.Size = New System.Drawing.Size(154, 20)
+        Me.txtserie.Size = New System.Drawing.Size(154, 26)
         Me.txtserie.TabIndex = 13
         '
         'txtdimensiones
         '
         Me.txtdimensiones.Location = New System.Drawing.Point(123, 208)
         Me.txtdimensiones.Name = "txtdimensiones"
-        Me.txtdimensiones.Size = New System.Drawing.Size(154, 20)
+        Me.txtdimensiones.Size = New System.Drawing.Size(154, 26)
         Me.txtdimensiones.TabIndex = 14
         '
         'btnGuardar
         '
         Me.btnGuardar.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
-        Me.btnGuardar.Location = New System.Drawing.Point(72, 367)
+        Me.btnGuardar.ImageOptions.Image = CType(resources.GetObject("btnGuardar.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnGuardar.Location = New System.Drawing.Point(79, 356)
         Me.btnGuardar.Name = "btnGuardar"
-        Me.btnGuardar.Size = New System.Drawing.Size(75, 23)
+        Me.btnGuardar.Size = New System.Drawing.Size(88, 29)
         Me.btnGuardar.TabIndex = 18
         Me.btnGuardar.Text = "Guardar"
         '
         'btnsalir
         '
         Me.btnsalir.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
-        Me.btnsalir.Location = New System.Drawing.Point(183, 367)
+        Me.btnsalir.ImageOptions.Image = CType(resources.GetObject("btnsalir.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnsalir.Location = New System.Drawing.Point(190, 356)
         Me.btnsalir.Name = "btnsalir"
-        Me.btnsalir.Size = New System.Drawing.Size(75, 23)
+        Me.btnsalir.Size = New System.Drawing.Size(88, 29)
         Me.btnsalir.TabIndex = 19
         Me.btnsalir.Text = "Salir"
         '
@@ -205,7 +208,7 @@ Partial Class FrmArticulo
         Me.cmbempleado.Properties.NullText = ""
         Me.cmbempleado.Properties.PopupSizeable = False
         Me.cmbempleado.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.cmbempleado.Size = New System.Drawing.Size(154, 20)
+        Me.cmbempleado.Size = New System.Drawing.Size(154, 26)
         Me.cmbempleado.TabIndex = 15
         '
         'cmbarea
@@ -216,7 +219,7 @@ Partial Class FrmArticulo
         Me.cmbarea.Properties.NullText = ""
         Me.cmbarea.Properties.PopupSizeable = False
         Me.cmbarea.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.cmbarea.Size = New System.Drawing.Size(154, 20)
+        Me.cmbarea.Size = New System.Drawing.Size(154, 26)
         Me.cmbarea.TabIndex = 16
         '
         'cmbubicacion
@@ -227,7 +230,7 @@ Partial Class FrmArticulo
         Me.cmbubicacion.Properties.NullText = ""
         Me.cmbubicacion.Properties.PopupSizeable = False
         Me.cmbubicacion.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.cmbubicacion.Size = New System.Drawing.Size(154, 20)
+        Me.cmbubicacion.Size = New System.Drawing.Size(154, 26)
         Me.cmbubicacion.TabIndex = 17
         '
         'MetroStatusBar2
@@ -315,7 +318,7 @@ Partial Class FrmArticulo
         '
         'FrmArticulo
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 23.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(319, 415)
         Me.Controls.Add(Me.MetroStatusBar2)

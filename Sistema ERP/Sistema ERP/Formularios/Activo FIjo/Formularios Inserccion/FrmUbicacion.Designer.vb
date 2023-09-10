@@ -22,6 +22,7 @@ Partial Class FrmUbicacion
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmUbicacion))
         Me.btnsalir = New DevExpress.XtraEditors.SimpleButton()
         Me.btnGuardar = New DevExpress.XtraEditors.SimpleButton()
         Me.TextEdit2 = New DevExpress.XtraEditors.TextEdit()
@@ -41,9 +42,10 @@ Partial Class FrmUbicacion
         Me.btnsalir.Appearance.ForeColor = System.Drawing.Color.Black
         Me.btnsalir.Appearance.Options.UseForeColor = True
         Me.btnsalir.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.btnsalir.ImageOptions.Image = CType(resources.GetObject("btnsalir.ImageOptions.Image"), System.Drawing.Image)
         Me.btnsalir.Location = New System.Drawing.Point(199, 104)
         Me.btnsalir.Name = "btnsalir"
-        Me.btnsalir.Size = New System.Drawing.Size(75, 23)
+        Me.btnsalir.Size = New System.Drawing.Size(88, 29)
         Me.btnsalir.TabIndex = 109
         Me.btnsalir.Text = "Salir"
         '
@@ -52,9 +54,10 @@ Partial Class FrmUbicacion
         Me.btnGuardar.Appearance.ForeColor = System.Drawing.Color.Black
         Me.btnGuardar.Appearance.Options.UseForeColor = True
         Me.btnGuardar.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.btnGuardar.ImageOptions.Image = CType(resources.GetObject("btnGuardar.ImageOptions.Image"), System.Drawing.Image)
         Me.btnGuardar.Location = New System.Drawing.Point(105, 104)
         Me.btnGuardar.Name = "btnGuardar"
-        Me.btnGuardar.Size = New System.Drawing.Size(75, 23)
+        Me.btnGuardar.Size = New System.Drawing.Size(88, 29)
         Me.btnGuardar.TabIndex = 108
         Me.btnGuardar.Text = "Guardar"
         '
@@ -66,7 +69,7 @@ Partial Class FrmUbicacion
         Me.TextEdit2.Properties.Appearance.ForeColor = System.Drawing.Color.Black
         Me.TextEdit2.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit2.Properties.Appearance.Options.UseForeColor = True
-        Me.TextEdit2.Size = New System.Drawing.Size(154, 20)
+        Me.TextEdit2.Size = New System.Drawing.Size(164, 26)
         Me.TextEdit2.TabIndex = 100
         '
         'TextEdit1
@@ -81,7 +84,7 @@ Partial Class FrmUbicacion
         Me.TextEdit1.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit1.Properties.Appearance.Options.UseFont = True
         Me.TextEdit1.Properties.Appearance.Options.UseForeColor = True
-        Me.TextEdit1.Size = New System.Drawing.Size(154, 20)
+        Me.TextEdit1.Size = New System.Drawing.Size(164, 28)
         Me.TextEdit1.TabIndex = 99
         '
         'LabelControl2
@@ -92,7 +95,7 @@ Partial Class FrmUbicacion
         Me.LabelControl2.Appearance.Options.UseForeColor = True
         Me.LabelControl2.Location = New System.Drawing.Point(34, 75)
         Me.LabelControl2.Name = "LabelControl2"
-        Me.LabelControl2.Size = New System.Drawing.Size(54, 13)
+        Me.LabelControl2.Size = New System.Drawing.Size(81, 19)
         Me.LabelControl2.TabIndex = 91
         Me.LabelControl2.Text = "Descripcion"
         '
@@ -104,7 +107,7 @@ Partial Class FrmUbicacion
         Me.LabelControl1.Appearance.Options.UseForeColor = True
         Me.LabelControl1.Location = New System.Drawing.Point(55, 37)
         Me.LabelControl1.Name = "LabelControl1"
-        Me.LabelControl1.Size = New System.Drawing.Size(33, 13)
+        Me.LabelControl1.Size = New System.Drawing.Size(50, 19)
         Me.LabelControl1.TabIndex = 90
         Me.LabelControl1.Text = "Codigo"
         '
@@ -122,7 +125,7 @@ Partial Class FrmUbicacion
         Me.MetroStatusBar2.Font = New System.Drawing.Font("Segoe UI", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MetroStatusBar2.ForeColor = System.Drawing.Color.Black
         Me.MetroStatusBar2.ItemSpacing = 10
-        Me.MetroStatusBar2.Location = New System.Drawing.Point(294, 10)
+        Me.MetroStatusBar2.Location = New System.Drawing.Point(300, 10)
         Me.MetroStatusBar2.Name = "MetroStatusBar2"
         Me.MetroStatusBar2.Size = New System.Drawing.Size(11, 141)
         Me.MetroStatusBar2.TabIndex = 257
@@ -145,7 +148,7 @@ Partial Class FrmUbicacion
         Me.MetroStatusBar5.ItemSpacing = 10
         Me.MetroStatusBar5.Location = New System.Drawing.Point(11, 151)
         Me.MetroStatusBar5.Name = "MetroStatusBar5"
-        Me.MetroStatusBar5.Size = New System.Drawing.Size(294, 10)
+        Me.MetroStatusBar5.Size = New System.Drawing.Size(300, 10)
         Me.MetroStatusBar5.TabIndex = 256
         Me.MetroStatusBar5.TabStop = False
         Me.MetroStatusBar5.Text = "MetroStatusBar5"
@@ -187,15 +190,15 @@ Partial Class FrmUbicacion
         Me.MetroStatusBar4.ItemSpacing = 10
         Me.MetroStatusBar4.Location = New System.Drawing.Point(0, 0)
         Me.MetroStatusBar4.Name = "MetroStatusBar4"
-        Me.MetroStatusBar4.Size = New System.Drawing.Size(305, 10)
+        Me.MetroStatusBar4.Size = New System.Drawing.Size(311, 10)
         Me.MetroStatusBar4.TabIndex = 254
         Me.MetroStatusBar4.TabStop = False
         '
         'FrmUbicacion
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 23.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(305, 161)
+        Me.ClientSize = New System.Drawing.Size(311, 161)
         Me.Controls.Add(Me.MetroStatusBar2)
         Me.Controls.Add(Me.MetroStatusBar5)
         Me.Controls.Add(Me.MetroStatusBar1)

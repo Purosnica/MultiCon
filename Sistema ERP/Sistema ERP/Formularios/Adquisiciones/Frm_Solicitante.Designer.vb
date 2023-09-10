@@ -132,9 +132,9 @@ Partial Class Frm_Solicitante
         Me.Btnsalir.Appearance.Options.UseForeColor = True
         Me.Btnsalir.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.Btnsalir.ImageOptions.Image = CType(resources.GetObject("Btnsalir.ImageOptions.Image"), System.Drawing.Image)
-        Me.Btnsalir.Location = New System.Drawing.Point(347, 144)
+        Me.Btnsalir.Location = New System.Drawing.Point(328, 144)
         Me.Btnsalir.Name = "Btnsalir"
-        Me.Btnsalir.Size = New System.Drawing.Size(75, 33)
+        Me.Btnsalir.Size = New System.Drawing.Size(94, 33)
         Me.Btnsalir.TabIndex = 277
         Me.Btnsalir.Text = "Salir"
         '
@@ -144,9 +144,9 @@ Partial Class Frm_Solicitante
         Me.btnGuardar.Appearance.Options.UseForeColor = True
         Me.btnGuardar.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.btnGuardar.ImageOptions.Image = CType(resources.GetObject("btnGuardar.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnGuardar.Location = New System.Drawing.Point(238, 144)
+        Me.btnGuardar.Location = New System.Drawing.Point(219, 144)
         Me.btnGuardar.Name = "btnGuardar"
-        Me.btnGuardar.Size = New System.Drawing.Size(84, 33)
+        Me.btnGuardar.Size = New System.Drawing.Size(103, 33)
         Me.btnGuardar.TabIndex = 276
         Me.btnGuardar.Text = "Guardar"
         '
@@ -158,7 +158,7 @@ Partial Class Frm_Solicitante
         Me.txtcargo.Properties.Appearance.ForeColor = System.Drawing.Color.Black
         Me.txtcargo.Properties.Appearance.Options.UseBackColor = True
         Me.txtcargo.Properties.Appearance.Options.UseForeColor = True
-        Me.txtcargo.Size = New System.Drawing.Size(264, 20)
+        Me.txtcargo.Size = New System.Drawing.Size(264, 26)
         Me.txtcargo.TabIndex = 274
         '
         'txtdescri
@@ -169,7 +169,7 @@ Partial Class Frm_Solicitante
         Me.txtdescri.Properties.Appearance.ForeColor = System.Drawing.Color.Black
         Me.txtdescri.Properties.Appearance.Options.UseBackColor = True
         Me.txtdescri.Properties.Appearance.Options.UseForeColor = True
-        Me.txtdescri.Size = New System.Drawing.Size(264, 20)
+        Me.txtdescri.Size = New System.Drawing.Size(264, 26)
         Me.txtdescri.TabIndex = 273
         '
         'txtcod
@@ -183,7 +183,7 @@ Partial Class Frm_Solicitante
         Me.txtcod.Properties.Appearance.Options.UseBackColor = True
         Me.txtcod.Properties.Appearance.Options.UseFont = True
         Me.txtcod.Properties.Appearance.Options.UseForeColor = True
-        Me.txtcod.Size = New System.Drawing.Size(100, 20)
+        Me.txtcod.Size = New System.Drawing.Size(100, 28)
         Me.txtcod.TabIndex = 272
         '
         'Label3
@@ -246,12 +246,12 @@ Partial Class Frm_Solicitante
         Me.cmbdepartamento.Properties.NullText = ""
         Me.cmbdepartamento.Properties.PopupSizeable = False
         Me.cmbdepartamento.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.cmbdepartamento.Size = New System.Drawing.Size(264, 20)
+        Me.cmbdepartamento.Size = New System.Drawing.Size(264, 26)
         Me.cmbdepartamento.TabIndex = 275
         '
         'Frm_Solicitante
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 23.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(452, 195)
         Me.Controls.Add(Me.MetroStatusBar2)
@@ -270,7 +270,6 @@ Partial Class Frm_Solicitante
         Me.Controls.Add(Me.cmbdepartamento)
         Me.DoubleBuffered = True
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ForeColor = System.Drawing.Color.Black
         Me.MaximizeBox = False
         Me.Name = "Frm_Solicitante"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

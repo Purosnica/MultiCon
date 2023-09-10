@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SYSERPModelStoreContainer" CdmEntityContainer="SYSERPEntities">
+    <EntitySetMapping Name="Tbl_ADQ_Tipocompra">
+      <EntityTypeMapping TypeName="SYSERPModel.Tbl_ADQ_Tipocompra">
+        <MappingFragment StoreEntitySet="Tbl_ADQ_Tipocompra">
+          <ScalarProperty Name="Id_TipoCompra" ColumnName="Id_TipoCompra" />
+          <ScalarProperty Name="Descripcion_Compra" ColumnName="Descripcion_Compra" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Areas">
+      <EntityTypeMapping TypeName="SYSERPModel.Tbl_Areas">
+        <MappingFragment StoreEntitySet="Tbl_Areas">
+          <ScalarProperty Name="Cod_Area" ColumnName="Cod_Area" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="DFecha" ColumnName="DFecha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Articulo">
+      <EntityTypeMapping TypeName="SYSERPModel.Tbl_Articulo">
+        <MappingFragment StoreEntitySet="Tbl_Articulo">
+          <ScalarProperty Name="Id_Articulo" ColumnName="Id_Articulo" />
+          <ScalarProperty Name="Cod_Activo" ColumnName="Cod_Activo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Marca" ColumnName="Marca" />
+          <ScalarProperty Name="Modelo" ColumnName="Modelo" />
+          <ScalarProperty Name="Serie" ColumnName="Serie" />
+          <ScalarProperty Name="Dimensiones" ColumnName="Dimensiones" />
+          <ScalarProperty Name="Asignado" ColumnName="Asignado" />
+          <ScalarProperty Name="Cod_Area" ColumnName="Cod_Area" />
+          <ScalarProperty Name="Cod_Ubicacion_F" ColumnName="Cod_Ubicacion_F" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Clientes">
+      <EntityTypeMapping TypeName="SYSERPModel.Tbl_Clientes">
+        <MappingFragment StoreEntitySet="Tbl_Clientes">
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="IdTipoIdentificacion" ColumnName="IdTipoIdentificacion" />
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+          <ScalarProperty Name="IdTipoPersona" ColumnName="IdTipoPersona" />
+          <ScalarProperty Name="IdPais" ColumnName="IdPais" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Telefono_Casa" ColumnName="Telefono_Casa" />
+          <ScalarProperty Name="Telefono_Celular" ColumnName="Telefono_Celular" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="FechaRegistro" ColumnName="FechaRegistro" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_CTComprobantes">
+      <EntityTypeMapping TypeName="SYSERPModel.Tbl_CTComprobantes">
+        <MappingFragment StoreEntitySet="Tbl_CTComprobantes">
+          <ScalarProperty Name="Cod_Comprobante" ColumnName="Cod_Comprobante" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Siglas" ColumnName="Siglas" />
+          <ScalarProperty Name="Fecha_Creacion" ColumnName="Fecha_Creacion" />
+          <ScalarProperty Name="Us_Crea" ColumnName="Us_Crea" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Departamento">
+      <EntityTypeMapping TypeName="SYSERPModel.Tbl_Departamento">
+        <MappingFragment StoreEntitySet="Tbl_Departamento">
+          <ScalarProperty Name="IdDepartamento" ColumnName="IdDepartamento" />
+          <ScalarProperty Name="Cod_Departamento" ColumnName="Cod_Departamento" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Fecha_Crea" ColumnName="Fecha_Crea" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Medidas">
+      <EntityTypeMapping TypeName="SYSERPModel.Tbl_Medidas">
+        <MappingFragment StoreEntitySet="Tbl_Medidas">
+          <ScalarProperty Name="Cod_Medida" ColumnName="Cod_Medida" />
+          <ScalarProperty Name="Abreviatura" ColumnName="Abreviatura" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Producto">
+      <EntityTypeMapping TypeName="SYSERPModel.Tbl_Producto">
+        <MappingFragment StoreEntitySet="Tbl_Producto">
+          <ScalarProperty Name="Cod_Producto" ColumnName="Cod_Producto" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Descripcion_L" ColumnName="Descripcion_L" />
+          <ScalarProperty Name="Cod_UM" ColumnName="Cod_UM" />
+          <ScalarProperty Name="Uscrea" ColumnName="Uscrea" />
+          <ScalarProperty Name="Fecha_Crea" ColumnName="Fecha_Crea" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Proveedor">
+      <EntityTypeMapping TypeName="SYSERPModel.Tbl_Proveedor">
+        <MappingFragment StoreEntitySet="Tbl_Proveedor">
+          <ScalarProperty Name="CCODPVE" ColumnName="CCODPVE" />
+          <ScalarProperty Name="CRAZON" ColumnName="CRAZON" />
+          <ScalarProperty Name="CNOMBRE" ColumnName="CNOMBRE" />
+          <ScalarProperty Name="CDIRECC" ColumnName="CDIRECC" />
+          <ScalarProperty Name="CCIUDAD" ColumnName="CCIUDAD" />
+          <ScalarProperty Name="CTELEFO" ColumnName="CTELEFO" />
+          <ScalarProperty Name="CCONTAC" ColumnName="CCONTAC" />
+          <ScalarProperty Name="CCARGO" ColumnName="CCARGO" />
+          <ScalarProperty Name="CREFERE" ColumnName="CREFERE" />
+          <ScalarProperty Name="CMAIL" ColumnName="CMAIL" />
+          <ScalarProperty Name="CNUMRUC" ColumnName="CNUMRUC" />
+          <ScalarProperty Name="CESTADO" ColumnName="CESTADO" />
+          <ScalarProperty Name="ITIPPVE" ColumnName="ITIPPVE" />
+          <ScalarProperty Name="IEXEN_IR" ColumnName="IEXEN_IR" />
+          <ScalarProperty Name="IEXEN_ALMA" ColumnName="IEXEN_ALMA" />
+          <ScalarProperty Name="CCUENTA" ColumnName="CCUENTA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Servicios">
+      <EntityTypeMapping TypeName="SYSERPModel.Tbl_Servicios">
+        <MappingFragment StoreEntitySet="Tbl_Servicios">
+          <ScalarProperty Name="Cod_Servicio" ColumnName="Cod_Servicio" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Fecha_Crea" ColumnName="Fecha_Crea" />
+          <ScalarProperty Name="Uscrea" ColumnName="Uscrea" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Solicitante">
+      <EntityTypeMapping TypeName="SYSERPModel.Tbl_Solicitante">
+        <MappingFragment StoreEntitySet="Tbl_Solicitante">
+          <ScalarProperty Name="Cod_empleado" ColumnName="Cod_empleado" />
+          <ScalarProperty Name="Nombres" ColumnName="Nombres" />
+          <ScalarProperty Name="Cod_Departamento" ColumnName="Cod_Departamento" />
+          <ScalarProperty Name="Cargo" ColumnName="Cargo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Solicitudes_Enc">
+      <EntityTypeMapping TypeName="SYSERPModel.Tbl_Solicitudes_Enc">
+        <MappingFragment StoreEntitySet="Tbl_Solicitudes_Enc">
+          <ScalarProperty Name="No_Solicitud" ColumnName="No_Solicitud" />
+          <ScalarProperty Name="Tipo_Compra" ColumnName="Tipo_Compra" />
+          <ScalarProperty Name="Tipo_Compra_L" ColumnName="Tipo_Compra_L" />
+          <ScalarProperty Name="Tipo_Uso" ColumnName="Tipo_Uso" />
+          <ScalarProperty Name="Cod_Solicitante" ColumnName="Cod_Solicitante" />
+          <ScalarProperty Name="Cod_Departamento" ColumnName="Cod_Departamento" />
+          <ScalarProperty Name="Cod_Depto_Destino" ColumnName="Cod_Depto_Destino" />
+          <ScalarProperty Name="Aprobado" ColumnName="Aprobado" />
+          <ScalarProperty Name="Cod_Aprobado" ColumnName="Cod_Aprobado" />
+          <ScalarProperty Name="Cod_Analista" ColumnName="Cod_Analista" />
+          <ScalarProperty Name="Fecha_Asigna_Analista" ColumnName="Fecha_Asigna_Analista" />
+          <ScalarProperty Name="Estatus" ColumnName="Estatus" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="Fecha_Solicitud" ColumnName="Fecha_Solicitud" />
+          <ScalarProperty Name="Fecha_Crea" ColumnName="Fecha_Crea" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Tasacambio">
+      <EntityTypeMapping TypeName="SYSERPModel.Tbl_Tasacambio">
+        <MappingFragment StoreEntitySet="Tbl_Tasacambio">
+          <ScalarProperty Name="IdTasaCambio" ColumnName="IdTasaCambio" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="TipoCambio" ColumnName="TipoCambio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_TipoIdentificacion">
+      <EntityTypeMapping TypeName="SYSERPModel.Tbl_TipoIdentificacion">
+        <MappingFragment StoreEntitySet="Tbl_TipoIdentificacion">
+          <ScalarProperty Name="IdTipoIdentificacion" ColumnName="IdTipoIdentificacion" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_TipoPersona">
+      <EntityTypeMapping TypeName="SYSERPModel.Tbl_TipoPersona">
+        <MappingFragment StoreEntitySet="Tbl_TipoPersona">
+          <ScalarProperty Name="IdTipoPersona" ColumnName="IdTipoPersona" />
+          <ScalarProperty Name="CodTipoPersona" ColumnName="CodTipoPersona" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Ubicacion">
+      <EntityTypeMapping TypeName="SYSERPModel.Tbl_Ubicacion">
+        <MappingFragment StoreEntitySet="Tbl_Ubicacion">
+          <ScalarProperty Name="IdUbicacion" ColumnName="IdUbicacion" />
+          <ScalarProperty Name="Cod_Ubicacion" ColumnName="Cod_Ubicacion" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="DFecha" ColumnName="DFecha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Usuario">
+      <EntityTypeMapping TypeName="SYSERPModel.Tbl_Usuario">
+        <MappingFragment StoreEntitySet="Tbl_Usuario">
+          <ScalarProperty Name="IdUsuario" ColumnName="IdUsuario" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Pass" ColumnName="Pass" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="V_Producto">
+      <EntityTypeMapping TypeName="SYSERPModel.V_Producto">
+        <MappingFragment StoreEntitySet="V_Producto">
+          <ScalarProperty Name="Cod_Producto" ColumnName="Cod_Producto" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Descripcion_L" ColumnName="Descripcion_L" />
+          <ScalarProperty Name="Medida" ColumnName="Medida" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -54,7 +54,7 @@ Partial Class FrmReasignar
         Me.GroupControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupControl1.Location = New System.Drawing.Point(0, 0)
         Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(628, 383)
+        Me.GroupControl1.Size = New System.Drawing.Size(628, 369)
         Me.GroupControl1.TabIndex = 2
         '
         'GroupBox1
@@ -74,9 +74,9 @@ Partial Class FrmReasignar
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(318, 26)
+        Me.Label2.Location = New System.Drawing.Point(376, 26)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(31, 13)
+        Me.Label2.Size = New System.Drawing.Size(47, 21)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Tipo"
         '
@@ -84,9 +84,9 @@ Partial Class FrmReasignar
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Empleado", "Departamento", "Ubicacion_Fisica"})
-        Me.ComboBox1.Location = New System.Drawing.Point(355, 20)
+        Me.ComboBox1.Location = New System.Drawing.Point(440, 22)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(132, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(132, 27)
         Me.ComboBox1.TabIndex = 3
         '
         'GroupBox2
@@ -107,9 +107,9 @@ Partial Class FrmReasignar
         '
         Me.btnsalir.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.btnsalir.ImageOptions.Image = CType(resources.GetObject("btnsalir.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnsalir.Location = New System.Drawing.Point(315, 249)
+        Me.btnsalir.Location = New System.Drawing.Point(497, 249)
         Me.btnsalir.Name = "btnsalir"
-        Me.btnsalir.Size = New System.Drawing.Size(87, 33)
+        Me.btnsalir.Size = New System.Drawing.Size(88, 29)
         Me.btnsalir.TabIndex = 74
         Me.btnsalir.Text = "Salir"
         '
@@ -117,9 +117,9 @@ Partial Class FrmReasignar
         '
         Me.btnguardar.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.btnguardar.ImageOptions.Image = CType(resources.GetObject("btnguardar.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnguardar.Location = New System.Drawing.Point(187, 249)
+        Me.btnguardar.Location = New System.Drawing.Point(394, 249)
         Me.btnguardar.Name = "btnguardar"
-        Me.btnguardar.Size = New System.Drawing.Size(95, 33)
+        Me.btnguardar.Size = New System.Drawing.Size(88, 29)
         Me.btnguardar.TabIndex = 73
         Me.btnguardar.Text = "Guardar"
         '
@@ -129,7 +129,7 @@ Partial Class FrmReasignar
         Me.LabelControl1.Appearance.Options.UseFont = True
         Me.LabelControl1.Location = New System.Drawing.Point(22, 210)
         Me.LabelControl1.Name = "LabelControl1"
-        Me.LabelControl1.Size = New System.Drawing.Size(60, 13)
+        Me.LabelControl1.Size = New System.Drawing.Size(93, 21)
         Me.LabelControl1.TabIndex = 1
         Me.LabelControl1.Text = "Asignar A :"
         '
@@ -187,16 +187,16 @@ Partial Class FrmReasignar
         Me.gridEmpleados.Name = "gridEmpleados"
         Me.gridEmpleados.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.[True]
         Me.gridEmpleados.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.gridEmpleados.Size = New System.Drawing.Size(297, 20)
+        Me.gridEmpleados.Size = New System.Drawing.Size(297, 26)
         Me.gridEmpleados.TabIndex = 72
         '
         'btnbusca
         '
         Me.btnbusca.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.btnbusca.ImageOptions.Image = CType(resources.GetObject("btnbusca.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnbusca.Location = New System.Drawing.Point(193, 21)
+        Me.btnbusca.Location = New System.Drawing.Point(267, 26)
         Me.btnbusca.Name = "btnbusca"
-        Me.btnbusca.Size = New System.Drawing.Size(69, 23)
+        Me.btnbusca.Size = New System.Drawing.Size(88, 23)
         Me.btnbusca.TabIndex = 1
         Me.btnbusca.Text = "Buscar"
         '
@@ -206,15 +206,15 @@ Partial Class FrmReasignar
         Me.Label1.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(16, 26)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(162, 13)
+        Me.Label1.Size = New System.Drawing.Size(245, 21)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Buscar Articulo a Reasignar"
         '
         'FrmReasignar
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 23.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(628, 383)
+        Me.ClientSize = New System.Drawing.Size(628, 369)
         Me.Controls.Add(Me.GroupControl1)
         Me.DoubleBuffered = True
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
