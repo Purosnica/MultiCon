@@ -39,7 +39,7 @@ Partial Class Frm_Departamento
         '
         'txtdescri
         '
-        Me.txtdescri.Location = New System.Drawing.Point(104, 61)
+        Me.txtdescri.Location = New System.Drawing.Point(138, 61)
         Me.txtdescri.Name = "txtdescri"
         Me.txtdescri.Size = New System.Drawing.Size(376, 26)
         Me.txtdescri.TabIndex = 270
@@ -48,7 +48,7 @@ Partial Class Frm_Departamento
         '
         Me.txtauto.EditValue = "AUTO"
         Me.txtauto.Enabled = False
-        Me.txtauto.Location = New System.Drawing.Point(104, 27)
+        Me.txtauto.Location = New System.Drawing.Point(138, 20)
         Me.txtauto.Name = "txtauto"
         Me.txtauto.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtauto.Properties.Appearance.ForeColor = System.Drawing.Color.Navy
@@ -61,7 +61,7 @@ Partial Class Frm_Departamento
         '
         Me.Btnsalir.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.Btnsalir.ImageOptions.Image = CType(resources.GetObject("Btnsalir.ImageOptions.Image"), System.Drawing.Image)
-        Me.Btnsalir.Location = New System.Drawing.Point(401, 93)
+        Me.Btnsalir.Location = New System.Drawing.Point(435, 93)
         Me.Btnsalir.Name = "Btnsalir"
         Me.Btnsalir.Size = New System.Drawing.Size(79, 29)
         Me.Btnsalir.TabIndex = 268
@@ -71,7 +71,7 @@ Partial Class Frm_Departamento
         '
         Me.btnGuardar.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.btnGuardar.ImageOptions.Image = CType(resources.GetObject("btnGuardar.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnGuardar.Location = New System.Drawing.Point(300, 93)
+        Me.btnGuardar.Location = New System.Drawing.Point(322, 93)
         Me.btnGuardar.Name = "btnGuardar"
         Me.btnGuardar.Size = New System.Drawing.Size(84, 29)
         Me.btnGuardar.TabIndex = 267
@@ -85,14 +85,14 @@ Partial Class Frm_Departamento
         Me.Label2.Size = New System.Drawing.Size(77, 22)
         Me.Label2.TabIndex = 266
         Me.Label2.Text = "Codigo"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label6
         '
         Me.Label6.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(17, 59)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(80, 22)
+        Me.Label6.Size = New System.Drawing.Size(115, 28)
         Me.Label6.TabIndex = 265
         Me.Label6.Text = "Descripcion "
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -111,7 +111,7 @@ Partial Class Frm_Departamento
         Me.MetroStatusBar2.Font = New System.Drawing.Font("Segoe UI", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MetroStatusBar2.ForeColor = System.Drawing.Color.Black
         Me.MetroStatusBar2.ItemSpacing = 10
-        Me.MetroStatusBar2.Location = New System.Drawing.Point(492, 10)
+        Me.MetroStatusBar2.Location = New System.Drawing.Point(520, 10)
         Me.MetroStatusBar2.Name = "MetroStatusBar2"
         Me.MetroStatusBar2.Size = New System.Drawing.Size(11, 120)
         Me.MetroStatusBar2.TabIndex = 264
@@ -134,7 +134,7 @@ Partial Class Frm_Departamento
         Me.MetroStatusBar5.ItemSpacing = 10
         Me.MetroStatusBar5.Location = New System.Drawing.Point(11, 130)
         Me.MetroStatusBar5.Name = "MetroStatusBar5"
-        Me.MetroStatusBar5.Size = New System.Drawing.Size(492, 10)
+        Me.MetroStatusBar5.Size = New System.Drawing.Size(520, 10)
         Me.MetroStatusBar5.TabIndex = 263
         Me.MetroStatusBar5.TabStop = False
         Me.MetroStatusBar5.Text = "MetroStatusBar5"
@@ -176,7 +176,7 @@ Partial Class Frm_Departamento
         Me.MetroStatusBar4.ItemSpacing = 10
         Me.MetroStatusBar4.Location = New System.Drawing.Point(0, 0)
         Me.MetroStatusBar4.Name = "MetroStatusBar4"
-        Me.MetroStatusBar4.Size = New System.Drawing.Size(503, 10)
+        Me.MetroStatusBar4.Size = New System.Drawing.Size(531, 10)
         Me.MetroStatusBar4.TabIndex = 261
         Me.MetroStatusBar4.TabStop = False
         '
@@ -184,7 +184,7 @@ Partial Class Frm_Departamento
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 23.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(503, 140)
+        Me.ClientSize = New System.Drawing.Size(531, 140)
         Me.Controls.Add(Me.txtdescri)
         Me.Controls.Add(Me.txtauto)
         Me.Controls.Add(Me.Btnsalir)

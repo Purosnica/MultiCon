@@ -39,14 +39,14 @@
     <Property Name="IdCliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Nombre" Type="nvarchar" MaxLength="100" Nullable="false" />
     <Property Name="Apellidos" Type="nvarchar" MaxLength="100" />
-    <Property Name="FechaNacimiento" Type="date" Nullable="false" />
+    <Property Name="FechaNacimiento" Type="datetime" Nullable="false" />
     <Property Name="IdTipoIdentificacion" Type="int" Nullable="false" />
     <Property Name="Cedula" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="IdTipoPersona" Type="int" Nullable="false" />
     <Property Name="IdPais" Type="int" Nullable="false" />
     <Property Name="Correo" Type="nvarchar" MaxLength="150" />
-    <Property Name="Telefono_Casa" Type="nvarchar" MaxLength="12" />
-    <Property Name="Telefono_Celular" Type="nvarchar" MaxLength="12" />
+    <Property Name="Telefono_Casa" Type="int" />
+    <Property Name="Telefono_Celular" Type="int" />
     <Property Name="Estado" Type="bit" Nullable="false" />
     <Property Name="FechaRegistro" Type="datetime" Nullable="false" />
     <Property Name="FechaModificacion" Type="datetime" />
@@ -78,6 +78,15 @@
     <Property Name="Abreviatura" Type="nchar" MaxLength="3" />
     <Property Name="Descripcion" Type="nvarchar" MaxLength="70" />
     <Property Name="Estado" Type="nchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="Tbl_Pais">
+    <Key>
+      <PropertyRef Name="IdPais" />
+    </Key>
+    <Property Name="IdPais" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodPais" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="Estado" Type="bit" Nullable="false" />
   </EntityType>
   <EntityType Name="Tbl_Producto">
     <Key>
@@ -193,17 +202,6 @@
     <Property Name="Pass" Type="nvarchar(max)" Nullable="false" />
     <Property Name="Correo" Type="nvarchar" MaxLength="50" />
   </EntityType>
-  <!--Errores durante la generación:
-advertencia 6002: La tabla o vista 'SYSERP.dbo.V_Producto' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
-  <EntityType Name="V_Producto">
-    <Key>
-      <PropertyRef Name="Cod_Producto" />
-    </Key>
-    <Property Name="Cod_Producto" Type="nchar" MaxLength="15" Nullable="false" />
-    <Property Name="Descripcion" Type="nvarchar" MaxLength="70" />
-    <Property Name="Descripcion_L" Type="nvarchar" MaxLength="170" />
-    <Property Name="Medida" Type="nchar" MaxLength="3" />
-  </EntityType>
   <EntityContainer Name="SYSERPModelStoreContainer">
     <EntitySet Name="Tbl_ADQ_Tipocompra" EntityType="Self.Tbl_ADQ_Tipocompra" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Tbl_Areas" EntityType="Self.Tbl_Areas" Schema="dbo" store:Type="Tables" />
@@ -212,6 +210,7 @@ advertencia 6002: La tabla o vista 'SYSERP.dbo.V_Producto' no tiene definida nin
     <EntitySet Name="Tbl_CTComprobantes" EntityType="Self.Tbl_CTComprobantes" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Tbl_Departamento" EntityType="Self.Tbl_Departamento" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Tbl_Medidas" EntityType="Self.Tbl_Medidas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tbl_Pais" EntityType="Self.Tbl_Pais" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Tbl_Producto" EntityType="Self.Tbl_Producto" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Tbl_Proveedor" EntityType="Self.Tbl_Proveedor" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Tbl_Servicios" EntityType="Self.Tbl_Servicios" Schema="dbo" store:Type="Tables" />
@@ -222,13 +221,5 @@ advertencia 6002: La tabla o vista 'SYSERP.dbo.V_Producto' no tiene definida nin
     <EntitySet Name="Tbl_TipoPersona" EntityType="Self.Tbl_TipoPersona" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Tbl_Ubicacion" EntityType="Self.Tbl_Ubicacion" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Tbl_Usuario" EntityType="Self.Tbl_Usuario" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="V_Producto" EntityType="Self.V_Producto" store:Type="Views" store:Schema="dbo">
-      <DefiningQuery>SELECT 
-    [V_Producto].[Cod_Producto] AS [Cod_Producto], 
-    [V_Producto].[Descripcion] AS [Descripcion], 
-    [V_Producto].[Descripcion_L] AS [Descripcion_L], 
-    [V_Producto].[Medida] AS [Medida]
-    FROM [dbo].[V_Producto] AS [V_Producto]</DefiningQuery>
-    </EntitySet>
   </EntityContainer>
 </Schema>

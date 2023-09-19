@@ -20,8 +20,8 @@ Partial Public Class Tbl_Clientes
     Public Property IdTipoPersona As Integer
     Public Property IdPais As Integer
     Public Property Correo As String
-    Public Property Telefono_Casa As String
-    Public Property Telefono_Celular As String
+    Public Property Telefono_Casa As Nullable(Of Integer)
+    Public Property Telefono_Celular As Nullable(Of Integer)
     Public Property Estado As Boolean
     Public Property FechaRegistro As Date
     Public Property FechaModificacion As Nullable(Of Date)

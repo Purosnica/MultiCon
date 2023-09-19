@@ -24,7 +24,7 @@ Partial Class FrmUsuarios
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmUsuarios))
         Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
+        Me.btnSalir = New DevExpress.XtraEditors.SimpleButton()
         Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -41,7 +41,7 @@ Partial Class FrmUsuarios
         '
         'GroupControl1
         '
-        Me.GroupControl1.Controls.Add(Me.SimpleButton2)
+        Me.GroupControl1.Controls.Add(Me.btnSalir)
         Me.GroupControl1.Controls.Add(Me.TextEdit3)
         Me.GroupControl1.Controls.Add(Me.Label3)
         Me.GroupControl1.Controls.Add(Me.Label2)
@@ -55,20 +55,20 @@ Partial Class FrmUsuarios
         Me.GroupControl1.Size = New System.Drawing.Size(308, 175)
         Me.GroupControl1.TabIndex = 0
         '
-        'SimpleButton2
+        'btnSalir
         '
-        Me.SimpleButton2.ImageOptions.Image = CType(resources.GetObject("SimpleButton2.ImageOptions.Image"), System.Drawing.Image)
-        Me.SimpleButton2.Location = New System.Drawing.Point(204, 136)
-        Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(88, 29)
-        Me.SimpleButton2.TabIndex = 7
-        Me.SimpleButton2.Text = "Salir"
+        Me.btnSalir.ImageOptions.Image = CType(resources.GetObject("btnSalir.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnSalir.Location = New System.Drawing.Point(204, 136)
+        Me.btnSalir.Name = "btnSalir"
+        Me.btnSalir.Size = New System.Drawing.Size(88, 29)
+        Me.btnSalir.TabIndex = 7
+        Me.btnSalir.Text = "Salir"
         '
         'TextEdit3
         '
         Me.TextEdit3.Location = New System.Drawing.Point(114, 98)
         Me.TextEdit3.Name = "TextEdit3"
-        Me.TextEdit3.Size = New System.Drawing.Size(163, 26)
+        Me.TextEdit3.Size = New System.Drawing.Size(163, 20)
         Me.TextEdit3.TabIndex = 6
         '
         'Label3
@@ -77,7 +77,7 @@ Partial Class FrmUsuarios
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Location = New System.Drawing.Point(13, 101)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(139, 19)
+        Me.Label3.Size = New System.Drawing.Size(95, 13)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Correo Electronico"
         '
@@ -87,7 +87,7 @@ Partial Class FrmUsuarios
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Location = New System.Drawing.Point(45, 72)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(88, 19)
+        Me.Label2.Size = New System.Drawing.Size(63, 13)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Contraseña"
         '
@@ -97,7 +97,7 @@ Partial Class FrmUsuarios
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Location = New System.Drawing.Point(65, 44)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(63, 19)
+        Me.Label1.Size = New System.Drawing.Size(43, 13)
         Me.Label1.TabIndex = 3
         Me.Label1.Text = "Usuario"
         '
@@ -114,19 +114,19 @@ Partial Class FrmUsuarios
         '
         Me.TextEdit2.Location = New System.Drawing.Point(114, 69)
         Me.TextEdit2.Name = "TextEdit2"
-        Me.TextEdit2.Size = New System.Drawing.Size(163, 26)
+        Me.TextEdit2.Size = New System.Drawing.Size(163, 20)
         Me.TextEdit2.TabIndex = 1
         '
         'TextEdit1
         '
         Me.TextEdit1.Location = New System.Drawing.Point(114, 37)
         Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Size = New System.Drawing.Size(163, 26)
+        Me.TextEdit1.Size = New System.Drawing.Size(163, 20)
         Me.TextEdit1.TabIndex = 0
         '
         'FrmUsuarios
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 23.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(308, 175)
         Me.Controls.Add(Me.GroupControl1)
@@ -147,7 +147,7 @@ Partial Class FrmUsuarios
     End Sub
 
     Friend WithEvents GroupControl1 As DevExpress.XtraEditors.GroupControl
-    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btnSalir As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents TextEdit3 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label

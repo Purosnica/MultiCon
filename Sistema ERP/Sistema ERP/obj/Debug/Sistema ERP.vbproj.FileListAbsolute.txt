@@ -475,10 +475,41 @@ C:\Users\SxC\Documents\GitHub\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema
 C:\Users\SxC\Documents\GitHub\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.exe
 C:\Users\SxC\Documents\GitHub\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.xml
 C:\Users\SxC\Documents\GitHub\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.pdb
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.vbprojAssemblyReference.cache
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmEmpleado.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmAdq_ElaboraSol.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmCat_General.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Cliente.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_CreaSolAdq.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Departamento.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Producto.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Proveedor.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Servicios.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Solicitante.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_UM.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmGeneralCont.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_AgregaCte.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmLogin.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmPrincipal.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmArticulo.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmReasignar.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmUbicacion.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmCat_Areasvb.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmCat_Articulos.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmCat_Empleado.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmCat_Ubicacion.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmUsuarios.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_AgreTC.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmCorreo_Masivo.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Resources.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.vbproj.GenerateResource.cache
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.exe.licenses
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.vbproj.CoreCompileInputs.cache
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\Sistema ERP.exe.config
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\Sistema ERP.exe
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\Sistema ERP.pdb
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\Sistema ERP.xml
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DATOS.dll
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevComponents.DotNetBar2.dll
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.CodeParser.v17.2.dll
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.Data.v17.2.dll
@@ -496,8 +527,13 @@ C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.X
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.XtraGrid.v17.2.dll
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.XtraLayout.v17.2.dll
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.XtraPrinting.v17.2.dll
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\EntityFramework.dll
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.XtraTreeList.v17.2.dll
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DATOS.pdb
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DATOS.xml
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DATOS.dll.config
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevComponents.DotNetBar2.xml
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.Data.v17.2.xml
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.DataAccess.v17.2.xml
@@ -512,6 +548,8 @@ C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.X
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.XtraGrid.v17.2.xml
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.XtraLayout.v17.2.xml
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.XtraPrinting.v17.2.xml
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\EntityFramework.xml
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.XtraTreeList.v17.2.xml
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
@@ -574,38 +612,9 @@ C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\de\DevExpres
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\es\DevExpress.XtraTreeList.v17.2.resources.dll
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ja\DevExpress.XtraTreeList.v17.2.resources.dll
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\ru\DevExpress.XtraTreeList.v17.2.resources.dll
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.vbprojAssemblyReference.cache
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmEmpleado.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmAdq_ElaboraSol.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmCat_General.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Cliente.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_CreaSolAdq.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Departamento.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Producto.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Proveedor.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Servicios.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Solicitante.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_UM.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmGeneralCont.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_AgregaCte.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmLogin.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmPrincipal.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmArticulo.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmReasignar.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmUbicacion.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmCat_Areasvb.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmCat_Articulos.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmCat_Empleado.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmCat_Ubicacion.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmUsuarios.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_AgreTC.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Resources.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.vbproj.GenerateResource.cache
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.exe.licenses
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.vbproj.CoreCompileInputs.cache
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.vbproj.CopyComplete
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.exe
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.xml
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema ERP.pdb
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmCorreo_Masivo.resources
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmCat_Clientes.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmIdentificaciones.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmPais.resources

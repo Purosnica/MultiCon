@@ -16,6 +16,7 @@ C:\Users\PC\source\repos\MultiCon\Sistema ERP\DATOS\bin\Debug\EntityFramework.dl
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\DATOS\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\DATOS\bin\Debug\EntityFramework.xml
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\DATOS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\DATOS\obj\Debug\DATOS.vbprojAssemblyReference.cache
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\DATOS\obj\Debug\DATOS.Resources.resources
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\DATOS\obj\Debug\DATOS.vbproj.GenerateResource.cache
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\DATOS\obj\Debug\DATOS.vbproj.CoreCompileInputs.cache

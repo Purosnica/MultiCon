@@ -29,6 +29,7 @@ Partial Public Class SYSERPEntities
     Public Overridable Property Tbl_CTComprobantes() As DbSet(Of Tbl_CTComprobantes)
     Public Overridable Property Tbl_Departamento() As DbSet(Of Tbl_Departamento)
     Public Overridable Property Tbl_Medidas() As DbSet(Of Tbl_Medidas)
+    Public Overridable Property Tbl_Pais() As DbSet(Of Tbl_Pais)
     Public Overridable Property Tbl_Producto() As DbSet(Of Tbl_Producto)
     Public Overridable Property Tbl_Proveedor() As DbSet(Of Tbl_Proveedor)
     Public Overridable Property Tbl_Servicios() As DbSet(Of Tbl_Servicios)
@@ -39,6 +40,5 @@ Partial Public Class SYSERPEntities
     Public Overridable Property Tbl_TipoPersona() As DbSet(Of Tbl_TipoPersona)
     Public Overridable Property Tbl_Ubicacion() As DbSet(Of Tbl_Ubicacion)
     Public Overridable Property Tbl_Usuario() As DbSet(Of Tbl_Usuario)
-    Public Overridable Property V_Producto() As DbSet(Of V_Producto)
 
 End Class

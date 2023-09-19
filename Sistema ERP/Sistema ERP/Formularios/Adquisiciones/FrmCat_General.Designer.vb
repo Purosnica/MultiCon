@@ -94,40 +94,40 @@ Partial Class FrmCat_General
         Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
         Me.barDockControlTop.Manager = Me.BarManager1
-        Me.barDockControlTop.Size = New System.Drawing.Size(854, 70)
+        Me.barDockControlTop.Size = New System.Drawing.Size(854, 47)
         '
         'barDockControlBottom
         '
         Me.barDockControlBottom.CausesValidation = False
         Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 442)
+        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 445)
         Me.barDockControlBottom.Manager = Me.BarManager1
-        Me.barDockControlBottom.Size = New System.Drawing.Size(854, 26)
+        Me.barDockControlBottom.Size = New System.Drawing.Size(854, 23)
         '
         'barDockControlLeft
         '
         Me.barDockControlLeft.CausesValidation = False
         Me.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left
-        Me.barDockControlLeft.Location = New System.Drawing.Point(0, 70)
+        Me.barDockControlLeft.Location = New System.Drawing.Point(0, 47)
         Me.barDockControlLeft.Manager = Me.BarManager1
-        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 372)
+        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 398)
         '
         'barDockControlRight
         '
         Me.barDockControlRight.CausesValidation = False
         Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
-        Me.barDockControlRight.Location = New System.Drawing.Point(854, 70)
+        Me.barDockControlRight.Location = New System.Drawing.Point(854, 47)
         Me.barDockControlRight.Manager = Me.BarManager1
-        Me.barDockControlRight.Size = New System.Drawing.Size(0, 372)
+        Me.barDockControlRight.Size = New System.Drawing.Size(0, 398)
         '
         'gridproveedor
         '
         Me.gridproveedor.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.gridproveedor.Location = New System.Drawing.Point(0, 70)
+        Me.gridproveedor.Location = New System.Drawing.Point(0, 47)
         Me.gridproveedor.MainView = Me.gvproveedor
         Me.gridproveedor.MenuManager = Me.BarManager1
         Me.gridproveedor.Name = "gridproveedor"
-        Me.gridproveedor.Size = New System.Drawing.Size(854, 372)
+        Me.gridproveedor.Size = New System.Drawing.Size(854, 398)
         Me.gridproveedor.TabIndex = 4
         Me.gridproveedor.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.gvproveedor})
         '
@@ -135,10 +135,14 @@ Partial Class FrmCat_General
         '
         Me.gvproveedor.GridControl = Me.gridproveedor
         Me.gvproveedor.Name = "gvproveedor"
+        Me.gvproveedor.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.[False]
+        Me.gvproveedor.OptionsBehavior.AllowDeleteRows = DevExpress.Utils.DefaultBoolean.[False]
+        Me.gvproveedor.OptionsBehavior.Editable = False
+        Me.gvproveedor.OptionsBehavior.ReadOnly = True
         '
         'FrmCat_General
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 23.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(854, 468)
         Me.Controls.Add(Me.gridproveedor)

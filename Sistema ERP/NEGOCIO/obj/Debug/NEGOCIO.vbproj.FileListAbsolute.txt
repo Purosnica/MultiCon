@@ -99,17 +99,9 @@ C:\Users\SxC\Documents\GitHub\MultiCon\Sistema ERP\NEGOCIO\obj\Debug\NEGOCIO.pdb
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\NEGOCIO\bin\Debug\NEGOCIO.dll
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\NEGOCIO\bin\Debug\NEGOCIO.pdb
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\NEGOCIO\bin\Debug\NEGOCIO.xml
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\NEGOCIO\bin\Debug\DATOS.dll
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\NEGOCIO\bin\Debug\EntityFramework.dll
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\NEGOCIO\bin\Debug\DATOS.pdb
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\NEGOCIO\bin\Debug\DATOS.xml
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\NEGOCIO\bin\Debug\DATOS.dll.config
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\NEGOCIO\bin\Debug\EntityFramework.xml
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\NEGOCIO\obj\Debug\NEGOCIO.vbprojAssemblyReference.cache
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\NEGOCIO\obj\Debug\NEGOCIO.Resources.resources
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\NEGOCIO\obj\Debug\NEGOCIO.vbproj.GenerateResource.cache
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\NEGOCIO\obj\Debug\NEGOCIO.vbproj.CoreCompileInputs.cache
-C:\Users\PC\source\repos\MultiCon\Sistema ERP\NEGOCIO\obj\Debug\NEGOCIO.vbproj.CopyComplete
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\NEGOCIO\obj\Debug\NEGOCIO.dll
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\NEGOCIO\obj\Debug\NEGOCIO.xml
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\NEGOCIO\obj\Debug\NEGOCIO.pdb

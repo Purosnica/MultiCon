@@ -99,11 +99,5 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DATOS\DATOS.vbproj">
-      <Project>{b2fff808-c709-4ab8-8109-185066b89cd0}</Project>
-      <Name>DATOS</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

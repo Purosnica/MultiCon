@@ -112,6 +112,9 @@
     <Compile Include="Model\Tbl_Medidas.vb">
       <DependentUpon>SYSERP.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model\Tbl_Pais.vb">
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
     <Compile Include="Model\Tbl_Producto.vb">
       <DependentUpon>SYSERP.tt</DependentUpon>
     </Compile>
@@ -142,9 +145,6 @@
     <Compile Include="Model\Tbl_Usuario.vb">
       <DependentUpon>SYSERP.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\V_Producto.vb">
-      <DependentUpon>SYSERP.tt</DependentUpon>
-    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -170,7 +170,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <EntityDeploy Include="Model\SYSERP.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>SYSERP.Designer.vb</LastGenOutput>
@@ -192,6 +194,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Model\SYSERP.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>

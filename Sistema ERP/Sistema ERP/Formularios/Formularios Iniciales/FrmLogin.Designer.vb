@@ -43,10 +43,9 @@ Partial Class FrmLogin
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(161, 113)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(107, 73)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(248, 31)
+        Me.Label2.Size = New System.Drawing.Size(164, 20)
         Me.Label2.TabIndex = 85
         Me.Label2.Text = "Ingrese su Contraseña"
         '
@@ -54,10 +53,9 @@ Partial Class FrmLogin
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(161, 61)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(107, 40)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(211, 31)
+        Me.Label1.Size = New System.Drawing.Size(139, 20)
         Me.Label1.TabIndex = 84
         Me.Label1.Text = "Ingrese su Usuario"
         '
@@ -76,28 +74,25 @@ Partial Class FrmLogin
         Me.MetroStatusBar1.ForeColor = System.Drawing.Color.Black
         Me.MetroStatusBar1.ItemSpacing = 10
         Me.MetroStatusBar1.Location = New System.Drawing.Point(0, 0)
-        Me.MetroStatusBar1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.MetroStatusBar1.Name = "MetroStatusBar1"
-        Me.MetroStatusBar1.Size = New System.Drawing.Size(16, 242)
+        Me.MetroStatusBar1.Size = New System.Drawing.Size(11, 158)
         Me.MetroStatusBar1.TabIndex = 82
         Me.MetroStatusBar1.TabStop = False
         Me.MetroStatusBar1.Text = "MetroStatusBar1"
         '
         'txtpass
         '
-        Me.txtpass.Location = New System.Drawing.Point(421, 110)
-        Me.txtpass.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txtpass.Location = New System.Drawing.Point(281, 71)
         Me.txtpass.Name = "txtpass"
         Me.txtpass.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.txtpass.Size = New System.Drawing.Size(138, 26)
+        Me.txtpass.Size = New System.Drawing.Size(93, 20)
         Me.txtpass.TabIndex = 80
         '
         'txtusuario
         '
-        Me.txtusuario.Location = New System.Drawing.Point(421, 61)
-        Me.txtusuario.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txtusuario.Location = New System.Drawing.Point(281, 40)
         Me.txtusuario.Name = "txtusuario"
-        Me.txtusuario.Size = New System.Drawing.Size(138, 26)
+        Me.txtusuario.Size = New System.Drawing.Size(93, 20)
         Me.txtusuario.TabIndex = 79
         '
         'MetroStatusBar3
@@ -114,10 +109,9 @@ Partial Class FrmLogin
         Me.MetroStatusBar3.Font = New System.Drawing.Font("Segoe UI", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MetroStatusBar3.ForeColor = System.Drawing.Color.Black
         Me.MetroStatusBar3.ItemSpacing = 10
-        Me.MetroStatusBar3.Location = New System.Drawing.Point(589, 0)
-        Me.MetroStatusBar3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.MetroStatusBar3.Location = New System.Drawing.Point(392, 0)
         Me.MetroStatusBar3.Name = "MetroStatusBar3"
-        Me.MetroStatusBar3.Size = New System.Drawing.Size(16, 242)
+        Me.MetroStatusBar3.Size = New System.Drawing.Size(11, 158)
         Me.MetroStatusBar3.TabIndex = 87
         Me.MetroStatusBar3.TabStop = False
         Me.MetroStatusBar3.Text = "MetroStatusBar3"
@@ -127,10 +121,9 @@ Partial Class FrmLogin
         Me.SimpleButton1.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.SimpleButton1.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.SimpleButton1.ImageOptions.Image = CType(resources.GetObject("SimpleButton1.ImageOptions.Image"), System.Drawing.Image)
-        Me.SimpleButton1.Location = New System.Drawing.Point(199, 170)
-        Me.SimpleButton1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.SimpleButton1.Location = New System.Drawing.Point(126, 110)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(101, 49)
+        Me.SimpleButton1.Size = New System.Drawing.Size(74, 32)
         Me.SimpleButton1.TabIndex = 88
         Me.SimpleButton1.Text = "Entrar"
         '
@@ -138,20 +131,18 @@ Partial Class FrmLogin
         '
         Me.SimpleButton2.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.SimpleButton2.ImageOptions.Image = CType(resources.GetObject("SimpleButton2.ImageOptions.Image"), System.Drawing.Image)
-        Me.SimpleButton2.Location = New System.Drawing.Point(323, 170)
-        Me.SimpleButton2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.SimpleButton2.Location = New System.Drawing.Point(215, 110)
         Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(101, 49)
+        Me.SimpleButton2.Size = New System.Drawing.Size(67, 32)
         Me.SimpleButton2.TabIndex = 89
         Me.SimpleButton2.Text = "Salir"
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(42, 48)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.PictureBox1.Location = New System.Drawing.Point(28, 31)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(111, 114)
+        Me.PictureBox1.Size = New System.Drawing.Size(74, 74)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 90
         Me.PictureBox1.TabStop = False
@@ -171,10 +162,9 @@ Partial Class FrmLogin
         Me.MetroStatusBar2.ForeColor = System.Drawing.Color.Black
         Me.MetroStatusBar2.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.LabelItem1})
         Me.MetroStatusBar2.ItemSpacing = 10
-        Me.MetroStatusBar2.Location = New System.Drawing.Point(16, 0)
-        Me.MetroStatusBar2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.MetroStatusBar2.Location = New System.Drawing.Point(11, 0)
         Me.MetroStatusBar2.Name = "MetroStatusBar2"
-        Me.MetroStatusBar2.Size = New System.Drawing.Size(573, 23)
+        Me.MetroStatusBar2.Size = New System.Drawing.Size(381, 15)
         Me.MetroStatusBar2.TabIndex = 91
         Me.MetroStatusBar2.TabStop = False
         '
@@ -198,10 +188,9 @@ Partial Class FrmLogin
         Me.MetroStatusBar4.Font = New System.Drawing.Font("Segoe UI", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MetroStatusBar4.ForeColor = System.Drawing.Color.Black
         Me.MetroStatusBar4.ItemSpacing = 10
-        Me.MetroStatusBar4.Location = New System.Drawing.Point(0, 242)
-        Me.MetroStatusBar4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.MetroStatusBar4.Location = New System.Drawing.Point(0, 158)
         Me.MetroStatusBar4.Name = "MetroStatusBar4"
-        Me.MetroStatusBar4.Size = New System.Drawing.Size(605, 25)
+        Me.MetroStatusBar4.Size = New System.Drawing.Size(403, 16)
         Me.MetroStatusBar4.TabIndex = 81
         Me.MetroStatusBar4.TabStop = False
         '
@@ -213,11 +202,11 @@ Partial Class FrmLogin
         '
         'FrmLogin
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.ClientSize = New System.Drawing.Size(605, 267)
+        Me.ClientSize = New System.Drawing.Size(403, 174)
         Me.Controls.Add(Me.MetroStatusBar2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.SimpleButton2)
@@ -230,7 +219,6 @@ Partial Class FrmLogin
         Me.Controls.Add(Me.txtpass)
         Me.Controls.Add(Me.txtusuario)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "FrmLogin"

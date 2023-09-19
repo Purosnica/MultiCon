@@ -89,16 +89,20 @@ Public Class Conexion
         End Try
     End Sub
     'Insertar o ejecutar cualquier consulta sql'
-    Public Sub EjecutaSQL(SQLSTR As String)
+    Public Function EjecutaSQL(SQLSTR As String)
+        Dim _result As Boolean = False
+
         Try
             Dim cmd As SqlCommand
             cmd = New SqlCommand(SQLSTR, cn)
             cmd.ExecuteNonQuery()
             cmd.Dispose()
+            _result = True
         Catch ex As Exception
             MsgBox(ex.ToString, vbCritical)
         End Try
-    End Sub
+        Return _result
+    End Function
     Public Sub CargaGrid(ByRef CtrlGrid As Object, TblSql As String, strDataMenber As String, strFiltro As String)
         Try
             da.Dispose()

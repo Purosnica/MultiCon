@@ -121,14 +121,31 @@ Partial Public Class FrmPrincipal
     End Sub
 
     Private Sub btnCliente_ItemClick(sender As Object, e As ItemClickEventArgs) Handles btnCliente.ItemClick
-        Dim x As New FrmCat_Clientes
-        x.Llamadatos = "Cliente"
+        Dim x As New FrmCat_General
+        x.Llamadatos = "Clientes"
+        x.Text = "Catalago de Cliente"
         x.MdiParent = Me
         x.Show()
     End Sub
 
     Private Sub btnCorreoMasivos_ItemClick(sender As Object, e As ItemClickEventArgs) Handles btnCorreoMasivos.ItemClick
         Dim x As New FrmCorreo_Masivo
+        x.MdiParent = Me
+        x.Show()
+    End Sub
+
+    Private Sub btnPais_ItemClick(sender As Object, e As ItemClickEventArgs) Handles btnPais.ItemClick
+        Dim x As New FrmCat_General
+        x.Llamadatos = "Pais"
+        x.Text = "Catalago de Paises"
+        x.MdiParent = Me
+        x.Show()
+    End Sub
+
+    Private Sub btnIdentificacion_ItemClick(sender As Object, e As ItemClickEventArgs) Handles btnIdentificacion.ItemClick
+        Dim x As New FrmCat_General
+        x.Llamadatos = "Identificaciones"
+        x.Text = "Catalago Tipo Identificaciones"
         x.MdiParent = Me
         x.Show()
     End Sub

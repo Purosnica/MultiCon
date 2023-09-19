@@ -259,7 +259,7 @@ Partial Class Frm_CreaSolAdq
         '
         Me.txtcantidad.Location = New System.Drawing.Point(702, 218)
         Me.txtcantidad.Name = "txtcantidad"
-        Me.txtcantidad.Size = New System.Drawing.Size(95, 26)
+        Me.txtcantidad.Size = New System.Drawing.Size(95, 20)
         Me.txtcantidad.TabIndex = 295
         '
         'txtmedida
@@ -267,7 +267,7 @@ Partial Class Frm_CreaSolAdq
         Me.txtmedida.Enabled = False
         Me.txtmedida.Location = New System.Drawing.Point(611, 218)
         Me.txtmedida.Name = "txtmedida"
-        Me.txtmedida.Size = New System.Drawing.Size(88, 26)
+        Me.txtmedida.Size = New System.Drawing.Size(88, 20)
         Me.txtmedida.TabIndex = 294
         '
         'txtdescicod
@@ -275,7 +275,7 @@ Partial Class Frm_CreaSolAdq
         Me.txtdescicod.Enabled = False
         Me.txtdescicod.Location = New System.Drawing.Point(319, 218)
         Me.txtdescicod.Name = "txtdescicod"
-        Me.txtdescicod.Size = New System.Drawing.Size(286, 26)
+        Me.txtdescicod.Size = New System.Drawing.Size(286, 20)
         Me.txtdescicod.TabIndex = 293
         '
         'btnbuscar
@@ -290,7 +290,7 @@ Partial Class Frm_CreaSolAdq
         '
         Me.txtcodigo.Location = New System.Drawing.Point(123, 218)
         Me.txtcodigo.Name = "txtcodigo"
-        Me.txtcodigo.Size = New System.Drawing.Size(109, 26)
+        Me.txtcodigo.Size = New System.Drawing.Size(109, 20)
         Me.txtcodigo.TabIndex = 291
         '
         'Label10
@@ -298,12 +298,12 @@ Partial Class Frm_CreaSolAdq
         Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.Black
-        Me.Label10.Location = New System.Drawing.Point(19, 216)
+        Me.Label10.Location = New System.Drawing.Point(9, 216)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(97, 22)
+        Me.Label10.Size = New System.Drawing.Size(107, 22)
         Me.Label10.TabIndex = 290
         Me.Label10.Text = "Digite el Codigo"
-        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'GroupControl2
         '
@@ -317,10 +317,10 @@ Partial Class Frm_CreaSolAdq
         'grdsolicitud
         '
         Me.grdsolicitud.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdsolicitud.Location = New System.Drawing.Point(3, 30)
+        Me.grdsolicitud.Location = New System.Drawing.Point(2, 20)
         Me.grdsolicitud.MainView = Me.gvsolicitud
         Me.grdsolicitud.Name = "grdsolicitud"
-        Me.grdsolicitud.Size = New System.Drawing.Size(784, 259)
+        Me.grdsolicitud.Size = New System.Drawing.Size(786, 270)
         Me.grdsolicitud.TabIndex = 0
         Me.grdsolicitud.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.gvsolicitud})
         '
@@ -358,9 +358,9 @@ Partial Class Frm_CreaSolAdq
         '
         'txtobs
         '
-        Me.txtobs.Location = New System.Drawing.Point(123, 146)
+        Me.txtobs.Location = New System.Drawing.Point(136, 146)
         Me.txtobs.Name = "txtobs"
-        Me.txtobs.Size = New System.Drawing.Size(630, 26)
+        Me.txtobs.Size = New System.Drawing.Size(619, 20)
         Me.txtobs.TabIndex = 290
         '
         'Label9
@@ -368,12 +368,12 @@ Partial Class Frm_CreaSolAdq
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Black
-        Me.Label9.Location = New System.Drawing.Point(6, 144)
+        Me.Label9.Location = New System.Drawing.Point(17, 144)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(98, 22)
         Me.Label9.TabIndex = 289
         Me.Label9.Text = "Observaciones"
-        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label8
         '
@@ -385,7 +385,7 @@ Partial Class Frm_CreaSolAdq
         Me.Label8.Size = New System.Drawing.Size(140, 22)
         Me.Label8.TabIndex = 286
         Me.Label8.Text = "Departamento Destino"
-        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'fecha
         '
@@ -394,7 +394,7 @@ Partial Class Frm_CreaSolAdq
         Me.fecha.Name = "fecha"
         Me.fecha.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.fecha.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.fecha.Size = New System.Drawing.Size(202, 26)
+        Me.fecha.Size = New System.Drawing.Size(202, 20)
         Me.fecha.TabIndex = 285
         '
         'cmbuso
@@ -405,7 +405,7 @@ Partial Class Frm_CreaSolAdq
         Me.cmbuso.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cmbuso.Properties.DropDownRows = 2
         Me.cmbuso.Properties.Items.AddRange(New Object() {"USO DIRECTO", "EXISTENCIA"})
-        Me.cmbuso.Size = New System.Drawing.Size(202, 26)
+        Me.cmbuso.Size = New System.Drawing.Size(202, 20)
         Me.cmbuso.TabIndex = 284
         '
         'cmbcompraT
@@ -418,7 +418,7 @@ Partial Class Frm_CreaSolAdq
         Me.cmbcompraT.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cmbcompraT.Properties.DropDownRows = 2
         Me.cmbcompraT.Properties.Items.AddRange(New Object() {"COMPRA", "SERVICIOS"})
-        Me.cmbcompraT.Size = New System.Drawing.Size(202, 28)
+        Me.cmbcompraT.Size = New System.Drawing.Size(202, 22)
         Me.cmbcompraT.TabIndex = 283
         '
         'Label7
@@ -431,7 +431,7 @@ Partial Class Frm_CreaSolAdq
         Me.Label7.Size = New System.Drawing.Size(123, 22)
         Me.Label7.TabIndex = 282
         Me.Label7.Text = "Fecha de Solicitud"
-        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label6
         '
@@ -443,7 +443,7 @@ Partial Class Frm_CreaSolAdq
         Me.Label6.Size = New System.Drawing.Size(89, 22)
         Me.Label6.TabIndex = 281
         Me.Label6.Text = "Tipo de Uso :"
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label5
         '
@@ -455,14 +455,14 @@ Partial Class Frm_CreaSolAdq
         Me.Label5.Size = New System.Drawing.Size(148, 22)
         Me.Label5.TabIndex = 280
         Me.Label5.Text = "Tipo de Compra Local :"
-        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'txtdepto
         '
         Me.txtdepto.Enabled = False
         Me.txtdepto.Location = New System.Drawing.Point(136, 115)
         Me.txtdepto.Name = "txtdepto"
-        Me.txtdepto.Size = New System.Drawing.Size(217, 26)
+        Me.txtdepto.Size = New System.Drawing.Size(217, 20)
         Me.txtdepto.TabIndex = 279
         '
         'txtcargo
@@ -470,7 +470,7 @@ Partial Class Frm_CreaSolAdq
         Me.txtcargo.Enabled = False
         Me.txtcargo.Location = New System.Drawing.Point(136, 84)
         Me.txtcargo.Name = "txtcargo"
-        Me.txtcargo.Size = New System.Drawing.Size(217, 26)
+        Me.txtcargo.Size = New System.Drawing.Size(217, 20)
         Me.txtcargo.TabIndex = 278
         '
         'cmbcompra
@@ -483,7 +483,7 @@ Partial Class Frm_CreaSolAdq
         Me.cmbcompra.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cmbcompra.Properties.DropDownRows = 2
         Me.cmbcompra.Properties.Items.AddRange(New Object() {"LOCAL", "IMPORTACIONES"})
-        Me.cmbcompra.Size = New System.Drawing.Size(219, 28)
+        Me.cmbcompra.Size = New System.Drawing.Size(219, 22)
         Me.cmbcompra.TabIndex = 276
         '
         'Label4
@@ -496,7 +496,7 @@ Partial Class Frm_CreaSolAdq
         Me.Label4.Size = New System.Drawing.Size(107, 22)
         Me.Label4.TabIndex = 275
         Me.Label4.Text = "Depto Empleado:"
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label2
         '
@@ -508,7 +508,7 @@ Partial Class Frm_CreaSolAdq
         Me.Label2.Size = New System.Drawing.Size(107, 20)
         Me.Label2.TabIndex = 274
         Me.Label2.Text = "Cargo Empleado:"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label1
         '
@@ -520,24 +520,24 @@ Partial Class Frm_CreaSolAdq
         Me.Label1.Size = New System.Drawing.Size(92, 22)
         Me.Label1.TabIndex = 273
         Me.Label1.Text = "Solicitado Por:"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label3
         '
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(16, 20)
+        Me.Label3.Location = New System.Drawing.Point(17, 20)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(110, 22)
         Me.Label3.TabIndex = 272
         Me.Label3.Text = "Tipo de Compra :"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'cmbsolicitante
         '
         Me.cmbsolicitante.EditValue = ""
-        Me.cmbsolicitante.Location = New System.Drawing.Point(134, 51)
+        Me.cmbsolicitante.Location = New System.Drawing.Point(136, 51)
         Me.cmbsolicitante.Name = "cmbsolicitante"
         Me.cmbsolicitante.Properties.Appearance.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbsolicitante.Properties.Appearance.Options.UseFont = True
@@ -545,7 +545,7 @@ Partial Class Frm_CreaSolAdq
         Me.cmbsolicitante.Properties.NullText = ""
         Me.cmbsolicitante.Properties.PopupSizeable = False
         Me.cmbsolicitante.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.cmbsolicitante.Size = New System.Drawing.Size(219, 28)
+        Me.cmbsolicitante.Size = New System.Drawing.Size(219, 22)
         Me.cmbsolicitante.TabIndex = 291
         '
         'cmbdeptodes
@@ -556,12 +556,12 @@ Partial Class Frm_CreaSolAdq
         Me.cmbdeptodes.Properties.NullText = ""
         Me.cmbdeptodes.Properties.PopupSizeable = False
         Me.cmbdeptodes.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.cmbdeptodes.Size = New System.Drawing.Size(202, 26)
+        Me.cmbdeptodes.Size = New System.Drawing.Size(202, 20)
         Me.cmbdeptodes.TabIndex = 287
         '
         'Frm_CreaSolAdq
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 23.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(827, 605)
         Me.Controls.Add(Me.GroupControl1)

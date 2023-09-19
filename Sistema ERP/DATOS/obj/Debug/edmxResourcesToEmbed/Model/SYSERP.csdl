@@ -39,14 +39,14 @@
     <Property Name="IdCliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="Apellidos" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-    <Property Name="FechaNacimiento" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="FechaNacimiento" Type="DateTime" Nullable="false" Precision="3" />
     <Property Name="IdTipoIdentificacion" Type="Int32" Nullable="false" />
     <Property Name="Cedula" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="IdTipoPersona" Type="Int32" Nullable="false" />
     <Property Name="IdPais" Type="Int32" Nullable="false" />
     <Property Name="Correo" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
-    <Property Name="Telefono_Casa" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
-    <Property Name="Telefono_Celular" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="Telefono_Casa" Type="Int32" />
+    <Property Name="Telefono_Celular" Type="Int32" />
     <Property Name="Estado" Type="Boolean" Nullable="false" />
     <Property Name="FechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
     <Property Name="FechaModificacion" Type="DateTime" Precision="3" />
@@ -78,6 +78,15 @@
     <Property Name="Abreviatura" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
     <Property Name="Descripcion" Type="String" MaxLength="70" FixedLength="false" Unicode="true" />
     <Property Name="Estado" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Tbl_Pais">
+    <Key>
+      <PropertyRef Name="IdPais" />
+    </Key>
+    <Property Name="IdPais" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodPais" Type="String" MaxLength="5" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Estado" Type="Boolean" Nullable="false" />
   </EntityType>
   <EntityType Name="Tbl_Producto">
     <Key>
@@ -193,15 +202,6 @@
     <Property Name="Pass" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="Correo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
   </EntityType>
-  <EntityType Name="V_Producto">
-    <Key>
-      <PropertyRef Name="Cod_Producto" />
-    </Key>
-    <Property Name="Cod_Producto" Type="String" MaxLength="15" FixedLength="true" Unicode="true" Nullable="false" />
-    <Property Name="Descripcion" Type="String" MaxLength="70" FixedLength="false" Unicode="true" />
-    <Property Name="Descripcion_L" Type="String" MaxLength="170" FixedLength="false" Unicode="true" />
-    <Property Name="Medida" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
-  </EntityType>
   <EntityContainer Name="SYSERPEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Tbl_ADQ_Tipocompra" EntityType="Self.Tbl_ADQ_Tipocompra" />
     <EntitySet Name="Tbl_Areas" EntityType="Self.Tbl_Areas" />
@@ -210,6 +210,7 @@
     <EntitySet Name="Tbl_CTComprobantes" EntityType="Self.Tbl_CTComprobantes" />
     <EntitySet Name="Tbl_Departamento" EntityType="Self.Tbl_Departamento" />
     <EntitySet Name="Tbl_Medidas" EntityType="Self.Tbl_Medidas" />
+    <EntitySet Name="Tbl_Pais" EntityType="Self.Tbl_Pais" />
     <EntitySet Name="Tbl_Producto" EntityType="Self.Tbl_Producto" />
     <EntitySet Name="Tbl_Proveedor" EntityType="Self.Tbl_Proveedor" />
     <EntitySet Name="Tbl_Servicios" EntityType="Self.Tbl_Servicios" />
@@ -220,6 +221,5 @@
     <EntitySet Name="Tbl_TipoPersona" EntityType="Self.Tbl_TipoPersona" />
     <EntitySet Name="Tbl_Ubicacion" EntityType="Self.Tbl_Ubicacion" />
     <EntitySet Name="Tbl_Usuario" EntityType="Self.Tbl_Usuario" />
-    <EntitySet Name="V_Producto" EntityType="Self.V_Producto" />
   </EntityContainer>
 </Schema>

@@ -242,6 +242,7 @@ Partial Class Frm_Cliente
         Me.cmbtipopersona.Properties.Appearance.Options.UseBackColor = True
         Me.cmbtipopersona.Properties.Appearance.Options.UseForeColor = True
         Me.cmbtipopersona.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.cmbtipopersona.Properties.DropDownRows = 4
         Me.cmbtipopersona.Properties.NullText = ""
         Me.cmbtipopersona.Properties.PopupSizeable = False
         Me.cmbtipopersona.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
@@ -391,6 +392,9 @@ Partial Class Frm_Cliente
         Me.txtTelefono.Properties.Appearance.ForeColor = System.Drawing.Color.Black
         Me.txtTelefono.Properties.Appearance.Options.UseBackColor = True
         Me.txtTelefono.Properties.Appearance.Options.UseForeColor = True
+        Me.txtTelefono.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Numeric
+        Me.txtTelefono.Properties.Mask.EditMask = "d"
+        Me.txtTelefono.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
         Me.txtTelefono.Size = New System.Drawing.Size(151, 26)
         Me.txtTelefono.TabIndex = 286
         '
@@ -402,6 +406,9 @@ Partial Class Frm_Cliente
         Me.txtCelular.Properties.Appearance.ForeColor = System.Drawing.Color.Black
         Me.txtCelular.Properties.Appearance.Options.UseBackColor = True
         Me.txtCelular.Properties.Appearance.Options.UseForeColor = True
+        Me.txtCelular.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Numeric
+        Me.txtCelular.Properties.Mask.EditMask = "d"
+        Me.txtCelular.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
         Me.txtCelular.Size = New System.Drawing.Size(151, 26)
         Me.txtCelular.TabIndex = 288
         '

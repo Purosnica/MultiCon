@@ -24,6 +24,17 @@ Public Class FrmCat_General
             Case "Tasa"
                 Dim x As New Frm_AgreTC
                 x.ShowDialog()
+
+            Case "Pais"
+                Dim x As New FrmPais
+                x.ShowDialog()
+            Case "Cliente"
+                Dim x As New Frm_Cliente
+                x.ShowDialog()
+            Case "Identificaciones"
+                Dim x As New FrmIdentificaciones
+                x.ShowDialog()
+
         End Select
     End Sub
 
@@ -48,6 +59,15 @@ Public Class FrmCat_General
                 conect.CargaGrid(gridproveedor, "Select * from Tbl_Tasacambio ", "Tbl_Tasacambio", "")
                 gvproveedor.BestFitColumns()
                 btnEdita.Visibility = DevExpress.XtraBars.BarItemVisibility.Never
+            Case "Pais"
+                conect.CargaGrid(gridproveedor, "Select CodPais,Descripcion from Tbl_Pais where Estado=1", "Tbl_Pais", "")
+                gvproveedor.BestFitColumns()
+            Case "Cliente"
+                Dim x As New Frm_Cliente
+                x.ShowDialog()
+            Case "Identificaciones"
+                conect.CargaGrid(gridproveedor, "Select IdTipoIdentificacion Codigo,Descripcion from Tbl_TipoIdentificacion where Estado=1", "Tbl_TipoIdentificacion", "")
+                gvproveedor.BestFitColumns()
         End Select
     End Sub
     Private Sub btnEdita_ItemClick(sender As Object, e As DevExpress.XtraBars.ItemClickEventArgs) Handles btnEdita.ItemClick
@@ -90,11 +110,36 @@ Public Class FrmCat_General
                 gvproveedor.BestFitColumns()
 
             Case "Departamento"
-                Dim x As New Frm_Departamento
+                Dim x As New FrmPais
                 x.Tipo = 1
                 x.Codigo = gvproveedor.GetFocusedRow(0)
                 x.ShowDialog()
                 conect.CargaGrid(gridproveedor, "Select * from Tbl_Departamento ", "Tbl_Departamento", "")
+                gvproveedor.BestFitColumns()
+
+
+            Case "Pais"
+                Dim x As New Frm_Departamento
+                x.Tipo = 1
+                x.Codigo = gvproveedor.GetFocusedRow(0)
+                x.btnGuardar.Text = "Editar"
+                x.ShowDialog()
+                conect.CargaGrid(gridproveedor, "Select Select CodPais,Descripcion from Tbl_Pais where Estado=1", "Tbl_Pais", "")
+                gvproveedor.BestFitColumns()
+            Case "Cliente"
+                Dim x As New Frm_Cliente
+                x.Tipo = 1
+                x.codigo = gvproveedor.GetFocusedRow(0)
+                x.btnGuardar.Text = "Editar"
+                x.ShowDialog()
+                x.ShowDialog()
+            Case "Identificaciones"
+                Dim x As New FrmIdentificaciones
+                x.Tipo = 1
+                x.Codigo = gvproveedor.GetFocusedRow(0)
+                x.btnGuardar.Text = "Editar"
+                x.ShowDialog()
+                conect.CargaGrid(gridproveedor, "Select IdTipoIdentificacion Codigo,Descripcion from Tbl_TipoIdentificacion where Estado=1", "Tbl_TipoIdentificacion", "")
                 gvproveedor.BestFitColumns()
         End Select
     End Sub
