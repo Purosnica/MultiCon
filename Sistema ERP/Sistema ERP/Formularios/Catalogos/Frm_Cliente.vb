@@ -21,29 +21,17 @@ Public Class Frm_Cliente
 
             MsgBox("Favor complete los campos", MsgBoxStyle.Information)
         Else
-            With _Client
-                .Apellidos = txtApellidos.EditValue
-                .Nombre = txtNombres.EditValue
-                .Correo = txtCorreo.EditValue
-                .FechaNacimiento = FechaCumple.EditValue
-                .FechaRegistro = DateTime.Now
-                .FechaModificacion = DateTime.Now
-                .IdPais = cmbPais.EditValue
-                .IdTipoIdentificacion = CmbTipoidentificacion.EditValue
-                .IdTipoPersona = cmbtipopersona.EditValue
-                .Telefono_Casa = txtTelefono.EditValue
-                .Telefono_Celular = txtCelular.EditValue
-                .Estado = True
 
+            If conect1.EjecutaSQL("INSERT INTO [dbo].[Tbl_Clientes]([Nombre],[Apellidos],[FechaNacimiento],[IdTipoIdentificacion] ,[Cedula],[IdTipoPersona],[IdPais],[Correo],[Telefono_Casa],[Telefono_Celular],[Estado],[FechaRegistro])VALUES ('" & txtNombres.EditValue & "','" & txtApellidos.EditValue & "','" & Format(CDate(FechaCumple.EditValue), "yyyy-MM-dd HH:mm:ss") & "'," & CmbTipoidentificacion.EditValue & ",'" & txtIdentificacion.EditValue & "'," & cmbtipopersona.EditValue & "," & cmbPais.EditValue & ",'" & txtCorreo.EditValue & "'," & txtTelefono.EditValue & "," & txtCelular.EditValue & ",1,getdate())") = True Then
 
+                MsgBox("Registro Guardo Exitosamente", MsgBoxStyle.Information)
+                Me.Close()
 
-            End With
-            _Entities.Tbl_Clientes.Add(_Client)
-            _Entities.SaveChanges()
-
-
-
+            Else
+                MsgBox("Hubo un Error al Registrar ", MsgBoxStyle.Critical)
+            End If
         End If
+
     End Sub
 
     Private Sub Frm_Cliente_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -91,12 +79,8 @@ Public Class Frm_Cliente
             _ReturnValidate = False
         End If
 
-
         Return _ReturnValidate
 
     End Function
-
-
-
 
 End Class

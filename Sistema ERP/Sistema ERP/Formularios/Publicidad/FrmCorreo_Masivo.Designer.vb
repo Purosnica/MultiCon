@@ -22,19 +22,21 @@ Partial Class FrmCorreo_Masivo
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmCorreo_Masivo))
         Me.MetroStatusBar2 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
         Me.MetroStatusBar5 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
         Me.MetroStatusBar1 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
         Me.MetroStatusBar4 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
+        Me.btnSalir = New DevExpress.XtraEditors.SimpleButton()
+        Me.btnCargaCliente = New DevExpress.XtraEditors.SimpleButton()
+        Me.btnLimpiarC = New DevExpress.XtraEditors.SimpleButton()
         Me.GridControl2 = New DevExpress.XtraGrid.GridControl()
         Me.GridView2 = New DevExpress.XtraGrid.Views.Grid.GridView()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
-        Me.Btnsalir = New DevExpress.XtraEditors.SimpleButton()
-        Me.btnGuardar = New DevExpress.XtraEditors.SimpleButton()
+        Me.btnEnviar = New DevExpress.XtraEditors.SimpleButton()
+        Me.btnasignarImg = New DevExpress.XtraEditors.SimpleButton()
+        Me.btnLimpiarImg = New DevExpress.XtraEditors.SimpleButton()
         Me.PictureEdit1 = New DevExpress.XtraEditors.PictureEdit()
         Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
         Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
@@ -43,7 +45,7 @@ Partial Class FrmCorreo_Masivo
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtdescri = New DevExpress.XtraEditors.TextEdit()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
+        Me.XtraOpenFileDialog1 = New DevExpress.XtraEditors.XtraOpenFileDialog(Me.components)
         Me.GroupBox1.SuspendLayout()
         CType(Me.GridControl2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridView2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -138,13 +140,13 @@ Partial Class FrmCorreo_Masivo
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.SimpleButton4)
-        Me.GroupBox1.Controls.Add(Me.SimpleButton3)
-        Me.GroupBox1.Controls.Add(Me.SimpleButton2)
+        Me.GroupBox1.Controls.Add(Me.btnSalir)
+        Me.GroupBox1.Controls.Add(Me.btnCargaCliente)
+        Me.GroupBox1.Controls.Add(Me.btnLimpiarC)
         Me.GroupBox1.Controls.Add(Me.GridControl2)
-        Me.GroupBox1.Controls.Add(Me.SimpleButton1)
-        Me.GroupBox1.Controls.Add(Me.Btnsalir)
-        Me.GroupBox1.Controls.Add(Me.btnGuardar)
+        Me.GroupBox1.Controls.Add(Me.btnEnviar)
+        Me.GroupBox1.Controls.Add(Me.btnasignarImg)
+        Me.GroupBox1.Controls.Add(Me.btnLimpiarImg)
         Me.GroupBox1.Controls.Add(Me.PictureEdit1)
         Me.GroupBox1.Controls.Add(Me.GridControl1)
         Me.GroupBox1.Controls.Add(Me.Label2)
@@ -159,25 +161,35 @@ Partial Class FrmCorreo_Masivo
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Datos del Envio"
         '
-        'SimpleButton3
+        'btnSalir
         '
-        Me.SimpleButton3.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
-        Me.SimpleButton3.ImageOptions.Image = CType(resources.GetObject("SimpleButton3.ImageOptions.Image"), System.Drawing.Image)
-        Me.SimpleButton3.Location = New System.Drawing.Point(728, 33)
-        Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(138, 29)
-        Me.SimpleButton3.TabIndex = 273
-        Me.SimpleButton3.Text = "Carga Cliente"
+        Me.btnSalir.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.btnSalir.ImageOptions.Image = CType(resources.GetObject("btnSalir.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnSalir.Location = New System.Drawing.Point(753, 409)
+        Me.btnSalir.Name = "btnSalir"
+        Me.btnSalir.Size = New System.Drawing.Size(109, 29)
+        Me.btnSalir.TabIndex = 274
+        Me.btnSalir.Text = "Cancelar"
         '
-        'SimpleButton2
+        'btnCargaCliente
         '
-        Me.SimpleButton2.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
-        Me.SimpleButton2.ImageOptions.Image = CType(resources.GetObject("SimpleButton2.ImageOptions.Image"), System.Drawing.Image)
-        Me.SimpleButton2.Location = New System.Drawing.Point(638, 33)
-        Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(84, 29)
-        Me.SimpleButton2.TabIndex = 272
-        Me.SimpleButton2.Text = "Limpiar"
+        Me.btnCargaCliente.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.btnCargaCliente.ImageOptions.Image = CType(resources.GetObject("btnCargaCliente.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnCargaCliente.Location = New System.Drawing.Point(728, 33)
+        Me.btnCargaCliente.Name = "btnCargaCliente"
+        Me.btnCargaCliente.Size = New System.Drawing.Size(138, 29)
+        Me.btnCargaCliente.TabIndex = 273
+        Me.btnCargaCliente.Text = "Carga Cliente"
+        '
+        'btnLimpiarC
+        '
+        Me.btnLimpiarC.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.btnLimpiarC.ImageOptions.Image = CType(resources.GetObject("btnLimpiarC.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnLimpiarC.Location = New System.Drawing.Point(638, 33)
+        Me.btnLimpiarC.Name = "btnLimpiarC"
+        Me.btnLimpiarC.Size = New System.Drawing.Size(84, 29)
+        Me.btnLimpiarC.TabIndex = 272
+        Me.btnLimpiarC.Text = "Limpiar"
         '
         'GridControl2
         '
@@ -194,34 +206,34 @@ Partial Class FrmCorreo_Masivo
         Me.GridView2.Name = "GridView2"
         Me.GridView2.OptionsView.ShowGroupPanel = False
         '
-        'SimpleButton1
+        'btnEnviar
         '
-        Me.SimpleButton1.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
-        Me.SimpleButton1.ImageOptions.Image = CType(resources.GetObject("SimpleButton1.ImageOptions.Image"), System.Drawing.Image)
-        Me.SimpleButton1.Location = New System.Drawing.Point(638, 409)
-        Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(109, 29)
-        Me.SimpleButton1.TabIndex = 270
-        Me.SimpleButton1.Text = "Enviar"
+        Me.btnEnviar.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.btnEnviar.ImageOptions.Image = CType(resources.GetObject("btnEnviar.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnEnviar.Location = New System.Drawing.Point(638, 409)
+        Me.btnEnviar.Name = "btnEnviar"
+        Me.btnEnviar.Size = New System.Drawing.Size(109, 29)
+        Me.btnEnviar.TabIndex = 270
+        Me.btnEnviar.Text = "Enviar"
         '
-        'Btnsalir
+        'btnasignarImg
         '
-        Me.Btnsalir.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
-        Me.Btnsalir.ImageOptions.Image = CType(resources.GetObject("Btnsalir.ImageOptions.Image"), System.Drawing.Image)
-        Me.Btnsalir.Location = New System.Drawing.Point(457, 75)
-        Me.Btnsalir.Name = "Btnsalir"
-        Me.Btnsalir.Size = New System.Drawing.Size(174, 29)
-        Me.Btnsalir.TabIndex = 269
-        Me.Btnsalir.Text = "Asignar Imagen"
+        Me.btnasignarImg.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.btnasignarImg.ImageOptions.Image = CType(resources.GetObject("btnasignarImg.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnasignarImg.Location = New System.Drawing.Point(457, 75)
+        Me.btnasignarImg.Name = "btnasignarImg"
+        Me.btnasignarImg.Size = New System.Drawing.Size(174, 29)
+        Me.btnasignarImg.TabIndex = 269
+        Me.btnasignarImg.Text = "Asignar Imagen"
         '
-        'btnGuardar
+        'btnLimpiarImg
         '
-        Me.btnGuardar.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
-        Me.btnGuardar.ImageOptions.Image = CType(resources.GetObject("btnGuardar.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnGuardar.Location = New System.Drawing.Point(421, 75)
-        Me.btnGuardar.Name = "btnGuardar"
-        Me.btnGuardar.Size = New System.Drawing.Size(30, 29)
-        Me.btnGuardar.TabIndex = 268
+        Me.btnLimpiarImg.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.btnLimpiarImg.ImageOptions.Image = CType(resources.GetObject("btnLimpiarImg.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnLimpiarImg.Location = New System.Drawing.Point(421, 75)
+        Me.btnLimpiarImg.Name = "btnLimpiarImg"
+        Me.btnLimpiarImg.Size = New System.Drawing.Size(30, 29)
+        Me.btnLimpiarImg.TabIndex = 268
         '
         'PictureEdit1
         '
@@ -286,7 +298,7 @@ Partial Class FrmCorreo_Masivo
         Me.txtdescri.Properties.Appearance.ForeColor = System.Drawing.Color.Black
         Me.txtdescri.Properties.Appearance.Options.UseBackColor = True
         Me.txtdescri.Properties.Appearance.Options.UseForeColor = True
-        Me.txtdescri.Size = New System.Drawing.Size(531, 26)
+        Me.txtdescri.Size = New System.Drawing.Size(531, 20)
         Me.txtdescri.TabIndex = 262
         '
         'Label6
@@ -301,19 +313,13 @@ Partial Class FrmCorreo_Masivo
         Me.Label6.Text = "Asunto"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'SimpleButton4
+        'XtraOpenFileDialog1
         '
-        Me.SimpleButton4.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
-        Me.SimpleButton4.ImageOptions.Image = CType(resources.GetObject("SimpleButton4.ImageOptions.Image"), System.Drawing.Image)
-        Me.SimpleButton4.Location = New System.Drawing.Point(753, 409)
-        Me.SimpleButton4.Name = "SimpleButton4"
-        Me.SimpleButton4.Size = New System.Drawing.Size(109, 29)
-        Me.SimpleButton4.TabIndex = 274
-        Me.SimpleButton4.Text = "Cancelar"
+        Me.XtraOpenFileDialog1.FileName = "XtraOpenFileDialog1"
         '
         'FrmCorreo_Masivo
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 23.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.ClientSize = New System.Drawing.Size(906, 476)
@@ -353,12 +359,13 @@ Partial Class FrmCorreo_Masivo
     Friend WithEvents Label1 As Label
     Friend WithEvents txtdescri As DevExpress.XtraEditors.TextEdit
     Friend WithEvents Label6 As Label
-    Friend WithEvents Btnsalir As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents btnGuardar As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btnasignarImg As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btnLimpiarImg As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents GridControl2 As DevExpress.XtraGrid.GridControl
     Friend WithEvents GridView2 As DevExpress.XtraGrid.Views.Grid.GridView
-    Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton4 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btnEnviar As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btnCargaCliente As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btnLimpiarC As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btnSalir As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents XtraOpenFileDialog1 As DevExpress.XtraEditors.XtraOpenFileDialog
 End Class

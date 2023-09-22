@@ -88,6 +88,8 @@ Public Class Conexion
             MsgBox(ex.ToString, vbCritical)
         End Try
     End Sub
+
+
     'Insertar o ejecutar cualquier consulta sql'
     Public Function EjecutaSQL(SQLSTR As String)
         Dim _result As Boolean = False

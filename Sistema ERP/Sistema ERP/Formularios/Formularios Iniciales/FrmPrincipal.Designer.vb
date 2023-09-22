@@ -68,6 +68,8 @@ Partial Public Class FrmPrincipal
         Me.btnCorreoMasivos = New DevExpress.XtraBars.BarButtonItem()
         Me.btnPais = New DevExpress.XtraBars.BarButtonItem()
         Me.btnIdentificacion = New DevExpress.XtraBars.BarButtonItem()
+        Me.btncampana = New DevExpress.XtraBars.BarButtonItem()
+        Me.btnOcupacion = New DevExpress.XtraBars.BarButtonItem()
         Me.RibbonPage1 = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.RibbonPageGroup1 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPageGroup9 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
@@ -89,6 +91,7 @@ Partial Public Class FrmPrincipal
         Me.RibbonPageGroup13 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPage2 = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.XtraTabbedMdiManager1 = New DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(Me.components)
+        Me.BarButtonItem5 = New DevExpress.XtraBars.BarButtonItem()
         CType(Me.ApplicationMenu1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RibbonControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.XtraTabbedMdiManager1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -103,9 +106,9 @@ Partial Public Class FrmPrincipal
         '
         Me.RibbonControl1.ApplicationButtonDropDownControl = Me.ApplicationMenu1
         Me.RibbonControl1.ExpandCollapseItem.Id = 0
-        Me.RibbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl1.ExpandCollapseItem, Me.BarButtonItem1, Me.BarButtonItem2, Me.BarButtonItem4, Me.BarButtonItem3, Me.btnPass, Me.btnAsignarPermiso, Me.BarButtonItem7, Me.btnarea, Me.BarButtonItem8, Me.BarButtonItem9, Me.btnproveedor, Me.btnproductos, Me.btnNuevaSol, Me.btnRecepcionSol, Me.btnAsignarSol, Me.btndepartamentos, Me.btnunidadmedida, Me.BtnServicios, Me.btncorreo, Me.btnCotizaciones, Me.btnAdjudicaciones, Me.btngenerarOC, Me.btnImprimirOc, Me.btnCorreoOC, Me.btnSolicitantes, Me.btntasa, Me.BarSubItem1, Me.BarSubItem2, Me.BarSubItem3, Me.BarSubItem4, Me.cmd_CatCuenta, Me.cmd_AsientoD, Me.cmdCta_Comprobante, Me.cmdTasa, Me.cmdSalir, Me.BarButtonItem12, Me.btnCliente, Me.btnCorreoMasivos, Me.btnPais, Me.btnIdentificacion})
+        Me.RibbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl1.ExpandCollapseItem, Me.BarButtonItem1, Me.BarButtonItem2, Me.BarButtonItem4, Me.BarButtonItem3, Me.btnPass, Me.btnAsignarPermiso, Me.BarButtonItem7, Me.btnarea, Me.BarButtonItem8, Me.BarButtonItem9, Me.btnproveedor, Me.btnproductos, Me.btnNuevaSol, Me.btnRecepcionSol, Me.btnAsignarSol, Me.btndepartamentos, Me.btnunidadmedida, Me.BtnServicios, Me.btncorreo, Me.btnCotizaciones, Me.btnAdjudicaciones, Me.btngenerarOC, Me.btnImprimirOc, Me.btnCorreoOC, Me.btnSolicitantes, Me.btntasa, Me.BarSubItem1, Me.BarSubItem2, Me.BarSubItem3, Me.BarSubItem4, Me.cmd_CatCuenta, Me.cmd_AsientoD, Me.cmdCta_Comprobante, Me.cmdTasa, Me.cmdSalir, Me.BarButtonItem12, Me.btnCliente, Me.btnCorreoMasivos, Me.btnPais, Me.btnIdentificacion, Me.btncampana, Me.btnOcupacion, Me.BarButtonItem5})
         Me.RibbonControl1.Location = New System.Drawing.Point(0, 0)
-        Me.RibbonControl1.MaxItemId = 48
+        Me.RibbonControl1.MaxItemId = 51
         Me.RibbonControl1.Name = "RibbonControl1"
         Me.RibbonControl1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.RibbonPage1, Me.RibbonPage3, Me.RibbonPage6, Me.RibbonPage4, Me.RibbonPage5, Me.RibbonPage7})
         Me.RibbonControl1.Size = New System.Drawing.Size(1209, 143)
@@ -146,16 +149,16 @@ Partial Public Class FrmPrincipal
         '
         Me.btnPass.Caption = "Cambiar Contraseña"
         Me.btnPass.Id = 8
-        Me.btnPass.ImageOptions.Image = CType(resources.GetObject("BarButtonItem5.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnPass.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem5.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.btnPass.ImageOptions.Image = CType(resources.GetObject("btnPass.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnPass.ImageOptions.LargeImage = CType(resources.GetObject("btnPass.ImageOptions.LargeImage"), System.Drawing.Image)
         Me.btnPass.Name = "btnPass"
         '
         'btnAsignarPermiso
         '
         Me.btnAsignarPermiso.Caption = "Asignar Permisos"
         Me.btnAsignarPermiso.Id = 9
-        Me.btnAsignarPermiso.ImageOptions.Image = CType(resources.GetObject("BarButtonItem6.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnAsignarPermiso.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem6.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.btnAsignarPermiso.ImageOptions.Image = CType(resources.GetObject("btnAsignarPermiso.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnAsignarPermiso.ImageOptions.LargeImage = CType(resources.GetObject("btnAsignarPermiso.ImageOptions.LargeImage"), System.Drawing.Image)
         Me.btnAsignarPermiso.Name = "btnAsignarPermiso"
         '
         'BarButtonItem7
@@ -215,14 +218,14 @@ Partial Public Class FrmPrincipal
         '
         Me.btnRecepcionSol.Caption = "Recepcionar Solicitud"
         Me.btnRecepcionSol.Id = 17
-        Me.btnRecepcionSol.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem13.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.btnRecepcionSol.ImageOptions.LargeImage = CType(resources.GetObject("btnRecepcionSol.ImageOptions.LargeImage"), System.Drawing.Image)
         Me.btnRecepcionSol.Name = "btnRecepcionSol"
         '
         'btnAsignarSol
         '
         Me.btnAsignarSol.Caption = "Asignar"
         Me.btnAsignarSol.Id = 18
-        Me.btnAsignarSol.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem14.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.btnAsignarSol.ImageOptions.LargeImage = CType(resources.GetObject("btnAsignarSol.ImageOptions.LargeImage"), System.Drawing.Image)
         Me.btnAsignarSol.Name = "btnAsignarSol"
         '
         'btndepartamentos
@@ -260,16 +263,16 @@ Partial Public Class FrmPrincipal
         '
         Me.btnCotizaciones.Caption = "Cotizaciones"
         Me.btnCotizaciones.Id = 23
-        Me.btnCotizaciones.ImageOptions.Image = CType(resources.GetObject("BarButtonItem10.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnCotizaciones.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem10.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.btnCotizaciones.ImageOptions.Image = CType(resources.GetObject("btnCotizaciones.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnCotizaciones.ImageOptions.LargeImage = CType(resources.GetObject("btnCotizaciones.ImageOptions.LargeImage"), System.Drawing.Image)
         Me.btnCotizaciones.Name = "btnCotizaciones"
         '
         'btnAdjudicaciones
         '
         Me.btnAdjudicaciones.Caption = "Adjudicaciones"
         Me.btnAdjudicaciones.Id = 24
-        Me.btnAdjudicaciones.ImageOptions.Image = CType(resources.GetObject("BarButtonItem11.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnAdjudicaciones.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem11.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.btnAdjudicaciones.ImageOptions.Image = CType(resources.GetObject("btnAdjudicaciones.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnAdjudicaciones.ImageOptions.LargeImage = CType(resources.GetObject("btnAdjudicaciones.ImageOptions.LargeImage"), System.Drawing.Image)
         Me.btnAdjudicaciones.Name = "btnAdjudicaciones"
         '
         'btngenerarOC
@@ -283,8 +286,8 @@ Partial Public Class FrmPrincipal
         '
         Me.btnImprimirOc.Caption = "Imprimir OC"
         Me.btnImprimirOc.Id = 26
-        Me.btnImprimirOc.ImageOptions.Image = CType(resources.GetObject("BarButtonItem15.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnImprimirOc.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem15.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.btnImprimirOc.ImageOptions.Image = CType(resources.GetObject("btnImprimirOc.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnImprimirOc.ImageOptions.LargeImage = CType(resources.GetObject("btnImprimirOc.ImageOptions.LargeImage"), System.Drawing.Image)
         Me.btnImprimirOc.Name = "btnImprimirOc"
         '
         'btnCorreoOC
@@ -422,6 +425,20 @@ Partial Public Class FrmPrincipal
         Me.btnIdentificacion.ImageOptions.LargeImage = CType(resources.GetObject("btnIdentificacion.ImageOptions.LargeImage"), System.Drawing.Image)
         Me.btnIdentificacion.Name = "btnIdentificacion"
         '
+        'btncampana
+        '
+        Me.btncampana.Caption = "Campañas"
+        Me.btncampana.Id = 48
+        Me.btncampana.ImageOptions.LargeImage = CType(resources.GetObject("btncampana.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.btncampana.Name = "btncampana"
+        '
+        'btnOcupacion
+        '
+        Me.btnOcupacion.Caption = "Ocupacion"
+        Me.btnOcupacion.Id = 49
+        Me.btnOcupacion.ImageOptions.LargeImage = CType(resources.GetObject("btnOcupacion.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.btnOcupacion.Name = "btnOcupacion"
+        '
         'RibbonPage1
         '
         Me.RibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup1, Me.RibbonPageGroup9, Me.RibbonPageGroup2})
@@ -447,6 +464,7 @@ Partial Public Class FrmPrincipal
         Me.RibbonPageGroup9.ItemLinks.Add(Me.btntasa)
         Me.RibbonPageGroup9.ItemLinks.Add(Me.btnPais)
         Me.RibbonPageGroup9.ItemLinks.Add(Me.btnIdentificacion)
+        Me.RibbonPageGroup9.ItemLinks.Add(Me.btnOcupacion)
         Me.RibbonPageGroup9.Name = "RibbonPageGroup9"
         Me.RibbonPageGroup9.Text = "Catalagos del Sistema"
         '
@@ -499,6 +517,8 @@ Partial Public Class FrmPrincipal
         '
         'RibbonPageGroup12
         '
+        Me.RibbonPageGroup12.ItemLinks.Add(Me.BarButtonItem5)
+        Me.RibbonPageGroup12.ItemLinks.Add(Me.btncampana)
         Me.RibbonPageGroup12.ItemLinks.Add(Me.btnCorreoMasivos)
         Me.RibbonPageGroup12.Name = "RibbonPageGroup12"
         Me.RibbonPageGroup12.Text = "Email Marketing"
@@ -563,6 +583,13 @@ Partial Public Class FrmPrincipal
         'XtraTabbedMdiManager1
         '
         Me.XtraTabbedMdiManager1.MdiParent = Me
+        '
+        'BarButtonItem5
+        '
+        Me.BarButtonItem5.Caption = "Segmento"
+        Me.BarButtonItem5.Id = 50
+        Me.BarButtonItem5.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem5.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.BarButtonItem5.Name = "BarButtonItem5"
         '
         'FrmPrincipal
         '
@@ -648,6 +675,9 @@ Partial Public Class FrmPrincipal
     Friend WithEvents XtraTabbedMdiManager1 As DevExpress.XtraTabbedMdi.XtraTabbedMdiManager
     Friend WithEvents btnPais As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents btnIdentificacion As DevExpress.XtraBars.BarButtonItem
+    Friend WithEvents btncampana As DevExpress.XtraBars.BarButtonItem
+    Friend WithEvents btnOcupacion As DevExpress.XtraBars.BarButtonItem
+    Friend WithEvents BarButtonItem5 As DevExpress.XtraBars.BarButtonItem
 
 #End Region
 End Class

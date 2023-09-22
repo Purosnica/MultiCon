@@ -1,7 +1,15 @@
-﻿Imports System.Text.RegularExpressions
+﻿Imports System.Drawing.Drawing2D
+Imports System.Text.RegularExpressions
 
 Public Class FunctionHelper
-
+    Public Function CambiarTamanoImagen(pImagen As Image, pAncho As Integer, pAlto As Integer) As Image
+        Dim vBitmap As Bitmap = New Bitmap(pAncho, pAlto)
+        Using vGraphics = Graphics.FromImage(TryCast(vBitmap, Image))
+            vGraphics.InterpolationMode = InterpolationMode.HighQualityBicubic
+            vGraphics.DrawImage(pImagen, 0, 0, pAncho, pAlto)
+        End Using
+        Return TryCast(vBitmap, Image)
+    End Function
 
     Public Function emailaddresscheck(ByVal emailaddress As String) As Boolean
         Dim pattern As String = "\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"

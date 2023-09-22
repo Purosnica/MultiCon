@@ -122,7 +122,7 @@ Partial Public Class FrmPrincipal
 
     Private Sub btnCliente_ItemClick(sender As Object, e As ItemClickEventArgs) Handles btnCliente.ItemClick
         Dim x As New FrmCat_General
-        x.Llamadatos = "Clientes"
+        x.Llamadatos = "Cliente"
         x.Text = "Catalago de Cliente"
         x.MdiParent = Me
         x.Show()
