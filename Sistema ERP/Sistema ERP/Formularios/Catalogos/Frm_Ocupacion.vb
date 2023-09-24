@@ -17,7 +17,7 @@ Public Class Frm_Ocupacion
                 MsgBox("Debe Llenar los Campos Requeridos", MsgBoxStyle.Critical)
                 Exit Sub
             Else
-                If conect1.EjecutaSQL("Update Tbl_Ocupacion Descripcion ='" & txtdescri.EditValue.ToString.ToUpper.Trim & "' where IdOcupacion = '" & Codigo & "'") = True Then
+                If conect1.EjecutaSQL("Update Tbl_Ocupacion set Descripcion ='" & txtdescri.EditValue.ToString.ToUpper.Trim & "' where IdOcupacion = '" & Codigo & "'") = True Then
                     MsgBox("Registro Editado Exitosamente", MsgBoxStyle.Information)
                     Me.Close()
                 Else

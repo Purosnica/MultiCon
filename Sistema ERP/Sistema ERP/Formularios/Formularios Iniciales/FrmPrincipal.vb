@@ -149,4 +149,28 @@ Partial Public Class FrmPrincipal
         x.MdiParent = Me
         x.Show()
     End Sub
+
+    Private Sub btnOcupacion_ItemClick(sender As Object, e As ItemClickEventArgs) Handles btnOcupacion.ItemClick
+        Dim x As New FrmCat_General
+        x.Llamadatos = "Ocupacion"
+        x.Text = "Catalago Ocupaciones"
+        x.MdiParent = Me
+        x.Show()
+    End Sub
+
+    Private Sub btnSegmento_ItemClick(sender As Object, e As ItemClickEventArgs) Handles btnSegmento.ItemClick
+        Dim x As New FrmCat_General
+        x.Llamadatos = "Segmento"
+        x.Text = "Segmento"
+        x.MdiParent = Me
+        x.Show()
+    End Sub
+
+    Private Sub btncampana_ItemClick(sender As Object, e As ItemClickEventArgs) Handles btncampana.ItemClick
+        Dim x As New FrmCat_General
+        x.Llamadatos = "campana"
+        x.Text = "Catalago de Campañas"
+        x.MdiParent = Me
+        x.Show()
+    End Sub
 End Class

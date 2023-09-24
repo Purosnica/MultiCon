@@ -179,7 +179,7 @@ Partial Class FrmCorreo_Masivo
         Me.btnCargaCliente.Name = "btnCargaCliente"
         Me.btnCargaCliente.Size = New System.Drawing.Size(138, 29)
         Me.btnCargaCliente.TabIndex = 273
-        Me.btnCargaCliente.Text = "Carga Cliente"
+        Me.btnCargaCliente.Text = "Carga Campaña"
         '
         'btnLimpiarC
         '

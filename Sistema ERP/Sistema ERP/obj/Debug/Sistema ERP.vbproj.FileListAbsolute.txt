@@ -620,3 +620,6 @@ C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmPais.resources
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.Dialogs.v17.2.Core.dll
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.XtraDialogs.v17.2.dll
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Ocupacion.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Campañas.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Segmento.resources

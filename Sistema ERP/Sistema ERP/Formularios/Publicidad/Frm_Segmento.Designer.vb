@@ -35,8 +35,12 @@ Partial Class Frm_Segmento
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.cmbtipopersona = New DevExpress.XtraEditors.LookUpEdit()
+        Me.cmbOcupacion = New DevExpress.XtraEditors.LookUpEdit()
         CType(Me.txtdescri.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtauto.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.cmbtipopersona.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.cmbOcupacion.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MetroStatusBar2
@@ -53,9 +57,9 @@ Partial Class Frm_Segmento
         Me.MetroStatusBar2.Font = New System.Drawing.Font("Segoe UI", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MetroStatusBar2.ForeColor = System.Drawing.Color.Black
         Me.MetroStatusBar2.ItemSpacing = 10
-        Me.MetroStatusBar2.Location = New System.Drawing.Point(502, 10)
+        Me.MetroStatusBar2.Location = New System.Drawing.Point(428, 10)
         Me.MetroStatusBar2.Name = "MetroStatusBar2"
-        Me.MetroStatusBar2.Size = New System.Drawing.Size(11, 200)
+        Me.MetroStatusBar2.Size = New System.Drawing.Size(11, 164)
         Me.MetroStatusBar2.TabIndex = 257
         Me.MetroStatusBar2.TabStop = False
         Me.MetroStatusBar2.Text = "MetroStatusBar2"
@@ -74,9 +78,9 @@ Partial Class Frm_Segmento
         Me.MetroStatusBar5.Font = New System.Drawing.Font("Segoe UI", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MetroStatusBar5.ForeColor = System.Drawing.Color.Black
         Me.MetroStatusBar5.ItemSpacing = 10
-        Me.MetroStatusBar5.Location = New System.Drawing.Point(11, 210)
+        Me.MetroStatusBar5.Location = New System.Drawing.Point(11, 174)
         Me.MetroStatusBar5.Name = "MetroStatusBar5"
-        Me.MetroStatusBar5.Size = New System.Drawing.Size(502, 10)
+        Me.MetroStatusBar5.Size = New System.Drawing.Size(428, 10)
         Me.MetroStatusBar5.TabIndex = 256
         Me.MetroStatusBar5.TabStop = False
         Me.MetroStatusBar5.Text = "MetroStatusBar5"
@@ -97,7 +101,7 @@ Partial Class Frm_Segmento
         Me.MetroStatusBar1.ItemSpacing = 10
         Me.MetroStatusBar1.Location = New System.Drawing.Point(0, 10)
         Me.MetroStatusBar1.Name = "MetroStatusBar1"
-        Me.MetroStatusBar1.Size = New System.Drawing.Size(11, 210)
+        Me.MetroStatusBar1.Size = New System.Drawing.Size(11, 174)
         Me.MetroStatusBar1.TabIndex = 255
         Me.MetroStatusBar1.TabStop = False
         Me.MetroStatusBar1.Text = "MetroStatusBar1"
@@ -118,15 +122,15 @@ Partial Class Frm_Segmento
         Me.MetroStatusBar4.ItemSpacing = 10
         Me.MetroStatusBar4.Location = New System.Drawing.Point(0, 0)
         Me.MetroStatusBar4.Name = "MetroStatusBar4"
-        Me.MetroStatusBar4.Size = New System.Drawing.Size(513, 10)
+        Me.MetroStatusBar4.Size = New System.Drawing.Size(439, 10)
         Me.MetroStatusBar4.TabIndex = 254
         Me.MetroStatusBar4.TabStop = False
         '
         'txtdescri
         '
-        Me.txtdescri.Location = New System.Drawing.Point(116, 143)
+        Me.txtdescri.Location = New System.Drawing.Point(116, 108)
         Me.txtdescri.Name = "txtdescri"
-        Me.txtdescri.Size = New System.Drawing.Size(376, 20)
+        Me.txtdescri.Size = New System.Drawing.Size(301, 20)
         Me.txtdescri.TabIndex = 282
         '
         'txtauto
@@ -146,7 +150,7 @@ Partial Class Frm_Segmento
         '
         Me.Btnsalir.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.Btnsalir.ImageOptions.Image = CType(resources.GetObject("Btnsalir.ImageOptions.Image"), System.Drawing.Image)
-        Me.Btnsalir.Location = New System.Drawing.Point(413, 169)
+        Me.Btnsalir.Location = New System.Drawing.Point(336, 134)
         Me.Btnsalir.Name = "Btnsalir"
         Me.Btnsalir.Size = New System.Drawing.Size(79, 29)
         Me.Btnsalir.TabIndex = 280
@@ -156,7 +160,7 @@ Partial Class Frm_Segmento
         '
         Me.btnGuardar.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.btnGuardar.ImageOptions.Image = CType(resources.GetObject("btnGuardar.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnGuardar.Location = New System.Drawing.Point(300, 169)
+        Me.btnGuardar.Location = New System.Drawing.Point(223, 134)
         Me.btnGuardar.Name = "btnGuardar"
         Me.btnGuardar.Size = New System.Drawing.Size(84, 29)
         Me.btnGuardar.TabIndex = 279
@@ -175,7 +179,7 @@ Partial Class Frm_Segmento
         'Label6
         '
         Me.Label6.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(17, 135)
+        Me.Label6.Location = New System.Drawing.Point(17, 100)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(80, 28)
         Me.Label6.TabIndex = 277
@@ -185,7 +189,7 @@ Partial Class Frm_Segmento
         'Label1
         '
         Me.Label1.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(17, 52)
+        Me.Label1.Location = New System.Drawing.Point(17, 44)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(91, 28)
         Me.Label1.TabIndex = 283
@@ -195,18 +199,52 @@ Partial Class Frm_Segmento
         'Label3
         '
         Me.Label3.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(17, 90)
+        Me.Label3.Location = New System.Drawing.Point(17, 72)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(91, 28)
         Me.Label3.TabIndex = 284
         Me.Label3.Text = "Ocupacion"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
+        'cmbtipopersona
+        '
+        Me.cmbtipopersona.Location = New System.Drawing.Point(116, 49)
+        Me.cmbtipopersona.Name = "cmbtipopersona"
+        Me.cmbtipopersona.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.cmbtipopersona.Properties.Appearance.ForeColor = System.Drawing.Color.Black
+        Me.cmbtipopersona.Properties.Appearance.Options.UseBackColor = True
+        Me.cmbtipopersona.Properties.Appearance.Options.UseForeColor = True
+        Me.cmbtipopersona.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.cmbtipopersona.Properties.DropDownRows = 4
+        Me.cmbtipopersona.Properties.NullText = ""
+        Me.cmbtipopersona.Properties.PopupSizeable = False
+        Me.cmbtipopersona.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
+        Me.cmbtipopersona.Size = New System.Drawing.Size(144, 20)
+        Me.cmbtipopersona.TabIndex = 285
+        '
+        'cmbOcupacion
+        '
+        Me.cmbOcupacion.Location = New System.Drawing.Point(116, 77)
+        Me.cmbOcupacion.Name = "cmbOcupacion"
+        Me.cmbOcupacion.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.cmbOcupacion.Properties.Appearance.ForeColor = System.Drawing.Color.Black
+        Me.cmbOcupacion.Properties.Appearance.Options.UseBackColor = True
+        Me.cmbOcupacion.Properties.Appearance.Options.UseForeColor = True
+        Me.cmbOcupacion.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.cmbOcupacion.Properties.DropDownRows = 4
+        Me.cmbOcupacion.Properties.NullText = ""
+        Me.cmbOcupacion.Properties.PopupSizeable = False
+        Me.cmbOcupacion.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
+        Me.cmbOcupacion.Size = New System.Drawing.Size(144, 20)
+        Me.cmbOcupacion.TabIndex = 286
+        '
         'Frm_Segmento
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(513, 220)
+        Me.ClientSize = New System.Drawing.Size(439, 184)
+        Me.Controls.Add(Me.cmbOcupacion)
+        Me.Controls.Add(Me.cmbtipopersona)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtdescri)
@@ -227,6 +265,8 @@ Partial Class Frm_Segmento
         Me.Text = "Segmento"
         CType(Me.txtdescri.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtauto.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.cmbtipopersona.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.cmbOcupacion.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -243,4 +283,6 @@ Partial Class Frm_Segmento
     Friend WithEvents Label6 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Label3 As Label
+    Friend WithEvents cmbtipopersona As DevExpress.XtraEditors.LookUpEdit
+    Friend WithEvents cmbOcupacion As DevExpress.XtraEditors.LookUpEdit
 End Class

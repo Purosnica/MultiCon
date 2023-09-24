@@ -70,6 +70,7 @@ Partial Public Class FrmPrincipal
         Me.btnIdentificacion = New DevExpress.XtraBars.BarButtonItem()
         Me.btncampana = New DevExpress.XtraBars.BarButtonItem()
         Me.btnOcupacion = New DevExpress.XtraBars.BarButtonItem()
+        Me.btnSegmento = New DevExpress.XtraBars.BarButtonItem()
         Me.RibbonPage1 = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.RibbonPageGroup1 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPageGroup9 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
@@ -91,7 +92,6 @@ Partial Public Class FrmPrincipal
         Me.RibbonPageGroup13 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPage2 = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.XtraTabbedMdiManager1 = New DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(Me.components)
-        Me.BarButtonItem5 = New DevExpress.XtraBars.BarButtonItem()
         CType(Me.ApplicationMenu1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RibbonControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.XtraTabbedMdiManager1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -106,7 +106,7 @@ Partial Public Class FrmPrincipal
         '
         Me.RibbonControl1.ApplicationButtonDropDownControl = Me.ApplicationMenu1
         Me.RibbonControl1.ExpandCollapseItem.Id = 0
-        Me.RibbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl1.ExpandCollapseItem, Me.BarButtonItem1, Me.BarButtonItem2, Me.BarButtonItem4, Me.BarButtonItem3, Me.btnPass, Me.btnAsignarPermiso, Me.BarButtonItem7, Me.btnarea, Me.BarButtonItem8, Me.BarButtonItem9, Me.btnproveedor, Me.btnproductos, Me.btnNuevaSol, Me.btnRecepcionSol, Me.btnAsignarSol, Me.btndepartamentos, Me.btnunidadmedida, Me.BtnServicios, Me.btncorreo, Me.btnCotizaciones, Me.btnAdjudicaciones, Me.btngenerarOC, Me.btnImprimirOc, Me.btnCorreoOC, Me.btnSolicitantes, Me.btntasa, Me.BarSubItem1, Me.BarSubItem2, Me.BarSubItem3, Me.BarSubItem4, Me.cmd_CatCuenta, Me.cmd_AsientoD, Me.cmdCta_Comprobante, Me.cmdTasa, Me.cmdSalir, Me.BarButtonItem12, Me.btnCliente, Me.btnCorreoMasivos, Me.btnPais, Me.btnIdentificacion, Me.btncampana, Me.btnOcupacion, Me.BarButtonItem5})
+        Me.RibbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl1.ExpandCollapseItem, Me.BarButtonItem1, Me.BarButtonItem2, Me.BarButtonItem4, Me.BarButtonItem3, Me.btnPass, Me.btnAsignarPermiso, Me.BarButtonItem7, Me.btnarea, Me.BarButtonItem8, Me.BarButtonItem9, Me.btnproveedor, Me.btnproductos, Me.btnNuevaSol, Me.btnRecepcionSol, Me.btnAsignarSol, Me.btndepartamentos, Me.btnunidadmedida, Me.BtnServicios, Me.btncorreo, Me.btnCotizaciones, Me.btnAdjudicaciones, Me.btngenerarOC, Me.btnImprimirOc, Me.btnCorreoOC, Me.btnSolicitantes, Me.btntasa, Me.BarSubItem1, Me.BarSubItem2, Me.BarSubItem3, Me.BarSubItem4, Me.cmd_CatCuenta, Me.cmd_AsientoD, Me.cmdCta_Comprobante, Me.cmdTasa, Me.cmdSalir, Me.BarButtonItem12, Me.btnCliente, Me.btnCorreoMasivos, Me.btnPais, Me.btnIdentificacion, Me.btncampana, Me.btnOcupacion, Me.btnSegmento})
         Me.RibbonControl1.Location = New System.Drawing.Point(0, 0)
         Me.RibbonControl1.MaxItemId = 51
         Me.RibbonControl1.Name = "RibbonControl1"
@@ -439,6 +439,13 @@ Partial Public Class FrmPrincipal
         Me.btnOcupacion.ImageOptions.LargeImage = CType(resources.GetObject("btnOcupacion.ImageOptions.LargeImage"), System.Drawing.Image)
         Me.btnOcupacion.Name = "btnOcupacion"
         '
+        'btnSegmento
+        '
+        Me.btnSegmento.Caption = "Segmento"
+        Me.btnSegmento.Id = 50
+        Me.btnSegmento.ImageOptions.LargeImage = CType(resources.GetObject("btnSegmento.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.btnSegmento.Name = "btnSegmento"
+        '
         'RibbonPage1
         '
         Me.RibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup1, Me.RibbonPageGroup9, Me.RibbonPageGroup2})
@@ -517,7 +524,7 @@ Partial Public Class FrmPrincipal
         '
         'RibbonPageGroup12
         '
-        Me.RibbonPageGroup12.ItemLinks.Add(Me.BarButtonItem5)
+        Me.RibbonPageGroup12.ItemLinks.Add(Me.btnSegmento)
         Me.RibbonPageGroup12.ItemLinks.Add(Me.btncampana)
         Me.RibbonPageGroup12.ItemLinks.Add(Me.btnCorreoMasivos)
         Me.RibbonPageGroup12.Name = "RibbonPageGroup12"
@@ -583,13 +590,6 @@ Partial Public Class FrmPrincipal
         'XtraTabbedMdiManager1
         '
         Me.XtraTabbedMdiManager1.MdiParent = Me
-        '
-        'BarButtonItem5
-        '
-        Me.BarButtonItem5.Caption = "Segmento"
-        Me.BarButtonItem5.Id = 50
-        Me.BarButtonItem5.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem5.ImageOptions.LargeImage"), System.Drawing.Image)
-        Me.BarButtonItem5.Name = "BarButtonItem5"
         '
         'FrmPrincipal
         '
@@ -677,7 +677,7 @@ Partial Public Class FrmPrincipal
     Friend WithEvents btnIdentificacion As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents btncampana As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents btnOcupacion As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents BarButtonItem5 As DevExpress.XtraBars.BarButtonItem
+    Friend WithEvents btnSegmento As DevExpress.XtraBars.BarButtonItem
 
 #End Region
 End Class
