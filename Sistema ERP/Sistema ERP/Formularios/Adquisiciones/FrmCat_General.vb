@@ -64,6 +64,12 @@ Public Class FrmCat_General
                 x.ShowDialog()
                 conect.CargaGrid(gridproveedor, "Select IdOcupacion,Descripcion from Tbl_Ocupacion where Estado=1", "Tbl_Ocupacion", "")
                 gvproveedor.BestFitColumns()
+
+            Case "profesiones"
+                Dim x As New Frm_Profesiones
+                x.ShowDialog()
+                conect.CargaGrid(gridproveedor, "Select IdOcupacion,Descripcion from Tbl_Ocupacion where Estado=1", "Tbl_Ocupacion", "")
+                gvproveedor.BestFitColumns()
         End Select
     End Sub
 
@@ -197,6 +203,14 @@ Public Class FrmCat_General
                 conect.CargaGrid(gridproveedor, "Select * from Tbl_Ocupacion where estado=1", "Tbl_Ocupacion", "")
                 gvproveedor.BestFitColumns()
 
+            Case "profesiones"
+                Dim x As New Frm_Profesiones
+                x.Tipo = 1
+                x.Codigo = gvproveedor.GetFocusedRow(0)
+                x.btnGuardar.Text = "Editar"
+                x.ShowDialog()
+                conect.CargaGrid(gridproveedor, "Select * from Tbl_Ocupacion where estado=1", "Tbl_Ocupacion", "")
+                gvproveedor.BestFitColumns()
 
             Case "Identificaciones"
                 Dim x As New FrmIdentificaciones

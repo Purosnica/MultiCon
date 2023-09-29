@@ -29,7 +29,9 @@ Public Class FunctionHelper
         Select Case _Type
             Case 1 : _SqlStr = "Insert into " + _Table + " ( "
 
-            Case 2 : _SqlStr = " Delete from " + _Table + ""
+            Case 2 : _SqlStr = "Delete from " + _Table + ""
+
+            Case 3 : _SqlStr = " Execute " + _Table + ""
             Case Else
                 _SqlStr = " Update " + _Table + " set "
 

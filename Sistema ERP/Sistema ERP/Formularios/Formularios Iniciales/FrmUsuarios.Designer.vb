@@ -61,7 +61,7 @@ Partial Class FrmUsuarios
         Me.btnSalir.Location = New System.Drawing.Point(204, 136)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(88, 29)
-        Me.btnSalir.TabIndex = 7
+        Me.btnSalir.TabIndex = 4
         Me.btnSalir.Text = "Salir"
         '
         'TextEdit3
@@ -69,7 +69,7 @@ Partial Class FrmUsuarios
         Me.TextEdit3.Location = New System.Drawing.Point(114, 98)
         Me.TextEdit3.Name = "TextEdit3"
         Me.TextEdit3.Size = New System.Drawing.Size(163, 20)
-        Me.TextEdit3.TabIndex = 6
+        Me.TextEdit3.TabIndex = 2
         '
         'Label3
         '

@@ -170,6 +170,12 @@
     <Compile Include="Formularios\Catalogos\Frm_Producto.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Formularios\Catalogos\Frm_Profesiones.Designer.vb">
+      <DependentUpon>Frm_Profesiones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Catalogos\Frm_Profesiones.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Formularios\Catalogos\Frm_Proveedor.Designer.vb">
       <DependentUpon>Frm_Proveedor.vb</DependentUpon>
     </Compile>
@@ -340,6 +346,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Catalogos\Frm_Producto.resx">
       <DependentUpon>Frm_Producto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Catalogos\Frm_Profesiones.resx">
+      <DependentUpon>Frm_Profesiones.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Catalogos\Frm_Proveedor.resx">
       <DependentUpon>Frm_Proveedor.vb</DependentUpon>

@@ -33,31 +33,31 @@ Partial Class Frm_Campañas
         Me.btnGuardar = New DevExpress.XtraEditors.SimpleButton()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.DateEdit1 = New DevExpress.XtraEditors.DateEdit()
-        Me.DateEdit2 = New DevExpress.XtraEditors.DateEdit()
+        Me.FechaInit = New DevExpress.XtraEditors.DateEdit()
+        Me.FechaFin = New DevExpress.XtraEditors.DateEdit()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
-        Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.grdCampana = New DevExpress.XtraGrid.GridControl()
+        Me.gvcampana = New DevExpress.XtraGrid.Views.Grid.GridView()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.btnagregar = New DevExpress.XtraEditors.SimpleButton()
-        Me.LookUpEdit1 = New DevExpress.XtraEditors.LookUpEdit()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.btnLimpiar = New DevExpress.XtraEditors.SimpleButton()
+        Me.btnagregar = New DevExpress.XtraEditors.SimpleButton()
+        Me.cmbSegmento = New DevExpress.XtraEditors.LookUpEdit()
+        Me.Label4 = New System.Windows.Forms.Label()
         CType(Me.txtdescri.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtauto.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DateEdit2.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.FechaInit.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.FechaInit.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.FechaFin.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.FechaFin.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
-        CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.grdCampana, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.gvcampana, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox3.SuspendLayout()
-        CType(Me.LookUpEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.cmbSegmento.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MetroStatusBar2
@@ -148,7 +148,7 @@ Partial Class Frm_Campañas
         Me.txtdescri.Location = New System.Drawing.Point(102, 76)
         Me.txtdescri.Name = "txtdescri"
         Me.txtdescri.Size = New System.Drawing.Size(320, 20)
-        Me.txtdescri.TabIndex = 276
+        Me.txtdescri.TabIndex = 3
         '
         'txtauto
         '
@@ -170,7 +170,7 @@ Partial Class Frm_Campañas
         Me.Btnsalir.Location = New System.Drawing.Point(465, 496)
         Me.Btnsalir.Name = "Btnsalir"
         Me.Btnsalir.Size = New System.Drawing.Size(79, 29)
-        Me.Btnsalir.TabIndex = 274
+        Me.Btnsalir.TabIndex = 8
         Me.Btnsalir.Text = "Salir"
         '
         'btnGuardar
@@ -180,7 +180,7 @@ Partial Class Frm_Campañas
         Me.btnGuardar.Location = New System.Drawing.Point(355, 496)
         Me.btnGuardar.Name = "btnGuardar"
         Me.btnGuardar.Size = New System.Drawing.Size(84, 29)
-        Me.btnGuardar.TabIndex = 273
+        Me.btnGuardar.TabIndex = 7
         Me.btnGuardar.Text = "Guardar"
         '
         'Label2
@@ -203,25 +203,25 @@ Partial Class Frm_Campañas
         Me.Label6.Text = "Descripcion "
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'DateEdit1
+        'FechaInit
         '
-        Me.DateEdit1.EditValue = Nothing
-        Me.DateEdit1.Location = New System.Drawing.Point(102, 48)
-        Me.DateEdit1.Name = "DateEdit1"
-        Me.DateEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.DateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.DateEdit1.Size = New System.Drawing.Size(114, 20)
-        Me.DateEdit1.TabIndex = 277
+        Me.FechaInit.EditValue = Nothing
+        Me.FechaInit.Location = New System.Drawing.Point(102, 48)
+        Me.FechaInit.Name = "FechaInit"
+        Me.FechaInit.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.FechaInit.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.FechaInit.Size = New System.Drawing.Size(114, 20)
+        Me.FechaInit.TabIndex = 1
         '
-        'DateEdit2
+        'FechaFin
         '
-        Me.DateEdit2.EditValue = Nothing
-        Me.DateEdit2.Location = New System.Drawing.Point(308, 48)
-        Me.DateEdit2.Name = "DateEdit2"
-        Me.DateEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.DateEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.DateEdit2.Size = New System.Drawing.Size(114, 20)
-        Me.DateEdit2.TabIndex = 278
+        Me.FechaFin.EditValue = Nothing
+        Me.FechaFin.Location = New System.Drawing.Point(308, 48)
+        Me.FechaFin.Name = "FechaFin"
+        Me.FechaFin.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.FechaFin.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.FechaFin.Size = New System.Drawing.Size(114, 20)
+        Me.FechaFin.TabIndex = 2
         '
         'Label1
         '
@@ -249,10 +249,10 @@ Partial Class Frm_Campañas
         Me.GroupBox1.Controls.Add(Me.txtauto)
         Me.GroupBox1.Controls.Add(Me.txtdescri)
         Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Controls.Add(Me.DateEdit1)
+        Me.GroupBox1.Controls.Add(Me.FechaInit)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.Label6)
-        Me.GroupBox1.Controls.Add(Me.DateEdit2)
+        Me.GroupBox1.Controls.Add(Me.FechaFin)
         Me.GroupBox1.Location = New System.Drawing.Point(17, 16)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(527, 112)
@@ -262,7 +262,7 @@ Partial Class Frm_Campañas
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.GridControl1)
+        Me.GroupBox2.Controls.Add(Me.grdCampana)
         Me.GroupBox2.Location = New System.Drawing.Point(18, 195)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(526, 295)
@@ -270,27 +270,30 @@ Partial Class Frm_Campañas
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Detalle de Segmento"
         '
-        'GridControl1
+        'grdCampana
         '
-        Me.GridControl1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GridControl1.Location = New System.Drawing.Point(3, 18)
-        Me.GridControl1.MainView = Me.GridView1
-        Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(520, 274)
-        Me.GridControl1.TabIndex = 0
-        Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
+        Me.grdCampana.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.grdCampana.Location = New System.Drawing.Point(3, 18)
+        Me.grdCampana.MainView = Me.gvcampana
+        Me.grdCampana.Name = "grdCampana"
+        Me.grdCampana.Size = New System.Drawing.Size(520, 274)
+        Me.grdCampana.TabIndex = 0
+        Me.grdCampana.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.gvcampana})
         '
-        'GridView1
+        'gvcampana
         '
-        Me.GridView1.GridControl = Me.GridControl1
-        Me.GridView1.Name = "GridView1"
-        Me.GridView1.OptionsView.ShowGroupPanel = False
+        Me.gvcampana.GridControl = Me.grdCampana
+        Me.gvcampana.Name = "gvcampana"
+        Me.gvcampana.OptionsSelection.MultiSelect = True
+        Me.gvcampana.OptionsSelection.MultiSelectMode = DevExpress.XtraGrid.Views.Grid.GridMultiSelectMode.CheckBoxRowSelect
+        Me.gvcampana.OptionsSelection.ResetSelectionClickOutsideCheckboxSelector = True
+        Me.gvcampana.OptionsView.ShowGroupPanel = False
         '
         'GroupBox3
         '
         Me.GroupBox3.Controls.Add(Me.btnLimpiar)
         Me.GroupBox3.Controls.Add(Me.btnagregar)
-        Me.GroupBox3.Controls.Add(Me.LookUpEdit1)
+        Me.GroupBox3.Controls.Add(Me.cmbSegmento)
         Me.GroupBox3.Controls.Add(Me.Label4)
         Me.GroupBox3.Location = New System.Drawing.Point(17, 134)
         Me.GroupBox3.Name = "GroupBox3"
@@ -299,23 +302,33 @@ Partial Class Frm_Campañas
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Segmentos"
         '
+        'btnLimpiar
+        '
+        Me.btnLimpiar.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.btnLimpiar.ImageOptions.Image = CType(resources.GetObject("btnLimpiar.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnLimpiar.Location = New System.Drawing.Point(308, 14)
+        Me.btnLimpiar.Name = "btnLimpiar"
+        Me.btnLimpiar.Size = New System.Drawing.Size(70, 29)
+        Me.btnLimpiar.TabIndex = 5
+        Me.btnLimpiar.Text = "Limpiar"
+        '
         'btnagregar
         '
         Me.btnagregar.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.btnagregar.ImageOptions.Image = CType(resources.GetObject("btnagregar.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnagregar.Location = New System.Drawing.Point(350, 14)
+        Me.btnagregar.Location = New System.Drawing.Point(384, 14)
         Me.btnagregar.Name = "btnagregar"
         Me.btnagregar.Size = New System.Drawing.Size(72, 29)
-        Me.btnagregar.TabIndex = 286
+        Me.btnagregar.TabIndex = 6
         Me.btnagregar.Text = "Agregar"
         '
-        'LookUpEdit1
+        'cmbSegmento
         '
-        Me.LookUpEdit1.Location = New System.Drawing.Point(92, 23)
-        Me.LookUpEdit1.Name = "LookUpEdit1"
-        Me.LookUpEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.LookUpEdit1.Size = New System.Drawing.Size(140, 20)
-        Me.LookUpEdit1.TabIndex = 285
+        Me.cmbSegmento.Location = New System.Drawing.Point(83, 23)
+        Me.cmbSegmento.Name = "cmbSegmento"
+        Me.cmbSegmento.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.cmbSegmento.Size = New System.Drawing.Size(219, 20)
+        Me.cmbSegmento.TabIndex = 4
         '
         'Label4
         '
@@ -326,16 +339,6 @@ Partial Class Frm_Campañas
         Me.Label4.TabIndex = 284
         Me.Label4.Text = "Segmentos"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'btnLimpiar
-        '
-        Me.btnLimpiar.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
-        Me.btnLimpiar.ImageOptions.Image = CType(resources.GetObject("SimpleButton1.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnLimpiar.Location = New System.Drawing.Point(274, 14)
-        Me.btnLimpiar.Name = "btnLimpiar"
-        Me.btnLimpiar.Size = New System.Drawing.Size(70, 29)
-        Me.btnLimpiar.TabIndex = 287
-        Me.btnLimpiar.Text = "Limpiar"
         '
         'Frm_Campañas
         '
@@ -359,16 +362,16 @@ Partial Class Frm_Campañas
         Me.Text = "Campañas"
         CType(Me.txtdescri.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtauto.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DateEdit2.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.FechaInit.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.FechaInit.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.FechaFin.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.FechaFin.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
-        CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.grdCampana, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.gvcampana, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox3.ResumeLayout(False)
-        CType(Me.LookUpEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.cmbSegmento.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -383,17 +386,17 @@ Partial Class Frm_Campañas
     Friend WithEvents btnGuardar As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents Label2 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents DateEdit1 As DevExpress.XtraEditors.DateEdit
-    Friend WithEvents DateEdit2 As DevExpress.XtraEditors.DateEdit
+    Friend WithEvents FechaInit As DevExpress.XtraEditors.DateEdit
+    Friend WithEvents FechaFin As DevExpress.XtraEditors.DateEdit
     Friend WithEvents Label1 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents GridControl1 As DevExpress.XtraGrid.GridControl
-    Friend WithEvents GridView1 As DevExpress.XtraGrid.Views.Grid.GridView
+    Friend WithEvents grdCampana As DevExpress.XtraGrid.GridControl
+    Friend WithEvents gvcampana As DevExpress.XtraGrid.Views.Grid.GridView
     Friend WithEvents GroupBox3 As GroupBox
     Friend WithEvents btnagregar As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents LookUpEdit1 As DevExpress.XtraEditors.LookUpEdit
+    Friend WithEvents cmbSegmento As DevExpress.XtraEditors.LookUpEdit
     Friend WithEvents Label4 As Label
     Friend WithEvents btnLimpiar As DevExpress.XtraEditors.SimpleButton
 End Class

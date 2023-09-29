@@ -131,7 +131,7 @@ Partial Class Frm_Segmento
         Me.txtdescri.Location = New System.Drawing.Point(116, 108)
         Me.txtdescri.Name = "txtdescri"
         Me.txtdescri.Size = New System.Drawing.Size(301, 20)
-        Me.txtdescri.TabIndex = 282
+        Me.txtdescri.TabIndex = 3
         '
         'txtauto
         '
@@ -153,7 +153,7 @@ Partial Class Frm_Segmento
         Me.Btnsalir.Location = New System.Drawing.Point(336, 134)
         Me.Btnsalir.Name = "Btnsalir"
         Me.Btnsalir.Size = New System.Drawing.Size(79, 29)
-        Me.Btnsalir.TabIndex = 280
+        Me.Btnsalir.TabIndex = 5
         Me.Btnsalir.Text = "Salir"
         '
         'btnGuardar
@@ -163,7 +163,7 @@ Partial Class Frm_Segmento
         Me.btnGuardar.Location = New System.Drawing.Point(223, 134)
         Me.btnGuardar.Name = "btnGuardar"
         Me.btnGuardar.Size = New System.Drawing.Size(84, 29)
-        Me.btnGuardar.TabIndex = 279
+        Me.btnGuardar.TabIndex = 4
         Me.btnGuardar.Text = "Guardar"
         '
         'Label2
@@ -220,7 +220,7 @@ Partial Class Frm_Segmento
         Me.cmbtipopersona.Properties.PopupSizeable = False
         Me.cmbtipopersona.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
         Me.cmbtipopersona.Size = New System.Drawing.Size(144, 20)
-        Me.cmbtipopersona.TabIndex = 285
+        Me.cmbtipopersona.TabIndex = 1
         '
         'cmbOcupacion
         '
@@ -236,7 +236,7 @@ Partial Class Frm_Segmento
         Me.cmbOcupacion.Properties.PopupSizeable = False
         Me.cmbOcupacion.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
         Me.cmbOcupacion.Size = New System.Drawing.Size(144, 20)
-        Me.cmbOcupacion.TabIndex = 286
+        Me.cmbOcupacion.TabIndex = 2
         '
         'Frm_Segmento
         '

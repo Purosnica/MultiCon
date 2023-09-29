@@ -125,7 +125,7 @@ Partial Class Frm_Ocupacion
         Me.txtdescri.Location = New System.Drawing.Point(113, 52)
         Me.txtdescri.Name = "txtdescri"
         Me.txtdescri.Size = New System.Drawing.Size(376, 20)
-        Me.txtdescri.TabIndex = 276
+        Me.txtdescri.TabIndex = 1
         '
         'txtauto
         '
@@ -147,7 +147,7 @@ Partial Class Frm_Ocupacion
         Me.Btnsalir.Location = New System.Drawing.Point(410, 78)
         Me.Btnsalir.Name = "Btnsalir"
         Me.Btnsalir.Size = New System.Drawing.Size(79, 29)
-        Me.Btnsalir.TabIndex = 274
+        Me.Btnsalir.TabIndex = 3
         Me.Btnsalir.Text = "Salir"
         '
         'btnGuardar
@@ -157,7 +157,7 @@ Partial Class Frm_Ocupacion
         Me.btnGuardar.Location = New System.Drawing.Point(297, 78)
         Me.btnGuardar.Name = "btnGuardar"
         Me.btnGuardar.Size = New System.Drawing.Size(84, 29)
-        Me.btnGuardar.TabIndex = 273
+        Me.btnGuardar.TabIndex = 2
         Me.btnGuardar.Text = "Guardar"
         '
         'Label2
@@ -197,7 +197,6 @@ Partial Class Frm_Ocupacion
         Me.Controls.Add(Me.MetroStatusBar4)
         Me.DoubleBuffered = True
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ForeColor = System.Drawing.Color.Black
         Me.MaximizeBox = False
         Me.Name = "Frm_Ocupacion"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

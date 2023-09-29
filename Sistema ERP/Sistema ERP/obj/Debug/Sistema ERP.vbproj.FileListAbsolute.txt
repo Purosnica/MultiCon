@@ -623,3 +623,4 @@ C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\bin\Debug\DevExpress.X
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Ocupacion.resources
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Campañas.resources
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Segmento.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Profesiones.resources

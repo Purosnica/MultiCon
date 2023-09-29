@@ -45,7 +45,7 @@ Partial Class FrmPais
         Me.txtCod.Location = New System.Drawing.Point(109, 52)
         Me.txtCod.Name = "txtCod"
         Me.txtCod.Size = New System.Drawing.Size(77, 20)
-        Me.txtCod.TabIndex = 280
+        Me.txtCod.TabIndex = 1
         '
         'txtauto
         '
@@ -67,7 +67,7 @@ Partial Class FrmPais
         Me.Btnsalir.Location = New System.Drawing.Point(267, 111)
         Me.Btnsalir.Name = "Btnsalir"
         Me.Btnsalir.Size = New System.Drawing.Size(79, 29)
-        Me.Btnsalir.TabIndex = 278
+        Me.Btnsalir.TabIndex = 4
         Me.Btnsalir.Text = "Salir"
         '
         'btnGuardar
@@ -77,7 +77,7 @@ Partial Class FrmPais
         Me.btnGuardar.Location = New System.Drawing.Point(166, 111)
         Me.btnGuardar.Name = "btnGuardar"
         Me.btnGuardar.Size = New System.Drawing.Size(84, 29)
-        Me.btnGuardar.TabIndex = 277
+        Me.btnGuardar.TabIndex = 3
         Me.btnGuardar.Text = "Guardar"
         '
         'Label2
@@ -188,7 +188,7 @@ Partial Class FrmPais
         Me.txtdescri.Location = New System.Drawing.Point(109, 85)
         Me.txtdescri.Name = "txtdescri"
         Me.txtdescri.Size = New System.Drawing.Size(237, 20)
-        Me.txtdescri.TabIndex = 282
+        Me.txtdescri.TabIndex = 2
         '
         'Label1
         '

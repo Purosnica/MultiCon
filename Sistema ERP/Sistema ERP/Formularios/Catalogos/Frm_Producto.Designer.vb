@@ -48,48 +48,48 @@ Partial Class Frm_Producto
         Me.Label6.BackColor = System.Drawing.Color.White
         Me.Label6.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(28, 67)
+        Me.Label6.Location = New System.Drawing.Point(17, 67)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(118, 23)
+        Me.Label6.Size = New System.Drawing.Size(134, 23)
         Me.Label6.TabIndex = 254
         Me.Label6.Text = "Descripcion "
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label1
         '
         Me.Label1.BackColor = System.Drawing.Color.White
         Me.Label1.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Black
-        Me.Label1.Location = New System.Drawing.Point(28, 96)
+        Me.Label1.Location = New System.Drawing.Point(17, 96)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(101, 24)
+        Me.Label1.Size = New System.Drawing.Size(134, 24)
         Me.Label1.TabIndex = 255
         Me.Label1.Text = "Descripcion Larga"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label2
         '
         Me.Label2.BackColor = System.Drawing.Color.White
         Me.Label2.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(12, 131)
+        Me.Label2.Location = New System.Drawing.Point(17, 131)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(165, 23)
+        Me.Label2.Size = New System.Drawing.Size(134, 23)
         Me.Label2.TabIndex = 256
         Me.Label2.Text = "Unidad de Medida"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label3
         '
         Me.Label3.BackColor = System.Drawing.Color.White
         Me.Label3.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(42, 33)
+        Me.Label3.Location = New System.Drawing.Point(17, 33)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(91, 22)
+        Me.Label3.Size = New System.Drawing.Size(134, 22)
         Me.Label3.TabIndex = 257
         Me.Label3.Text = "Codigo"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'txtcod
         '
@@ -103,7 +103,7 @@ Partial Class Frm_Producto
         Me.txtcod.Properties.Appearance.Options.UseBackColor = True
         Me.txtcod.Properties.Appearance.Options.UseFont = True
         Me.txtcod.Properties.Appearance.Options.UseForeColor = True
-        Me.txtcod.Size = New System.Drawing.Size(100, 28)
+        Me.txtcod.Size = New System.Drawing.Size(100, 20)
         Me.txtcod.TabIndex = 258
         '
         'txtdescri
@@ -114,8 +114,8 @@ Partial Class Frm_Producto
         Me.txtdescri.Properties.Appearance.ForeColor = System.Drawing.Color.Black
         Me.txtdescri.Properties.Appearance.Options.UseBackColor = True
         Me.txtdescri.Properties.Appearance.Options.UseForeColor = True
-        Me.txtdescri.Size = New System.Drawing.Size(264, 26)
-        Me.txtdescri.TabIndex = 259
+        Me.txtdescri.Size = New System.Drawing.Size(264, 20)
+        Me.txtdescri.TabIndex = 1
         '
         'txtdescriL
         '
@@ -125,8 +125,8 @@ Partial Class Frm_Producto
         Me.txtdescriL.Properties.Appearance.ForeColor = System.Drawing.Color.Black
         Me.txtdescriL.Properties.Appearance.Options.UseBackColor = True
         Me.txtdescriL.Properties.Appearance.Options.UseForeColor = True
-        Me.txtdescriL.Size = New System.Drawing.Size(264, 26)
-        Me.txtdescriL.TabIndex = 260
+        Me.txtdescriL.Size = New System.Drawing.Size(264, 20)
+        Me.txtdescriL.TabIndex = 2
         '
         'Btnsalir
         '
@@ -137,7 +137,7 @@ Partial Class Frm_Producto
         Me.Btnsalir.Location = New System.Drawing.Point(358, 169)
         Me.Btnsalir.Name = "Btnsalir"
         Me.Btnsalir.Size = New System.Drawing.Size(88, 29)
-        Me.Btnsalir.TabIndex = 263
+        Me.Btnsalir.TabIndex = 5
         Me.Btnsalir.Text = "Salir"
         '
         'btnGuardar
@@ -149,7 +149,7 @@ Partial Class Frm_Producto
         Me.btnGuardar.Location = New System.Drawing.Point(252, 169)
         Me.btnGuardar.Name = "btnGuardar"
         Me.btnGuardar.Size = New System.Drawing.Size(88, 29)
-        Me.btnGuardar.TabIndex = 262
+        Me.btnGuardar.TabIndex = 4
         Me.btnGuardar.Text = "Guardar"
         '
         'cmbunidad
@@ -164,8 +164,8 @@ Partial Class Frm_Producto
         Me.cmbunidad.Properties.NullText = ""
         Me.cmbunidad.Properties.PopupSizeable = False
         Me.cmbunidad.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.cmbunidad.Size = New System.Drawing.Size(144, 26)
-        Me.cmbunidad.TabIndex = 261
+        Me.cmbunidad.Size = New System.Drawing.Size(144, 20)
+        Me.cmbunidad.TabIndex = 3
         '
         'MetroStatusBar2
         '
@@ -252,7 +252,7 @@ Partial Class Frm_Producto
         '
         'Frm_Producto
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 23.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(463, 220)
         Me.Controls.Add(Me.MetroStatusBar2)

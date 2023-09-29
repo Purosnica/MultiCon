@@ -135,7 +135,7 @@ Partial Class Frm_Solicitante
         Me.Btnsalir.Location = New System.Drawing.Point(328, 144)
         Me.Btnsalir.Name = "Btnsalir"
         Me.Btnsalir.Size = New System.Drawing.Size(94, 33)
-        Me.Btnsalir.TabIndex = 277
+        Me.Btnsalir.TabIndex = 5
         Me.Btnsalir.Text = "Salir"
         '
         'btnGuardar
@@ -147,7 +147,7 @@ Partial Class Frm_Solicitante
         Me.btnGuardar.Location = New System.Drawing.Point(219, 144)
         Me.btnGuardar.Name = "btnGuardar"
         Me.btnGuardar.Size = New System.Drawing.Size(103, 33)
-        Me.btnGuardar.TabIndex = 276
+        Me.btnGuardar.TabIndex = 4
         Me.btnGuardar.Text = "Guardar"
         '
         'txtcargo
@@ -158,8 +158,8 @@ Partial Class Frm_Solicitante
         Me.txtcargo.Properties.Appearance.ForeColor = System.Drawing.Color.Black
         Me.txtcargo.Properties.Appearance.Options.UseBackColor = True
         Me.txtcargo.Properties.Appearance.Options.UseForeColor = True
-        Me.txtcargo.Size = New System.Drawing.Size(264, 26)
-        Me.txtcargo.TabIndex = 274
+        Me.txtcargo.Size = New System.Drawing.Size(264, 20)
+        Me.txtcargo.TabIndex = 2
         '
         'txtdescri
         '
@@ -169,8 +169,8 @@ Partial Class Frm_Solicitante
         Me.txtdescri.Properties.Appearance.ForeColor = System.Drawing.Color.Black
         Me.txtdescri.Properties.Appearance.Options.UseBackColor = True
         Me.txtdescri.Properties.Appearance.Options.UseForeColor = True
-        Me.txtdescri.Size = New System.Drawing.Size(264, 26)
-        Me.txtdescri.TabIndex = 273
+        Me.txtdescri.Size = New System.Drawing.Size(264, 20)
+        Me.txtdescri.TabIndex = 1
         '
         'txtcod
         '
@@ -183,7 +183,7 @@ Partial Class Frm_Solicitante
         Me.txtcod.Properties.Appearance.Options.UseBackColor = True
         Me.txtcod.Properties.Appearance.Options.UseFont = True
         Me.txtcod.Properties.Appearance.Options.UseForeColor = True
-        Me.txtcod.Size = New System.Drawing.Size(100, 28)
+        Me.txtcod.Size = New System.Drawing.Size(100, 20)
         Me.txtcod.TabIndex = 272
         '
         'Label3
@@ -246,12 +246,12 @@ Partial Class Frm_Solicitante
         Me.cmbdepartamento.Properties.NullText = ""
         Me.cmbdepartamento.Properties.PopupSizeable = False
         Me.cmbdepartamento.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.cmbdepartamento.Size = New System.Drawing.Size(264, 26)
-        Me.cmbdepartamento.TabIndex = 275
+        Me.cmbdepartamento.Size = New System.Drawing.Size(264, 20)
+        Me.cmbdepartamento.TabIndex = 3
         '
         'Frm_Solicitante
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 23.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(452, 195)
         Me.Controls.Add(Me.MetroStatusBar2)

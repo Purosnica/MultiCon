@@ -157,7 +157,7 @@ Partial Class Frm_Cliente
         Me.Btnsalir.Location = New System.Drawing.Point(779, 273)
         Me.Btnsalir.Name = "Btnsalir"
         Me.Btnsalir.Size = New System.Drawing.Size(88, 29)
-        Me.Btnsalir.TabIndex = 273
+        Me.Btnsalir.TabIndex = 12
         Me.Btnsalir.Text = "Salir"
         '
         'btnGuardar
@@ -169,7 +169,7 @@ Partial Class Frm_Cliente
         Me.btnGuardar.Location = New System.Drawing.Point(673, 273)
         Me.btnGuardar.Name = "btnGuardar"
         Me.btnGuardar.Size = New System.Drawing.Size(88, 29)
-        Me.btnGuardar.TabIndex = 272
+        Me.btnGuardar.TabIndex = 11
         Me.btnGuardar.Text = "Guardar"
         '
         'txtApellidos
@@ -180,8 +180,8 @@ Partial Class Frm_Cliente
         Me.txtApellidos.Properties.Appearance.ForeColor = System.Drawing.Color.Black
         Me.txtApellidos.Properties.Appearance.Options.UseBackColor = True
         Me.txtApellidos.Properties.Appearance.Options.UseForeColor = True
-        Me.txtApellidos.Size = New System.Drawing.Size(264, 26)
-        Me.txtApellidos.TabIndex = 270
+        Me.txtApellidos.Size = New System.Drawing.Size(264, 20)
+        Me.txtApellidos.TabIndex = 3
         '
         'txtNombres
         '
@@ -191,8 +191,8 @@ Partial Class Frm_Cliente
         Me.txtNombres.Properties.Appearance.ForeColor = System.Drawing.Color.Black
         Me.txtNombres.Properties.Appearance.Options.UseBackColor = True
         Me.txtNombres.Properties.Appearance.Options.UseForeColor = True
-        Me.txtNombres.Size = New System.Drawing.Size(264, 26)
-        Me.txtNombres.TabIndex = 269
+        Me.txtNombres.Size = New System.Drawing.Size(264, 20)
+        Me.txtNombres.TabIndex = 2
         '
         'txtcod
         '
@@ -206,7 +206,7 @@ Partial Class Frm_Cliente
         Me.txtcod.Properties.Appearance.Options.UseBackColor = True
         Me.txtcod.Properties.Appearance.Options.UseFont = True
         Me.txtcod.Properties.Appearance.Options.UseForeColor = True
-        Me.txtcod.Size = New System.Drawing.Size(100, 28)
+        Me.txtcod.Size = New System.Drawing.Size(100, 20)
         Me.txtcod.TabIndex = 268
         '
         'Label3
@@ -246,8 +246,8 @@ Partial Class Frm_Cliente
         Me.cmbtipopersona.Properties.NullText = ""
         Me.cmbtipopersona.Properties.PopupSizeable = False
         Me.cmbtipopersona.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.cmbtipopersona.Size = New System.Drawing.Size(144, 26)
-        Me.cmbtipopersona.TabIndex = 271
+        Me.cmbtipopersona.Size = New System.Drawing.Size(144, 20)
+        Me.cmbtipopersona.TabIndex = 1
         '
         'Label1
         '
@@ -297,8 +297,8 @@ Partial Class Frm_Cliente
         Me.CmbTipoidentificacion.Properties.NullText = ""
         Me.CmbTipoidentificacion.Properties.PopupSizeable = False
         Me.CmbTipoidentificacion.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.CmbTipoidentificacion.Size = New System.Drawing.Size(144, 26)
-        Me.CmbTipoidentificacion.TabIndex = 277
+        Me.CmbTipoidentificacion.Size = New System.Drawing.Size(144, 20)
+        Me.CmbTipoidentificacion.TabIndex = 5
         '
         'Label5
         '
@@ -320,8 +320,8 @@ Partial Class Frm_Cliente
         Me.txtIdentificacion.Properties.Appearance.ForeColor = System.Drawing.Color.Black
         Me.txtIdentificacion.Properties.Appearance.Options.UseBackColor = True
         Me.txtIdentificacion.Properties.Appearance.Options.UseForeColor = True
-        Me.txtIdentificacion.Size = New System.Drawing.Size(151, 26)
-        Me.txtIdentificacion.TabIndex = 279
+        Me.txtIdentificacion.Size = New System.Drawing.Size(151, 20)
+        Me.txtIdentificacion.TabIndex = 6
         '
         'Label7
         '
@@ -347,8 +347,8 @@ Partial Class Frm_Cliente
         Me.cmbPais.Properties.NullText = ""
         Me.cmbPais.Properties.PopupSizeable = False
         Me.cmbPais.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.cmbPais.Size = New System.Drawing.Size(151, 26)
-        Me.cmbPais.TabIndex = 282
+        Me.cmbPais.Size = New System.Drawing.Size(151, 20)
+        Me.cmbPais.TabIndex = 4
         '
         'Label8
         '
@@ -357,7 +357,7 @@ Partial Class Frm_Cliente
         Me.Label8.ForeColor = System.Drawing.Color.Black
         Me.Label8.Location = New System.Drawing.Point(405, 158)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(283, 23)
+        Me.Label8.Size = New System.Drawing.Size(215, 23)
         Me.Label8.TabIndex = 283
         Me.Label8.Text = "Fecha Cumpleaños O Constitucion"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -369,8 +369,8 @@ Partial Class Frm_Cliente
         Me.FechaCumple.Name = "FechaCumple"
         Me.FechaCumple.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.FechaCumple.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.FechaCumple.Size = New System.Drawing.Size(171, 26)
-        Me.FechaCumple.TabIndex = 284
+        Me.FechaCumple.Size = New System.Drawing.Size(171, 20)
+        Me.FechaCumple.TabIndex = 7
         '
         'Label9
         '
@@ -395,8 +395,8 @@ Partial Class Frm_Cliente
         Me.txtTelefono.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Numeric
         Me.txtTelefono.Properties.Mask.EditMask = "d"
         Me.txtTelefono.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
-        Me.txtTelefono.Size = New System.Drawing.Size(151, 26)
-        Me.txtTelefono.TabIndex = 286
+        Me.txtTelefono.Size = New System.Drawing.Size(151, 20)
+        Me.txtTelefono.TabIndex = 8
         '
         'txtCelular
         '
@@ -409,8 +409,8 @@ Partial Class Frm_Cliente
         Me.txtCelular.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.Numeric
         Me.txtCelular.Properties.Mask.EditMask = "d"
         Me.txtCelular.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.Numeric
-        Me.txtCelular.Size = New System.Drawing.Size(151, 26)
-        Me.txtCelular.TabIndex = 288
+        Me.txtCelular.Size = New System.Drawing.Size(151, 20)
+        Me.txtCelular.TabIndex = 9
         '
         'Label10
         '
@@ -432,8 +432,8 @@ Partial Class Frm_Cliente
         Me.txtCorreo.Properties.Appearance.ForeColor = System.Drawing.Color.Black
         Me.txtCorreo.Properties.Appearance.Options.UseBackColor = True
         Me.txtCorreo.Properties.Appearance.Options.UseForeColor = True
-        Me.txtCorreo.Size = New System.Drawing.Size(631, 26)
-        Me.txtCorreo.TabIndex = 290
+        Me.txtCorreo.Size = New System.Drawing.Size(631, 20)
+        Me.txtCorreo.TabIndex = 10
         '
         'Label11
         '
@@ -449,7 +449,7 @@ Partial Class Frm_Cliente
         '
         'Frm_Cliente
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 23.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(895, 323)
         Me.Controls.Add(Me.txtCorreo)

@@ -173,4 +173,10 @@ Partial Public Class FrmPrincipal
         x.MdiParent = Me
         x.Show()
     End Sub
+
+    Private Sub btnPass_ItemClick(sender As Object, e As ItemClickEventArgs) Handles btnPass.ItemClick
+        Dim X As New FrmUsuarios
+        X.MdiParent = Me
+        X.Show()
+    End Sub
 End Class

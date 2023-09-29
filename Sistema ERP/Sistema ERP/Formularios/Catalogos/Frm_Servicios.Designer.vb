@@ -128,7 +128,7 @@ Partial Class Frm_Servicios
         Me.txtdescri.Properties.Appearance.ForeColor = System.Drawing.Color.Black
         Me.txtdescri.Properties.Appearance.Options.UseBackColor = True
         Me.txtdescri.Properties.Appearance.Options.UseForeColor = True
-        Me.txtdescri.Size = New System.Drawing.Size(376, 26)
+        Me.txtdescri.Size = New System.Drawing.Size(376, 20)
         Me.txtdescri.TabIndex = 260
         '
         'txtauto
@@ -143,7 +143,7 @@ Partial Class Frm_Servicios
         Me.txtauto.Properties.Appearance.Options.UseBackColor = True
         Me.txtauto.Properties.Appearance.Options.UseFont = True
         Me.txtauto.Properties.Appearance.Options.UseForeColor = True
-        Me.txtauto.Size = New System.Drawing.Size(77, 28)
+        Me.txtauto.Size = New System.Drawing.Size(77, 20)
         Me.txtauto.TabIndex = 259
         '
         'Btnsalir
@@ -180,7 +180,7 @@ Partial Class Frm_Servicios
         Me.Label2.Size = New System.Drawing.Size(77, 22)
         Me.Label2.TabIndex = 256
         Me.Label2.Text = "Codigo"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label6
         '
@@ -196,7 +196,7 @@ Partial Class Frm_Servicios
         '
         'Frm_Servicios
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 23.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(497, 144)
         Me.Controls.Add(Me.txtdescri)

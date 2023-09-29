@@ -4,6 +4,7 @@
 
     Public conect1 As New Conexion
     Public Producto As New DataTable
+    Public _DtAllCampana As New DataTable
     Public dt As New DataTable
 
 

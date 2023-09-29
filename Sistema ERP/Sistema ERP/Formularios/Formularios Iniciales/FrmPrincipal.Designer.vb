@@ -92,6 +92,7 @@ Partial Public Class FrmPrincipal
         Me.RibbonPageGroup13 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPage2 = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.XtraTabbedMdiManager1 = New DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(Me.components)
+        Me.btnProfesiones = New DevExpress.XtraBars.BarButtonItem()
         CType(Me.ApplicationMenu1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RibbonControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.XtraTabbedMdiManager1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -106,9 +107,9 @@ Partial Public Class FrmPrincipal
         '
         Me.RibbonControl1.ApplicationButtonDropDownControl = Me.ApplicationMenu1
         Me.RibbonControl1.ExpandCollapseItem.Id = 0
-        Me.RibbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl1.ExpandCollapseItem, Me.BarButtonItem1, Me.BarButtonItem2, Me.BarButtonItem4, Me.BarButtonItem3, Me.btnPass, Me.btnAsignarPermiso, Me.BarButtonItem7, Me.btnarea, Me.BarButtonItem8, Me.BarButtonItem9, Me.btnproveedor, Me.btnproductos, Me.btnNuevaSol, Me.btnRecepcionSol, Me.btnAsignarSol, Me.btndepartamentos, Me.btnunidadmedida, Me.BtnServicios, Me.btncorreo, Me.btnCotizaciones, Me.btnAdjudicaciones, Me.btngenerarOC, Me.btnImprimirOc, Me.btnCorreoOC, Me.btnSolicitantes, Me.btntasa, Me.BarSubItem1, Me.BarSubItem2, Me.BarSubItem3, Me.BarSubItem4, Me.cmd_CatCuenta, Me.cmd_AsientoD, Me.cmdCta_Comprobante, Me.cmdTasa, Me.cmdSalir, Me.BarButtonItem12, Me.btnCliente, Me.btnCorreoMasivos, Me.btnPais, Me.btnIdentificacion, Me.btncampana, Me.btnOcupacion, Me.btnSegmento})
+        Me.RibbonControl1.Items.AddRange(New DevExpress.XtraBars.BarItem() {Me.RibbonControl1.ExpandCollapseItem, Me.BarButtonItem1, Me.BarButtonItem2, Me.BarButtonItem4, Me.BarButtonItem3, Me.btnPass, Me.btnAsignarPermiso, Me.BarButtonItem7, Me.btnarea, Me.BarButtonItem8, Me.BarButtonItem9, Me.btnproveedor, Me.btnproductos, Me.btnNuevaSol, Me.btnRecepcionSol, Me.btnAsignarSol, Me.btndepartamentos, Me.btnunidadmedida, Me.BtnServicios, Me.btncorreo, Me.btnCotizaciones, Me.btnAdjudicaciones, Me.btngenerarOC, Me.btnImprimirOc, Me.btnCorreoOC, Me.btnSolicitantes, Me.btntasa, Me.BarSubItem1, Me.BarSubItem2, Me.BarSubItem3, Me.BarSubItem4, Me.cmd_CatCuenta, Me.cmd_AsientoD, Me.cmdCta_Comprobante, Me.cmdTasa, Me.cmdSalir, Me.BarButtonItem12, Me.btnCliente, Me.btnCorreoMasivos, Me.btnPais, Me.btnIdentificacion, Me.btncampana, Me.btnOcupacion, Me.btnSegmento, Me.btnProfesiones})
         Me.RibbonControl1.Location = New System.Drawing.Point(0, 0)
-        Me.RibbonControl1.MaxItemId = 51
+        Me.RibbonControl1.MaxItemId = 52
         Me.RibbonControl1.Name = "RibbonControl1"
         Me.RibbonControl1.Pages.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPage() {Me.RibbonPage1, Me.RibbonPage3, Me.RibbonPage6, Me.RibbonPage4, Me.RibbonPage5, Me.RibbonPage7})
         Me.RibbonControl1.Size = New System.Drawing.Size(1209, 143)
@@ -472,6 +473,7 @@ Partial Public Class FrmPrincipal
         Me.RibbonPageGroup9.ItemLinks.Add(Me.btnPais)
         Me.RibbonPageGroup9.ItemLinks.Add(Me.btnIdentificacion)
         Me.RibbonPageGroup9.ItemLinks.Add(Me.btnOcupacion)
+        Me.RibbonPageGroup9.ItemLinks.Add(Me.btnProfesiones)
         Me.RibbonPageGroup9.Name = "RibbonPageGroup9"
         Me.RibbonPageGroup9.Text = "Catalagos del Sistema"
         '
@@ -591,6 +593,13 @@ Partial Public Class FrmPrincipal
         '
         Me.XtraTabbedMdiManager1.MdiParent = Me
         '
+        'btnProfesiones
+        '
+        Me.btnProfesiones.Caption = "Profesiones"
+        Me.btnProfesiones.Id = 51
+        Me.btnProfesiones.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem5.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.btnProfesiones.Name = "btnProfesiones"
+        '
         'FrmPrincipal
         '
         Me.Appearance.BackColor = System.Drawing.Color.White
@@ -678,6 +687,7 @@ Partial Public Class FrmPrincipal
     Friend WithEvents btncampana As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents btnOcupacion As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents btnSegmento As DevExpress.XtraBars.BarButtonItem
+    Friend WithEvents btnProfesiones As DevExpress.XtraBars.BarButtonItem
 
 #End Region
 End Class
