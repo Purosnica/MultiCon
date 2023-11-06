@@ -54,6 +54,7 @@ Partial Public Class FrmPrincipal
 
         Dim x As New FrmCat_General
         x.Llamadatos = "Medida"
+        x.Text = "Catalago Medida"
         x.MdiParent = Me
         x.Show()
 
@@ -64,6 +65,7 @@ Partial Public Class FrmPrincipal
 
         Dim x As New FrmCat_General
         x.Llamadatos = "Producto"
+        x.Text = "Catalago Producto"
         x.MdiParent = Me
         x.Show()
 
@@ -73,6 +75,7 @@ Partial Public Class FrmPrincipal
     Private Sub BtnServicios_ItemClick(sender As Object, e As ItemClickEventArgs) Handles BtnServicios.ItemClick
         Dim x As New FrmCat_General
         x.Llamadatos = "Servicio"
+        x.Text = "Catalago Servicios"
         x.MdiParent = Me
         x.Show()
     End Sub
@@ -91,6 +94,7 @@ Partial Public Class FrmPrincipal
 
     Private Sub btndepartamentos_ItemClick(sender As Object, e As ItemClickEventArgs) Handles btndepartamentos.ItemClick
         Dim x As New FrmCat_General
+        x.Text = "Catalago Departamento"
         x.Llamadatos = "Departamento"
         x.MdiParent = Me
         x.Show()
@@ -178,5 +182,13 @@ Partial Public Class FrmPrincipal
         Dim X As New FrmUsuarios
         X.MdiParent = Me
         X.Show()
+    End Sub
+
+    Private Sub btnProfesiones_ItemClick(sender As Object, e As ItemClickEventArgs) Handles btnProfesiones.ItemClick
+        Dim x As New FrmCat_General
+        x.Llamadatos = "Profesiones"
+        x.Text = "Catalago de Profesiones"
+        x.MdiParent = Me
+        x.Show()
     End Sub
 End Class

@@ -7,7 +7,7 @@ Public Class Frm_Cliente
     Private _ftHelper As FunctionHelper = New FunctionHelper
     Private _Entities As New SYSERPEntities()
 
-    Dim dtTipoPersona, dtPais, dtTipoIdentificacion As DataTable
+    Dim dtTipoPersona, dtPais, dtTipoIdentificacion, oDataTable1 As DataTable
 
     Private Sub Btnsalir_Click(sender As Object, e As EventArgs) Handles Btnsalir.Click
         Me.Close()
@@ -22,20 +22,48 @@ Public Class Frm_Cliente
             MsgBox("Favor complete los campos", MsgBoxStyle.Information)
         Else
 
-            If conect1.EjecutaSQL("INSERT INTO [dbo].[Tbl_Clientes]([Nombre],[Apellidos],[FechaNacimiento],[IdTipoIdentificacion] ,[Cedula],[IdTipoPersona],[IdPais],[Correo],[Telefono_Casa],[Telefono_Celular],[Estado],[FechaRegistro])VALUES ('" & txtNombres.EditValue & "','" & txtApellidos.EditValue & "','" & Format(CDate(FechaCumple.EditValue), "yyyy-MM-dd HH:mm:ss") & "'," & CmbTipoidentificacion.EditValue & ",'" & txtIdentificacion.EditValue & "'," & cmbtipopersona.EditValue & "," & cmbPais.EditValue & ",'" & txtCorreo.EditValue & "'," & txtTelefono.EditValue & "," & txtCelular.EditValue & ",1,getdate())") = True Then
+            If Tipo = 1 Then
 
-                MsgBox("Registro Guardo Exitosamente", MsgBoxStyle.Information)
-                Me.Close()
+                If conect1.EjecutaSQL("UPDATE [dbo].[Tbl_Clientes] SET FechaModificacion =getdate(), [Nombre] ='" & txtNombres.EditValue & "',[Apellidos]='" & txtApellidos.EditValue & "',[FechaNacimiento]='" & Format(CDate(FechaCumple.EditValue), "yyyy-MM-dd HH:mm:ss") & "',[IdTipoIdentificacion]=" & CmbTipoidentificacion.EditValue & " ,[Cedula]='" & txtIdentificacion.EditValue & "',[IdTipoPersona]=" & cmbtipopersona.EditValue & ",[IdPais]=" & cmbPais.EditValue & ",[Correo]='" & txtCorreo.EditValue & "',[Telefono_Casa]=" & txtTelefono.EditValue & ",[Telefono_Celular]=" & txtCelular.EditValue & " WHERE IdCliente = " & codigo & " ") = True Then
+
+                    MsgBox("Registro Guardo Exitosamente", MsgBoxStyle.Information)
+                    Me.Close()
+
+                Else
+                    MsgBox("Hubo un Error al Registrar ", MsgBoxStyle.Critical)
+                End If
 
             Else
-                MsgBox("Hubo un Error al Registrar ", MsgBoxStyle.Critical)
+
+                If conect1.EjecutaSQL("INSERT INTO [dbo].[Tbl_Clientes]([Nombre],[Apellidos],[FechaNacimiento],[IdTipoIdentificacion] ,[Cedula],[IdTipoPersona],[IdPais],[Correo],[Telefono_Casa],[Telefono_Celular],[Estado],[FechaRegistro])VALUES ('" & txtNombres.EditValue & "','" & txtApellidos.EditValue & "','" & Format(CDate(FechaCumple.EditValue), "yyyy-MM-dd HH:mm:ss") & "'," & CmbTipoidentificacion.EditValue & ",'" & txtIdentificacion.EditValue & "'," & cmbtipopersona.EditValue & "," & cmbPais.EditValue & ",'" & txtCorreo.EditValue & "'," & txtTelefono.EditValue & "," & txtCelular.EditValue & ",1,getdate())") = True Then
+
+                    MsgBox("Registro Guardo Exitosamente", MsgBoxStyle.Information)
+                    Me.Close()
+
+                Else
+                    MsgBox("Hubo un Error al Registrar ", MsgBoxStyle.Critical)
+                End If
             End If
+
         End If
 
     End Sub
 
     Private Sub Frm_Cliente_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         LoadData()
+        If Tipo = 1 Then
+            Me.oDataTable1 = conect1.Return_Datetable("Tbl_Clientes", "IdCliente", codigo)
+
+            For Each rows In oDataTable1.Rows
+                txtcod.EditValue = rows(0)
+                txtNombres.EditValue = rows(1) : txtApellidos.EditValue = rows(2) : FechaCumple.EditValue = rows(3) : CmbTipoidentificacion.EditValue = rows(4)
+                txtIdentificacion.EditValue = rows(5) : cmbtipopersona.EditValue = rows(6) : cmbPais.EditValue = rows(7) : txtCorreo.EditValue = rows(8)
+                txtTelefono.EditValue = rows(9) : txtCelular.EditValue = rows(10)
+
+            Next
+
+
+        End If
     End Sub
 
     Private Sub cmbtipopersona_EditValueChanged(sender As Object, e As EventArgs) Handles cmbtipopersona.EditValueChanged

@@ -71,6 +71,7 @@ Partial Public Class FrmPrincipal
         Me.btncampana = New DevExpress.XtraBars.BarButtonItem()
         Me.btnOcupacion = New DevExpress.XtraBars.BarButtonItem()
         Me.btnSegmento = New DevExpress.XtraBars.BarButtonItem()
+        Me.btnProfesiones = New DevExpress.XtraBars.BarButtonItem()
         Me.RibbonPage1 = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.RibbonPageGroup1 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPageGroup9 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
@@ -92,7 +93,6 @@ Partial Public Class FrmPrincipal
         Me.RibbonPageGroup13 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPage2 = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.XtraTabbedMdiManager1 = New DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(Me.components)
-        Me.btnProfesiones = New DevExpress.XtraBars.BarButtonItem()
         CType(Me.ApplicationMenu1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RibbonControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.XtraTabbedMdiManager1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -447,6 +447,13 @@ Partial Public Class FrmPrincipal
         Me.btnSegmento.ImageOptions.LargeImage = CType(resources.GetObject("btnSegmento.ImageOptions.LargeImage"), System.Drawing.Image)
         Me.btnSegmento.Name = "btnSegmento"
         '
+        'btnProfesiones
+        '
+        Me.btnProfesiones.Caption = "Profesiones"
+        Me.btnProfesiones.Id = 51
+        Me.btnProfesiones.ImageOptions.LargeImage = CType(resources.GetObject("btnProfesiones.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.btnProfesiones.Name = "btnProfesiones"
+        '
         'RibbonPage1
         '
         Me.RibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup1, Me.RibbonPageGroup9, Me.RibbonPageGroup2})
@@ -592,13 +599,6 @@ Partial Public Class FrmPrincipal
         'XtraTabbedMdiManager1
         '
         Me.XtraTabbedMdiManager1.MdiParent = Me
-        '
-        'btnProfesiones
-        '
-        Me.btnProfesiones.Caption = "Profesiones"
-        Me.btnProfesiones.Id = 51
-        Me.btnProfesiones.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem5.ImageOptions.LargeImage"), System.Drawing.Image)
-        Me.btnProfesiones.Name = "btnProfesiones"
         '
         'FrmPrincipal
         '

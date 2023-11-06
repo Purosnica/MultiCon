@@ -2,6 +2,7 @@ Public Class FrmPais
     Private _funct As New FunctionHelper()
     Public Tipo As Integer
     Public Codigo As String
+    Private oDataTable1 As DataTable
     Private Sub Btnsalir_Click(sender As Object, e As EventArgs) Handles Btnsalir.Click
         Me.Close()
 
@@ -40,5 +41,15 @@ Public Class FrmPais
 
     Private Sub FrmPais_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+        If Tipo = 1 Then
+            Me.oDataTable1 = conect1.Return_Datetable("Tbl_Pais", "CodPais", Codigo)
+
+            For Each rows In oDataTable1.Rows
+                txtauto.EditValue = rows(0)
+                txtCod.EditValue = rows(1) : txtdescri.EditValue = rows(2)
+            Next
+
+
+        End If
     End Sub
 End Class

@@ -2,6 +2,7 @@ Public Class FrmIdentificaciones
     Private _funct As New FunctionHelper()
     Public Tipo As Integer
     Public Codigo As String
+    Private oDataTable1 As DataTable
     Private Sub Btnsalir_Click(sender As Object, e As EventArgs) Handles Btnsalir.Click
         Me.Close()
 
@@ -39,6 +40,16 @@ Public Class FrmIdentificaciones
     End Sub
 
     Private Sub FrmIdentificaciones_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If Tipo = 1 Then
+            Me.oDataTable1 = conect1.Return_Datetable("Tbl_TipoIdentificacion", "IdTipoIdentificacion", Codigo)
 
+            For Each rows In oDataTable1.Rows
+                txtauto.EditValue = rows(0)
+                txtdescri.EditValue = rows(1)
+
+            Next
+
+
+        End If
     End Sub
 End Class

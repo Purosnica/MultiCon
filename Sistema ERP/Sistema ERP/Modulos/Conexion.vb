@@ -36,6 +36,25 @@ Public Class Conexion
 
     End Function
 
+
+    Public Function Return_Datetable(ByVal tabla As String, ByVal consulta As String, ByVal parametro As String) As DataTable
+        Dim sql As String
+        sql = "Select * from " + tabla + " where  " + consulta + "= '" & parametro & "' "
+        Me.oDataAdater1 = New SqlDataAdapter(sql, cn)
+        Me.oDataTable1 = New DataTable()
+        Me.oDataAdater1.Fill(Me.oDataTable1)
+        'If Me.oDataTable1.Rows.Count = 0 Then
+        '    Return MsgBox("No se Encontro ningun elemento")
+        'End If
+        'For Each rows In oDataTable1.Rows
+        '    Column1 = rows(0).ToString
+        '    Column2 = rows(1).ToString : Column3 = rows(2).ToString : Column4 = rows(3).ToString : Column5 = rows(4).ToString
+        '    Column6 = rows(5).ToString : Column7 = rows(6).ToString : Column8 = rows(7).ToString : Column10 = rows(10).ToString
+        'Next
+        Return Me.oDataTable1
+
+    End Function
+
     Public Function Recolecta_Datos2(ByVal tabla As String, ByVal consulta As String, ByVal parametro As String)
         Dim sql As String
         sql = "Select * from " + tabla + " where  " + consulta + "= '" & parametro & "' "
