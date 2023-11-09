@@ -212,6 +212,12 @@
     <Compile Include="Formularios\Contabilidad\Frm_AgregaCte.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Formularios\Formularios Iniciales\FrmCorreoP.Designer.vb">
+      <DependentUpon>FrmCorreoP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Formularios Iniciales\FrmCorreoP.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Formularios\Formularios Iniciales\FrmLogin.Designer.vb">
       <DependentUpon>FrmLogin.vb</DependentUpon>
     </Compile>
@@ -367,6 +373,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Contabilidad\Frm_AgregaCte.resx">
       <DependentUpon>Frm_AgregaCte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Formularios Iniciales\FrmCorreoP.resx">
+      <DependentUpon>FrmCorreoP.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Formularios Iniciales\FrmLogin.resx">
       <DependentUpon>FrmLogin.vb</DependentUpon>

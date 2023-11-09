@@ -624,3 +624,4 @@ C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Campañas.resources
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Segmento.resources
 C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.Frm_Profesiones.resources
+C:\Users\PC\source\repos\MultiCon\Sistema ERP\Sistema ERP\obj\Debug\Sistema_ERP.FrmCorreoP.resources
