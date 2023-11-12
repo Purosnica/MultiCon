@@ -32,15 +32,20 @@ Partial Class FrmUsuarios
         Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         Me.TextEdit2 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.txtNombres = New DevExpress.XtraEditors.TextEdit()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl1.SuspendLayout()
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtNombres.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupControl1
         '
+        Me.GroupControl1.Controls.Add(Me.txtNombres)
+        Me.GroupControl1.Controls.Add(Me.Label4)
         Me.GroupControl1.Controls.Add(Me.btnSalir)
         Me.GroupControl1.Controls.Add(Me.TextEdit3)
         Me.GroupControl1.Controls.Add(Me.Label3)
@@ -52,15 +57,15 @@ Partial Class FrmUsuarios
         Me.GroupControl1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupControl1.Location = New System.Drawing.Point(0, 0)
         Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(308, 175)
+        Me.GroupControl1.Size = New System.Drawing.Size(286, 201)
         Me.GroupControl1.TabIndex = 0
         '
         'btnSalir
         '
         Me.btnSalir.ImageOptions.Image = CType(resources.GetObject("btnSalir.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnSalir.Location = New System.Drawing.Point(204, 136)
+        Me.btnSalir.Location = New System.Drawing.Point(204, 161)
         Me.btnSalir.Name = "btnSalir"
-        Me.btnSalir.Size = New System.Drawing.Size(88, 29)
+        Me.btnSalir.Size = New System.Drawing.Size(73, 29)
         Me.btnSalir.TabIndex = 4
         Me.btnSalir.Text = "Salir"
         '
@@ -104,9 +109,9 @@ Partial Class FrmUsuarios
         'SimpleButton1
         '
         Me.SimpleButton1.ImageOptions.Image = CType(resources.GetObject("SimpleButton1.ImageOptions.Image"), System.Drawing.Image)
-        Me.SimpleButton1.Location = New System.Drawing.Point(114, 136)
+        Me.SimpleButton1.Location = New System.Drawing.Point(113, 161)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(88, 29)
+        Me.SimpleButton1.Size = New System.Drawing.Size(74, 29)
         Me.SimpleButton1.TabIndex = 2
         Me.SimpleButton1.Text = "Guardar"
         '
@@ -124,11 +129,28 @@ Partial Class FrmUsuarios
         Me.TextEdit1.Size = New System.Drawing.Size(163, 20)
         Me.TextEdit1.TabIndex = 0
         '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Location = New System.Drawing.Point(24, 130)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(83, 13)
+        Me.Label4.TabIndex = 6
+        Me.Label4.Text = "Nombre Usuario"
+        '
+        'txtNombres
+        '
+        Me.txtNombres.Location = New System.Drawing.Point(113, 127)
+        Me.txtNombres.Name = "txtNombres"
+        Me.txtNombres.Size = New System.Drawing.Size(163, 20)
+        Me.txtNombres.TabIndex = 7
+        '
         'FrmUsuarios
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(308, 175)
+        Me.ClientSize = New System.Drawing.Size(286, 201)
         Me.Controls.Add(Me.GroupControl1)
         Me.DoubleBuffered = True
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -142,6 +164,7 @@ Partial Class FrmUsuarios
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtNombres.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -155,4 +178,6 @@ Partial Class FrmUsuarios
     Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents TextEdit2 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents TextEdit1 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents txtNombres As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents Label4 As Label
 End Class

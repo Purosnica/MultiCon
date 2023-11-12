@@ -119,27 +119,25 @@ Public Class FunctionHelper
         Dim contraseña As String = pass
 
         Try
-            Dim smtpCliente As New SmtpClient(_Host)
+            Dim smtpCliente As New SmtpClient("smtp.gmail.com")
             Dim correo As New MailMessage()
             correo.From = New MailAddress(remitente)
             correo.Subject = "Feliz Cumpleaños"
             correo.Body = "¡Feliz Cumpleaños! Te envío esta felicitación especial."
             correo.IsBodyHtml = True
-            smtpCliente.Port = _Port
+            smtpCliente.Port = 587
             smtpCliente.Credentials = New NetworkCredential(remitente, contraseña)
             smtpCliente.EnableSsl = True
             correo.Priority = MailPriority.High
-
 
             Dim vistaHTML As AlternateView = AlternateView.CreateAlternateViewFromString(cuerpoHTML, Nothing, MediaTypeNames.Text.Html)
 
             Dim imgpR As LinkedResource = New LinkedResource(_url, MediaTypeNames.Image.Jpeg)
             imgpR.ContentId = "TRS2S55"
             vistaHTML.LinkedResources.Add(imgpR)
-            Dim imgpL As LinkedResource = New LinkedResource("C:\Users\PC\Documents\Modelo.png", MediaTypeNames.Image.Jpeg)
-            imgpL.ContentId = "TRPub2x"
-            vistaHTML.LinkedResources.Add(imgpL)
-
+            'Dim imgpL As LinkedResource = New LinkedResource("C:\Users\PC\Documents\Modelo.png", MediaTypeNames.Image.Jpeg)
+            'imgpL.ContentId = "TRPub2x"
+            'vistaHTML.LinkedResources.Add(imgpL)
             correo.AlternateViews.Add(vistaHTML)
             ' Lista de destinatarios
             Dim destinatarios() As String = {"purosnica505@gmail.com", "rmurillo.abogados@gmail.com"}

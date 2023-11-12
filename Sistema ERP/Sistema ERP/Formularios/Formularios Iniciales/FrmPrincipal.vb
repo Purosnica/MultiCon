@@ -191,4 +191,10 @@ Partial Public Class FrmPrincipal
         x.MdiParent = Me
         x.Show()
     End Sub
+
+    Private Sub btnCorreos_ItemClick(sender As Object, e As ItemClickEventArgs) Handles btnCorreos.ItemClick
+        Dim x As New FrmCorreoP
+        x.MdiParent = Me
+        x.Show()
+    End Sub
 End Class

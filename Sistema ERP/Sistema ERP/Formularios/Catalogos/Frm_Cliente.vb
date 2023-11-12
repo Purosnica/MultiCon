@@ -106,7 +106,6 @@ Public Class Frm_Cliente
         If txtNombres.EditValue = "" Or txtIdentificacion.EditValue = "" Or txtCorreo.EditValue = "" Then
             _ReturnValidate = False
         End If
-
         Return _ReturnValidate
 
     End Function

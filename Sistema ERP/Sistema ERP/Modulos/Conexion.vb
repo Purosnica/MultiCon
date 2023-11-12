@@ -12,15 +12,20 @@ Public Class Conexion
         Try
             cn = New SqlConnection("Data Source= DESKTOP-4A462DL\SXC_PUROSNICA;Initial Catalog=SYSERP;Integrated Security=True")
             cn.Open()
-            '' MsgBox("CONECTADO")
         Catch ex As Exception
             MsgBox("Error al conectarse debido a: " + ex.ToString)
         End Try
     End Sub
 
-    Public Function Recolecta_Datos(ByVal tabla As String, ByVal consulta As String, ByVal parametro As String)
+    Public Function Recolecta_Datos(ByVal _tabla As String, ByVal _consulta As String, ByVal _parametro As String)
         Dim sql As String
-        sql = "Select * from " + tabla + " where  " + consulta + "= '" & parametro & "' "
+
+        If _consulta = "" And _parametro = "" Then
+            sql = "Select * from " + _tabla + " where  order by 1 "
+        Else
+            sql = "Select * from " + _tabla + " where  " + _consulta + "= '" & _parametro & "' "
+        End If
+
         Me.oDataAdater1 = New SqlDataAdapter(sql, cn)
         Me.oDataTable1 = New DataTable()
         Me.oDataAdater1.Fill(Me.oDataTable1)
@@ -36,21 +41,13 @@ Public Class Conexion
 
     End Function
 
-
     Public Function Return_Datetable(ByVal tabla As String, ByVal consulta As String, ByVal parametro As String) As DataTable
         Dim sql As String
         sql = "Select * from " + tabla + " where  " + consulta + "= '" & parametro & "' "
         Me.oDataAdater1 = New SqlDataAdapter(sql, cn)
         Me.oDataTable1 = New DataTable()
         Me.oDataAdater1.Fill(Me.oDataTable1)
-        'If Me.oDataTable1.Rows.Count = 0 Then
-        '    Return MsgBox("No se Encontro ningun elemento")
-        'End If
-        'For Each rows In oDataTable1.Rows
-        '    Column1 = rows(0).ToString
-        '    Column2 = rows(1).ToString : Column3 = rows(2).ToString : Column4 = rows(3).ToString : Column5 = rows(4).ToString
-        '    Column6 = rows(5).ToString : Column7 = rows(6).ToString : Column8 = rows(7).ToString : Column10 = rows(10).ToString
-        'Next
+
         Return Me.oDataTable1
 
     End Function

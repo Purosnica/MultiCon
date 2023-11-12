@@ -1,28 +1,35 @@
 
+Imports System.Drawing.Drawing2D
 
 Public Class FrmCorreo_Masivo
 
     Private _ftHelper As New FunctionHelper()
-    Private _dtCorreo As DataTable
     Private Sub btnasignarImg_Click(sender As Object, e As EventArgs) Handles btnasignarImg.Click
 
-        'XtraOpenFileDialog1.Filter = "txt files  (.html)|*.html"
+        XtraOpenFileDialog1.Filter = "txt files (*.png)|*.png"
         If XtraOpenFileDialog1.ShowDialog() = DialogResult.OK Then
             Dim filePath As String = XtraOpenFileDialog1.FileName
-            txtformato.EditValue = filePath
+            Me.PictureEdit1.Image = _ftHelper.CambiarTamanoImagen(Image.FromFile(filePath), 200, 200)
 
         End If
 
     End Sub
 
     Private Sub btnLimpiarImg_Click(sender As Object, e As EventArgs) Handles btnLimpiarImg.Click
-        txtformato.EditValue = ""
+        Me.PictureEdit1.Image.Dispose()
 
     End Sub
 
     Private Sub btnCargaCliente_Click(sender As Object, e As EventArgs) Handles btnCargaCliente.Click
 
+    End Sub
 
-        _ftHelper.EnviarCorreosMasivos("purosnica@gmail.com", "jvmxwvgdwfemdpnd", "stmp.gmail.com", 587, _dtCorreo, txtformato.EditValue, TextBox1.Text.ToString().Trim)
+    Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
+        Me.Close()
+
+    End Sub
+
+    Private Sub btnEnviar_Click(sender As Object, e As EventArgs) Handles btnEnviar.Click
+
     End Sub
 End Class

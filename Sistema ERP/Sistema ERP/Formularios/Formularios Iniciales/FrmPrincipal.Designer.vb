@@ -72,6 +72,7 @@ Partial Public Class FrmPrincipal
         Me.btnOcupacion = New DevExpress.XtraBars.BarButtonItem()
         Me.btnSegmento = New DevExpress.XtraBars.BarButtonItem()
         Me.btnProfesiones = New DevExpress.XtraBars.BarButtonItem()
+        Me.btnCorreos = New DevExpress.XtraBars.BarButtonItem()
         Me.RibbonPage1 = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.RibbonPageGroup1 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPageGroup9 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
@@ -93,7 +94,6 @@ Partial Public Class FrmPrincipal
         Me.RibbonPageGroup13 = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
         Me.RibbonPage2 = New DevExpress.XtraBars.Ribbon.RibbonPage()
         Me.XtraTabbedMdiManager1 = New DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(Me.components)
-        Me.btnCorreos = New DevExpress.XtraBars.BarButtonItem()
         CType(Me.ApplicationMenu1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.RibbonControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.XtraTabbedMdiManager1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -455,6 +455,14 @@ Partial Public Class FrmPrincipal
         Me.btnProfesiones.ImageOptions.LargeImage = CType(resources.GetObject("btnProfesiones.ImageOptions.LargeImage"), System.Drawing.Image)
         Me.btnProfesiones.Name = "btnProfesiones"
         '
+        'btnCorreos
+        '
+        Me.btnCorreos.Caption = "Correos"
+        Me.btnCorreos.Id = 52
+        Me.btnCorreos.ImageOptions.Image = CType(resources.GetObject("btnCorreos.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnCorreos.ImageOptions.LargeImage = CType(resources.GetObject("btnCorreos.ImageOptions.LargeImage"), System.Drawing.Image)
+        Me.btnCorreos.Name = "btnCorreos"
+        '
         'RibbonPage1
         '
         Me.RibbonPage1.Groups.AddRange(New DevExpress.XtraBars.Ribbon.RibbonPageGroup() {Me.RibbonPageGroup1, Me.RibbonPageGroup9, Me.RibbonPageGroup2})
@@ -601,14 +609,6 @@ Partial Public Class FrmPrincipal
         'XtraTabbedMdiManager1
         '
         Me.XtraTabbedMdiManager1.MdiParent = Me
-        '
-        'btnCorreos
-        '
-        Me.btnCorreos.Caption = "Correos"
-        Me.btnCorreos.Id = 52
-        Me.btnCorreos.ImageOptions.Image = CType(resources.GetObject("BarButtonItem5.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnCorreos.ImageOptions.LargeImage = CType(resources.GetObject("BarButtonItem5.ImageOptions.LargeImage"), System.Drawing.Image)
-        Me.btnCorreos.Name = "btnCorreos"
         '
         'FrmPrincipal
         '

@@ -17,7 +17,7 @@ Public Class FrmUsuarios
                 pass = pass & "0" & Asc(Mid(cadena, i, 1))
             Next i
 
-            conect.EjecutaSQL("Insert into Tbl_Usuario(Usuario,Pass,Correo)values('" & TextEdit1.EditValue & "','" & pass & "','" & TextEdit3.EditValue & "')")
+            conect.EjecutaSQL("Insert into Tbl_Usuario(Usuario,Pass,Correo,NombreUsuario)values('" & TextEdit1.EditValue & "','" & pass & "','" & TextEdit3.EditValue & "','" & txtNombres.EditValue & "')")
             MsgBox("Nuevo Usuario Adicionado", MsgBoxStyle.Information)
             Me.Close()
         End If
