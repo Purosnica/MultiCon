@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -12,6 +13,8 @@
     <MyType>Windows</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,8 +47,17 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -64,6 +76,75 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\SYSERP.Context.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SYSERP.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SYSERP.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SYSERP.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SYSERP.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Tbl_ADQ_Tipocompra.vb">
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Tbl_Areas.vb">
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Tbl_Articulo.vb">
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Tbl_Clientes.vb">
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Tbl_CTComprobantes.vb">
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Tbl_Departamento.vb">
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Tbl_Medidas.vb">
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Tbl_Pais.vb">
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Tbl_Producto.vb">
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Tbl_Proveedor.vb">
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Tbl_Servicios.vb">
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Tbl_Solicitante.vb">
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Tbl_Solicitudes_Enc.vb">
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Tbl_Tasacambio.vb">
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Tbl_TipoIdentificacion.vb">
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Tbl_TipoPersona.vb">
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Tbl_Ubicacion.vb">
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Tbl_Usuario.vb">
+      <DependentUpon>SYSERP.tt</DependentUpon>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -89,6 +170,16 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="Model\SYSERP.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SYSERP.Designer.vb</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model\SYSERP.edmx.diagram">
+      <DependentUpon>SYSERP.edmx</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -98,6 +189,31 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Model\SYSERP.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SYSERP.edmx</DependentUpon>
+      <LastGenOutput>SYSERP.Context.vb</LastGenOutput>
+    </Content>
+    <Content Include="Model\SYSERP.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SYSERP.edmx</DependentUpon>
+      <LastGenOutput>SYSERP.vb</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
 </Project>

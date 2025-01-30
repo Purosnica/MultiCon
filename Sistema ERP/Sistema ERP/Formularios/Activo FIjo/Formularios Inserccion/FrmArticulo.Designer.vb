@@ -22,6 +22,7 @@ Partial Class FrmArticulo
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmArticulo))
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl3 = New DevExpress.XtraEditors.LabelControl()
@@ -177,7 +178,7 @@ Partial Class FrmArticulo
         Me.btnGuardar.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.btnGuardar.Location = New System.Drawing.Point(123, 354)
         Me.btnGuardar.Name = "btnGuardar"
-        Me.btnGuardar.Size = New System.Drawing.Size(75, 23)
+        Me.btnGuardar.Size = New System.Drawing.Size(88, 29)
         Me.btnGuardar.TabIndex = 18
         Me.btnGuardar.Text = "Guardar"
         '
@@ -186,7 +187,7 @@ Partial Class FrmArticulo
         Me.btnsalir.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.btnsalir.Location = New System.Drawing.Point(205, 354)
         Me.btnsalir.Name = "btnsalir"
-        Me.btnsalir.Size = New System.Drawing.Size(75, 23)
+        Me.btnsalir.Size = New System.Drawing.Size(88, 29)
         Me.btnsalir.TabIndex = 19
         Me.btnsalir.Text = "Salir"
         '

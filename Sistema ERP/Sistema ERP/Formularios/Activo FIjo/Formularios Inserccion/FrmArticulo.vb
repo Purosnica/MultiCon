@@ -13,9 +13,16 @@ Public Class FrmArticulo
         Else
             Dim contador As String = 0
             contador = conect.ConsulSql("Select isnull(max(id_articulo),0)+1 from Tbl_Articulos")
-            conect.EjecutaSQL("Insert Into Tbl_Articulos(Id_Articulo, Cod_Activo, Descripcion, Marca, Modelo, Serie, Dimensiones, Asignado, Cod_Area, Cod_Ubicacion_F, Estado, Fecha)values('" & contador & "','" & txtcodart.EditValue.ToString.Trim & "','" & txtdescri.EditValue.ToString.Trim & "','" & txtmarca.EditValue.ToString.Trim & "','" & txtmodelo.EditValue.ToString.Trim & "','" & txtserie.EditValue.ToString.Trim & "','" & txtdimensiones.EditValue.ToString.Trim & "' ,'" & cmbempleado.EditValue & "','" & cmbarea.EditValue & "','" & cmbubicacion.EditValue & "',getdate() )")
-            MsgBox("Registrado Exitosamente", MsgBoxStyle.Information)
-            Me.Close()
+
+            If conect.EjecutaSQL("Insert Into Tbl_Articulos(Id_Articulo, Cod_Activo, Descripcion, Marca, Modelo, Serie, Dimensiones, Asignado, Cod_Area, Cod_Ubicacion_F, Estado, Fecha)values('" & contador & "','" & txtcodart.EditValue.ToString.Trim & "','" & txtdescri.EditValue.ToString.Trim & "','" & txtmarca.EditValue.ToString.Trim & "','" & txtmodelo.EditValue.ToString.Trim & "','" & txtserie.EditValue.ToString.Trim & "','" & txtdimensiones.EditValue.ToString.Trim & "' ,'" & cmbempleado.EditValue & "','" & cmbarea.EditValue & "','" & cmbubicacion.EditValue & "',getdate() )") = True Then
+                MsgBox("Registro Guardado Existosamente", MsgBoxStyle.Information)
+                Me.Close()
+            Else
+                MsgBox("Hubo un error al Guardar el Registro", MsgBoxStyle.Critical)
+
+            End If
+
+
         End If
     End Sub
 

@@ -41,7 +41,9 @@ Partial Class FrmUsuarios
         '
         'GroupControl1
         '
-        Me.GroupControl1.Controls.Add(Me.SimpleButton2)
+        Me.GroupControl1.Controls.Add(Me.txtNombres)
+        Me.GroupControl1.Controls.Add(Me.Label4)
+        Me.GroupControl1.Controls.Add(Me.btnSalir)
         Me.GroupControl1.Controls.Add(Me.TextEdit3)
         Me.GroupControl1.Controls.Add(Me.Label3)
         Me.GroupControl1.Controls.Add(Me.Label2)
@@ -89,7 +91,7 @@ Partial Class FrmUsuarios
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(88, 19)
         Me.Label2.TabIndex = 4
-        Me.Label2.Text = "Contraseña"
+        Me.Label2.Text = "Contraseï¿½a"
         '
         'Label1
         '
@@ -147,7 +149,7 @@ Partial Class FrmUsuarios
     End Sub
 
     Friend WithEvents GroupControl1 As DevExpress.XtraEditors.GroupControl
-    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents btnSalir As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents TextEdit3 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
@@ -155,4 +157,6 @@ Partial Class FrmUsuarios
     Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents TextEdit2 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents TextEdit1 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents txtNombres As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents Label4 As Label
 End Class

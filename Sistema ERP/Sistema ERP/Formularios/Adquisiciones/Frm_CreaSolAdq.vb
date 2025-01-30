@@ -56,4 +56,8 @@ Public Class Frm_CreaSolAdq
     Private Sub Btnsalir_Click(sender As Object, e As EventArgs) Handles Btnsalir.Click
         Me.Close()
     End Sub
+
+    Private Sub btnGuardar_Click(sender As Object, e As EventArgs) Handles btnGuardar.Click
+
+    End Sub
 End Class

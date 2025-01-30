@@ -135,6 +135,10 @@ Partial Class FrmCat_General
         '
         Me.gvproveedor.GridControl = Me.gridproveedor
         Me.gvproveedor.Name = "gvproveedor"
+        Me.gvproveedor.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.[False]
+        Me.gvproveedor.OptionsBehavior.AllowDeleteRows = DevExpress.Utils.DefaultBoolean.[False]
+        Me.gvproveedor.OptionsBehavior.Editable = False
+        Me.gvproveedor.OptionsBehavior.ReadOnly = True
         '
         'FrmCat_General
         '

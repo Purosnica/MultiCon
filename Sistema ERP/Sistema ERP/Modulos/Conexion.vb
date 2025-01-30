@@ -12,15 +12,20 @@ Public Class Conexion
         Try
             cn = New SqlConnection("Data Source=DESKTOP-4A462DL\SXC_PUROSNICA;Initial Catalog=SYSERP;Integrated Security=True")
             cn.Open()
-            '' MsgBox("CONECTADO")
         Catch ex As Exception
             MsgBox("Error al conectarse debido a: " + ex.ToString)
         End Try
     End Sub
 
-    Public Function Recolecta_Datos(ByVal tabla As String, ByVal consulta As String, ByVal parametro As String)
+    Public Function Recolecta_Datos(ByVal _tabla As String, ByVal _consulta As String, ByVal _parametro As String)
         Dim sql As String
-        sql = "Select * from " + tabla + " where  " + consulta + "= '" & parametro & "' "
+
+        If _consulta = "" And _parametro = "" Then
+            sql = "Select * from " + _tabla + " where  order by 1 "
+        Else
+            sql = "Select * from " + _tabla + " where  " + _consulta + "= '" & _parametro & "' "
+        End If
+
         Me.oDataAdater1 = New SqlDataAdapter(sql, cn)
         Me.oDataTable1 = New DataTable()
         Me.oDataAdater1.Fill(Me.oDataTable1)
@@ -33,6 +38,17 @@ Public Class Conexion
             Column6 = rows(5).ToString : Column7 = rows(6).ToString : Column8 = rows(7).ToString : Column10 = rows(10).ToString
         Next
         Return 0
+
+    End Function
+
+    Public Function Return_Datetable(ByVal tabla As String, ByVal consulta As String, ByVal parametro As String) As DataTable
+        Dim sql As String
+        sql = "Select * from " + tabla + " where  " + consulta + "= '" & parametro & "' "
+        Me.oDataAdater1 = New SqlDataAdapter(sql, cn)
+        Me.oDataTable1 = New DataTable()
+        Me.oDataAdater1.Fill(Me.oDataTable1)
+
+        Return Me.oDataTable1
 
     End Function
 
@@ -88,17 +104,23 @@ Public Class Conexion
             MsgBox(ex.ToString, vbCritical)
         End Try
     End Sub
+
+
     'Insertar o ejecutar cualquier consulta sql'
-    Public Sub EjecutaSQL(SQLSTR As String)
+    Public Function EjecutaSQL(SQLSTR As String)
+        Dim _result As Boolean = False
+
         Try
             Dim cmd As SqlCommand
             cmd = New SqlCommand(SQLSTR, cn)
             cmd.ExecuteNonQuery()
             cmd.Dispose()
+            _result = True
         Catch ex As Exception
             MsgBox(ex.ToString, vbCritical)
         End Try
-    End Sub
+        Return _result
+    End Function
     Public Sub CargaGrid(ByRef CtrlGrid As Object, TblSql As String, strDataMenber As String, strFiltro As String)
         Try
             da.Dispose()

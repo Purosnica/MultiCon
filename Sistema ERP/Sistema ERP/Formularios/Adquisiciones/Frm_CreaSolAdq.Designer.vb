@@ -108,7 +108,7 @@ Partial Class Frm_CreaSolAdq
         '
         Me.SimpleButton2.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.SimpleButton2.ImageOptions.Image = CType(resources.GetObject("SimpleButton2.ImageOptions.Image"), System.Drawing.Image)
-        Me.SimpleButton2.Location = New System.Drawing.Point(535, 574)
+        Me.SimpleButton2.Location = New System.Drawing.Point(533, 548)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(84, 29)
         Me.SimpleButton2.TabIndex = 301
@@ -118,7 +118,7 @@ Partial Class Frm_CreaSolAdq
         '
         Me.SimpleButton1.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.SimpleButton1.ImageOptions.Image = CType(resources.GetObject("SimpleButton1.ImageOptions.Image"), System.Drawing.Image)
-        Me.SimpleButton1.Location = New System.Drawing.Point(436, 574)
+        Me.SimpleButton1.Location = New System.Drawing.Point(434, 548)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(84, 29)
         Me.SimpleButton1.TabIndex = 300
@@ -128,7 +128,7 @@ Partial Class Frm_CreaSolAdq
         '
         Me.Btnsalir.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.Btnsalir.ImageOptions.Image = CType(resources.GetObject("Btnsalir.ImageOptions.Image"), System.Drawing.Image)
-        Me.Btnsalir.Location = New System.Drawing.Point(718, 574)
+        Me.Btnsalir.Location = New System.Drawing.Point(716, 548)
         Me.Btnsalir.Name = "Btnsalir"
         Me.Btnsalir.Size = New System.Drawing.Size(79, 29)
         Me.Btnsalir.TabIndex = 299
@@ -138,7 +138,7 @@ Partial Class Frm_CreaSolAdq
         '
         Me.btnGuardar.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.btnGuardar.ImageOptions.Image = CType(resources.GetObject("btnGuardar.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnGuardar.Location = New System.Drawing.Point(346, 574)
+        Me.btnGuardar.Location = New System.Drawing.Point(344, 548)
         Me.btnGuardar.Name = "btnGuardar"
         Me.btnGuardar.Size = New System.Drawing.Size(84, 29)
         Me.btnGuardar.TabIndex = 298
@@ -149,9 +149,9 @@ Partial Class Frm_CreaSolAdq
         Me.Label12.BackColor = System.Drawing.Color.Transparent
         Me.Label12.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.Black
-        Me.Label12.Location = New System.Drawing.Point(713, 196)
+        Me.Label12.Location = New System.Drawing.Point(702, 196)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(62, 19)
+        Me.Label12.Size = New System.Drawing.Size(73, 19)
         Me.Label12.TabIndex = 297
         Me.Label12.Text = "Cantidad"
         Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -161,9 +161,9 @@ Partial Class Frm_CreaSolAdq
         Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.ForeColor = System.Drawing.Color.Black
-        Me.Label11.Location = New System.Drawing.Point(630, 196)
+        Me.Label11.Location = New System.Drawing.Point(611, 196)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(52, 19)
+        Me.Label11.Size = New System.Drawing.Size(71, 19)
         Me.Label11.TabIndex = 296
         Me.Label11.Text = "Medida"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -211,20 +211,20 @@ Partial Class Frm_CreaSolAdq
         Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.Black
-        Me.Label10.Location = New System.Drawing.Point(6, 216)
+        Me.Label10.Location = New System.Drawing.Point(9, 216)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(110, 22)
+        Me.Label10.Size = New System.Drawing.Size(107, 22)
         Me.Label10.TabIndex = 290
         Me.Label10.Text = "Digite el Codigo"
-        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'GroupControl2
         '
         Me.GroupControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
         Me.GroupControl2.Controls.Add(Me.grdsolicitud)
-        Me.GroupControl2.Location = New System.Drawing.Point(7, 241)
+        Me.GroupControl2.Location = New System.Drawing.Point(7, 250)
         Me.GroupControl2.Name = "GroupControl2"
-        Me.GroupControl2.Size = New System.Drawing.Size(790, 327)
+        Me.GroupControl2.Size = New System.Drawing.Size(790, 292)
         Me.GroupControl2.TabIndex = 289
         '
         'grdsolicitud
@@ -241,6 +241,7 @@ Partial Class Frm_CreaSolAdq
         '
         Me.gvsolicitud.GridControl = Me.grdsolicitud
         Me.gvsolicitud.Name = "gvsolicitud"
+        Me.gvsolicitud.OptionsView.ShowGroupPanel = False
         '
         'GroupControl3
         '
@@ -270,7 +271,7 @@ Partial Class Frm_CreaSolAdq
         '
         'txtobs
         '
-        Me.txtobs.Location = New System.Drawing.Point(123, 146)
+        Me.txtobs.Location = New System.Drawing.Point(136, 146)
         Me.txtobs.Name = "txtobs"
         Me.txtobs.Size = New System.Drawing.Size(630, 26)
         Me.txtobs.TabIndex = 290
@@ -280,12 +281,12 @@ Partial Class Frm_CreaSolAdq
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Black
-        Me.Label9.Location = New System.Drawing.Point(6, 144)
+        Me.Label9.Location = New System.Drawing.Point(17, 144)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(98, 22)
         Me.Label9.TabIndex = 289
         Me.Label9.Text = "Observaciones"
-        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label8
         '
@@ -297,7 +298,7 @@ Partial Class Frm_CreaSolAdq
         Me.Label8.Size = New System.Drawing.Size(140, 22)
         Me.Label8.TabIndex = 286
         Me.Label8.Text = "Departamento Destino"
-        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'fecha
         '
@@ -343,7 +344,7 @@ Partial Class Frm_CreaSolAdq
         Me.Label7.Size = New System.Drawing.Size(123, 22)
         Me.Label7.TabIndex = 282
         Me.Label7.Text = "Fecha de Solicitud"
-        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label6
         '
@@ -355,7 +356,7 @@ Partial Class Frm_CreaSolAdq
         Me.Label6.Size = New System.Drawing.Size(89, 22)
         Me.Label6.TabIndex = 281
         Me.Label6.Text = "Tipo de Uso :"
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label5
         '
@@ -367,7 +368,7 @@ Partial Class Frm_CreaSolAdq
         Me.Label5.Size = New System.Drawing.Size(148, 22)
         Me.Label5.TabIndex = 280
         Me.Label5.Text = "Tipo de Compra Local :"
-        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'txtdepto
         '
@@ -408,7 +409,7 @@ Partial Class Frm_CreaSolAdq
         Me.Label4.Size = New System.Drawing.Size(107, 22)
         Me.Label4.TabIndex = 275
         Me.Label4.Text = "Depto Empleado:"
-        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label2
         '
@@ -420,7 +421,7 @@ Partial Class Frm_CreaSolAdq
         Me.Label2.Size = New System.Drawing.Size(107, 20)
         Me.Label2.TabIndex = 274
         Me.Label2.Text = "Cargo Empleado:"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label1
         '
@@ -432,24 +433,24 @@ Partial Class Frm_CreaSolAdq
         Me.Label1.Size = New System.Drawing.Size(92, 22)
         Me.Label1.TabIndex = 273
         Me.Label1.Text = "Solicitado Por:"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label3
         '
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(16, 20)
+        Me.Label3.Location = New System.Drawing.Point(17, 20)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(110, 22)
         Me.Label3.TabIndex = 272
         Me.Label3.Text = "Tipo de Compra :"
-        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'cmbsolicitante
         '
         Me.cmbsolicitante.EditValue = ""
-        Me.cmbsolicitante.Location = New System.Drawing.Point(134, 51)
+        Me.cmbsolicitante.Location = New System.Drawing.Point(136, 51)
         Me.cmbsolicitante.Name = "cmbsolicitante"
         Me.cmbsolicitante.Properties.Appearance.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbsolicitante.Properties.Appearance.Options.UseFont = True

@@ -22,6 +22,7 @@ Partial Class FrmEmpleado
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmEmpleado))
         Me.btnsalir = New DevExpress.XtraEditors.SimpleButton()
         Me.btnGuardar = New DevExpress.XtraEditors.SimpleButton()
         Me.txtmodelo = New DevExpress.XtraEditors.TextEdit()
@@ -45,18 +46,20 @@ Partial Class FrmEmpleado
         'btnsalir
         '
         Me.btnsalir.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.btnsalir.ImageOptions.Image = CType(resources.GetObject("btnsalir.ImageOptions.Image"), System.Drawing.Image)
         Me.btnsalir.Location = New System.Drawing.Point(191, 190)
         Me.btnsalir.Name = "btnsalir"
-        Me.btnsalir.Size = New System.Drawing.Size(75, 23)
+        Me.btnsalir.Size = New System.Drawing.Size(88, 29)
         Me.btnsalir.TabIndex = 109
         Me.btnsalir.Text = "Salir"
         '
         'btnGuardar
         '
         Me.btnGuardar.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.btnGuardar.ImageOptions.Image = CType(resources.GetObject("btnGuardar.ImageOptions.Image"), System.Drawing.Image)
         Me.btnGuardar.Location = New System.Drawing.Point(80, 190)
         Me.btnGuardar.Name = "btnGuardar"
-        Me.btnGuardar.Size = New System.Drawing.Size(75, 23)
+        Me.btnGuardar.Size = New System.Drawing.Size(88, 29)
         Me.btnGuardar.TabIndex = 108
         Me.btnGuardar.Text = "Guardar"
         '

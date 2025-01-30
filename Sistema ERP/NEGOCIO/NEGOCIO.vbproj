@@ -99,15 +99,5 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DATOS\DATOS.vbproj">
-      <Project>{b2fff808-c709-4ab8-8109-185066b89cd0}</Project>
-      <Name>DATOS</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Sistema ERP\Sistema ERP.vbproj">
-      <Project>{0c46f3db-5165-4826-b5fa-062ddae29295}</Project>
-      <Name>Sistema ERP</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
