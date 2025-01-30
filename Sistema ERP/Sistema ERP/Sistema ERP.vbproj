@@ -48,23 +48,24 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=12.5.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
-    <Reference Include="DevComponents.DotNetBar2, Version=12.5.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=14.1.0.37, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
     <Reference Include="DevComponents.Instrumentation, Version=12.5.0.2, Culture=neutral, PublicKeyToken=bc4a9d761ea44ef0" />
-    <Reference Include="DevExpress.CodeParser.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Data.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.DataAccess.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Images.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Office.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Printing.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.RichEdit.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Sparkline.v17.1.Core, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Utils.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Xpo.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraBars.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraEditors.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.CodeParser.v17.2, Version=17.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v17.2, Version=17.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v17.2, Version=17.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Images.v17.2, Version=17.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v17.2.Core, Version=17.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v17.2.Export, Version=17.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v17.2.Core, Version=17.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v17.2.Core, Version=17.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v17.2.Core, Version=17.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.2, Version=17.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v17.2, Version=17.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v17.2, Version=17.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.2, Version=17.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v17.2, Version=17.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v17.2, Version=17.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v17.2, Version=17.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
@@ -112,6 +113,12 @@
       <DependentUpon>FrmCat_General.vb</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Adquisiciones\FrmCat_General.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\Frm_Clientes.Designer.vb">
+      <DependentUpon>Frm_Clientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Adquisiciones\Frm_Clientes.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\Adquisiciones\Frm_CreaSolAdq.Designer.vb">
@@ -174,12 +181,6 @@
     <Compile Include="Formularios\Formularios Iniciales\FrmLogin.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Formularios Iniciales\FrmPrincipal.Designer.vb">
-      <DependentUpon>FrmPrincipal.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\Formularios Iniciales\FrmPrincipal.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Formularios\Activo FIjo\Formularios Inserccion\FrmArticulo.Designer.vb">
       <DependentUpon>FrmArticulo.vb</DependentUpon>
     </Compile>
@@ -234,6 +235,12 @@
     <Compile Include="Formularios\Formularios Iniciales\Frm_AgreTC.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Formularios\Formularios Iniciales\FrmPrincipal.Designer.vb">
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Formularios Iniciales\FrmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Modulos\Conect.vb" />
     <Compile Include="Modulos\Conexion.vb" />
     <Compile Include="Modulos\M_Variable.vb" />
@@ -262,6 +269,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Adquisiciones\FrmCat_General.resx">
       <DependentUpon>FrmCat_General.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Adquisiciones\Frm_Clientes.resx">
+      <DependentUpon>Frm_Clientes.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Adquisiciones\Frm_CreaSolAdq.resx">
       <DependentUpon>Frm_CreaSolAdq.vb</DependentUpon>
@@ -293,9 +303,6 @@
     <EmbeddedResource Include="Formularios\Formularios Iniciales\FrmLogin.resx">
       <DependentUpon>FrmLogin.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\Formularios Iniciales\FrmPrincipal.resx">
-      <DependentUpon>FrmPrincipal.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Activo FIjo\Formularios Inserccion\FrmArticulo.resx">
       <DependentUpon>FrmArticulo.vb</DependentUpon>
     </EmbeddedResource>
@@ -316,6 +323,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Activo FIjo\Formularios Primordiales\FrmCat_Ubicacion.resx">
       <DependentUpon>FrmCat_Ubicacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Formularios Iniciales\FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Formularios Iniciales\FrmUsuarios.resx">
       <DependentUpon>FrmUsuarios.vb</DependentUpon>

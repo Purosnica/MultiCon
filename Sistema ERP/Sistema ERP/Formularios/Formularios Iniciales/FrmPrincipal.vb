@@ -111,4 +111,8 @@ Partial Public Class FrmPrincipal
         x.ShowDialog()
 
     End Sub
+
+    Private Sub btnCliente_ItemClick(sender As Object, e As ItemClickEventArgs) Handles btnCliente.ItemClick
+
+    End Sub
 End Class

@@ -10,7 +10,7 @@ Public Class Conexion
     Private oDataTable1 As New DataTable
     Sub New()
         Try
-            cn = New SqlConnection("Data Source= SOPORTE;Initial Catalog=SYSERP;Integrated Security=True")
+            cn = New SqlConnection("Data Source=DESKTOP-4A462DL\SXC_PUROSNICA;Initial Catalog=SYSERP;Integrated Security=True")
             cn.Open()
             '' MsgBox("CONECTADO")
         Catch ex As Exception

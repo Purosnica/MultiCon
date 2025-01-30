@@ -62,37 +62,37 @@ Partial Class FrmEmpleado
         '
         'txtmodelo
         '
-        Me.txtmodelo.Location = New System.Drawing.Point(123, 141)
+        Me.txtmodelo.Location = New System.Drawing.Point(176, 146)
         Me.txtmodelo.Name = "txtmodelo"
-        Me.txtmodelo.Size = New System.Drawing.Size(154, 20)
+        Me.txtmodelo.Size = New System.Drawing.Size(154, 26)
         Me.txtmodelo.TabIndex = 102
         '
         'txtmarca
         '
-        Me.txtmarca.Location = New System.Drawing.Point(123, 104)
+        Me.txtmarca.Location = New System.Drawing.Point(176, 109)
         Me.txtmarca.Name = "txtmarca"
-        Me.txtmarca.Size = New System.Drawing.Size(154, 20)
+        Me.txtmarca.Size = New System.Drawing.Size(154, 26)
         Me.txtmarca.TabIndex = 101
         '
         'txtdescri
         '
-        Me.txtdescri.Location = New System.Drawing.Point(126, 68)
+        Me.txtdescri.Location = New System.Drawing.Point(179, 73)
         Me.txtdescri.Name = "txtdescri"
-        Me.txtdescri.Size = New System.Drawing.Size(154, 20)
+        Me.txtdescri.Size = New System.Drawing.Size(154, 26)
         Me.txtdescri.TabIndex = 100
         '
         'txtcodart
         '
-        Me.txtcodart.Location = New System.Drawing.Point(123, 30)
+        Me.txtcodart.Location = New System.Drawing.Point(176, 35)
         Me.txtcodart.Name = "txtcodart"
-        Me.txtcodart.Size = New System.Drawing.Size(154, 20)
+        Me.txtcodart.Size = New System.Drawing.Size(154, 26)
         Me.txtcodart.TabIndex = 99
         '
         'LabelControl4
         '
         Me.LabelControl4.Location = New System.Drawing.Point(33, 148)
         Me.LabelControl4.Name = "LabelControl4"
-        Me.LabelControl4.Size = New System.Drawing.Size(33, 13)
+        Me.LabelControl4.Size = New System.Drawing.Size(48, 19)
         Me.LabelControl4.TabIndex = 93
         Me.LabelControl4.Text = "Correo"
         '
@@ -100,7 +100,7 @@ Partial Class FrmEmpleado
         '
         Me.LabelControl3.Location = New System.Drawing.Point(33, 107)
         Me.LabelControl3.Name = "LabelControl3"
-        Me.LabelControl3.Size = New System.Drawing.Size(29, 13)
+        Me.LabelControl3.Size = New System.Drawing.Size(42, 19)
         Me.LabelControl3.TabIndex = 92
         Me.LabelControl3.Text = "Cargo"
         '
@@ -108,7 +108,7 @@ Partial Class FrmEmpleado
         '
         Me.LabelControl2.Location = New System.Drawing.Point(34, 75)
         Me.LabelControl2.Name = "LabelControl2"
-        Me.LabelControl2.Size = New System.Drawing.Size(86, 13)
+        Me.LabelControl2.Size = New System.Drawing.Size(133, 19)
         Me.LabelControl2.TabIndex = 91
         Me.LabelControl2.Text = "Nombre y Apellido"
         '
@@ -116,7 +116,7 @@ Partial Class FrmEmpleado
         '
         Me.LabelControl1.Location = New System.Drawing.Point(34, 38)
         Me.LabelControl1.Name = "LabelControl1"
-        Me.LabelControl1.Size = New System.Drawing.Size(68, 13)
+        Me.LabelControl1.Size = New System.Drawing.Size(103, 19)
         Me.LabelControl1.TabIndex = 90
         Me.LabelControl1.Text = "Cod Empleado"
         '
@@ -134,7 +134,7 @@ Partial Class FrmEmpleado
         Me.MetroStatusBar2.Font = New System.Drawing.Font("Segoe UI", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MetroStatusBar2.ForeColor = System.Drawing.Color.Black
         Me.MetroStatusBar2.ItemSpacing = 10
-        Me.MetroStatusBar2.Location = New System.Drawing.Point(321, 10)
+        Me.MetroStatusBar2.Location = New System.Drawing.Point(353, 10)
         Me.MetroStatusBar2.Name = "MetroStatusBar2"
         Me.MetroStatusBar2.Size = New System.Drawing.Size(11, 227)
         Me.MetroStatusBar2.TabIndex = 257
@@ -157,7 +157,7 @@ Partial Class FrmEmpleado
         Me.MetroStatusBar5.ItemSpacing = 10
         Me.MetroStatusBar5.Location = New System.Drawing.Point(11, 237)
         Me.MetroStatusBar5.Name = "MetroStatusBar5"
-        Me.MetroStatusBar5.Size = New System.Drawing.Size(321, 10)
+        Me.MetroStatusBar5.Size = New System.Drawing.Size(353, 10)
         Me.MetroStatusBar5.TabIndex = 256
         Me.MetroStatusBar5.TabStop = False
         Me.MetroStatusBar5.Text = "MetroStatusBar5"
@@ -199,15 +199,15 @@ Partial Class FrmEmpleado
         Me.MetroStatusBar4.ItemSpacing = 10
         Me.MetroStatusBar4.Location = New System.Drawing.Point(0, 0)
         Me.MetroStatusBar4.Name = "MetroStatusBar4"
-        Me.MetroStatusBar4.Size = New System.Drawing.Size(332, 10)
+        Me.MetroStatusBar4.Size = New System.Drawing.Size(364, 10)
         Me.MetroStatusBar4.TabIndex = 254
         Me.MetroStatusBar4.TabStop = False
         '
         'FrmEmpleado
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 23.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(332, 247)
+        Me.ClientSize = New System.Drawing.Size(364, 247)
         Me.Controls.Add(Me.MetroStatusBar2)
         Me.Controls.Add(Me.MetroStatusBar5)
         Me.Controls.Add(Me.MetroStatusBar1)

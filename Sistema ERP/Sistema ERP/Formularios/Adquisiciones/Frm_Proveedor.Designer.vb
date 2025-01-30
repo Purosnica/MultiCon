@@ -1,9 +1,9 @@
-<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Frm_Proveedor
     Inherits DevComponents.DotNetBar.Metro.MetroForm
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Frm_Proveedor
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Frm_Proveedor))
         Me.Label11 = New System.Windows.Forms.Label()
@@ -53,10 +53,6 @@ Partial Class Frm_Proveedor
         Me.RBPVEINT = New System.Windows.Forms.RadioButton()
         Me.btnGuardar = New DevExpress.XtraEditors.SimpleButton()
         Me.Btnsalir = New DevExpress.XtraEditors.SimpleButton()
-        Me.MetroStatusBar2 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
-        Me.MetroStatusBar5 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
-        Me.MetroStatusBar1 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
-        Me.MetroStatusBar4 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -191,7 +187,7 @@ Partial Class Frm_Proveedor
         Me.TBNUMRUC.Location = New System.Drawing.Point(117, 262)
         Me.TBNUMRUC.MaxLength = 30
         Me.TBNUMRUC.Name = "TBNUMRUC"
-        Me.TBNUMRUC.Size = New System.Drawing.Size(255, 22)
+        Me.TBNUMRUC.Size = New System.Drawing.Size(255, 30)
         Me.TBNUMRUC.TabIndex = 236
         '
         'TBMAIL
@@ -204,7 +200,7 @@ Partial Class Frm_Proveedor
         Me.TBMAIL.Location = New System.Drawing.Point(117, 237)
         Me.TBMAIL.MaxLength = 300
         Me.TBMAIL.Name = "TBMAIL"
-        Me.TBMAIL.Size = New System.Drawing.Size(255, 22)
+        Me.TBMAIL.Size = New System.Drawing.Size(255, 30)
         Me.TBMAIL.TabIndex = 235
         '
         'TBREFERE
@@ -217,7 +213,7 @@ Partial Class Frm_Proveedor
         Me.TBREFERE.Location = New System.Drawing.Point(117, 211)
         Me.TBREFERE.MaxLength = 50
         Me.TBREFERE.Name = "TBREFERE"
-        Me.TBREFERE.Size = New System.Drawing.Size(255, 22)
+        Me.TBREFERE.Size = New System.Drawing.Size(255, 30)
         Me.TBREFERE.TabIndex = 234
         '
         'TBCARGO
@@ -230,7 +226,7 @@ Partial Class Frm_Proveedor
         Me.TBCARGO.Location = New System.Drawing.Point(117, 186)
         Me.TBCARGO.MaxLength = 100
         Me.TBCARGO.Name = "TBCARGO"
-        Me.TBCARGO.Size = New System.Drawing.Size(255, 22)
+        Me.TBCARGO.Size = New System.Drawing.Size(255, 30)
         Me.TBCARGO.TabIndex = 233
         '
         'TBCONTAC
@@ -243,7 +239,7 @@ Partial Class Frm_Proveedor
         Me.TBCONTAC.Location = New System.Drawing.Point(117, 160)
         Me.TBCONTAC.MaxLength = 100
         Me.TBCONTAC.Name = "TBCONTAC"
-        Me.TBCONTAC.Size = New System.Drawing.Size(255, 22)
+        Me.TBCONTAC.Size = New System.Drawing.Size(255, 30)
         Me.TBCONTAC.TabIndex = 232
         '
         'TBTELEFO
@@ -256,7 +252,7 @@ Partial Class Frm_Proveedor
         Me.TBTELEFO.Location = New System.Drawing.Point(117, 135)
         Me.TBTELEFO.MaxLength = 100
         Me.TBTELEFO.Name = "TBTELEFO"
-        Me.TBTELEFO.Size = New System.Drawing.Size(255, 22)
+        Me.TBTELEFO.Size = New System.Drawing.Size(255, 30)
         Me.TBTELEFO.TabIndex = 231
         '
         'TBCIUDAD
@@ -269,7 +265,7 @@ Partial Class Frm_Proveedor
         Me.TBCIUDAD.Location = New System.Drawing.Point(117, 110)
         Me.TBCIUDAD.MaxLength = 100
         Me.TBCIUDAD.Name = "TBCIUDAD"
-        Me.TBCIUDAD.Size = New System.Drawing.Size(255, 22)
+        Me.TBCIUDAD.Size = New System.Drawing.Size(255, 30)
         Me.TBCIUDAD.TabIndex = 230
         '
         'TBDIRECC
@@ -282,7 +278,7 @@ Partial Class Frm_Proveedor
         Me.TBDIRECC.Location = New System.Drawing.Point(117, 84)
         Me.TBDIRECC.MaxLength = 300
         Me.TBDIRECC.Name = "TBDIRECC"
-        Me.TBDIRECC.Size = New System.Drawing.Size(497, 22)
+        Me.TBDIRECC.Size = New System.Drawing.Size(497, 30)
         Me.TBDIRECC.TabIndex = 229
         '
         'TBRAZON
@@ -295,7 +291,7 @@ Partial Class Frm_Proveedor
         Me.TBRAZON.Location = New System.Drawing.Point(117, 59)
         Me.TBRAZON.MaxLength = 100
         Me.TBRAZON.Name = "TBRAZON"
-        Me.TBRAZON.Size = New System.Drawing.Size(497, 22)
+        Me.TBRAZON.Size = New System.Drawing.Size(497, 30)
         Me.TBRAZON.TabIndex = 228
         '
         'TBNOMBRE
@@ -308,7 +304,7 @@ Partial Class Frm_Proveedor
         Me.TBNOMBRE.Location = New System.Drawing.Point(117, 33)
         Me.TBNOMBRE.MaxLength = 100
         Me.TBNOMBRE.Name = "TBNOMBRE"
-        Me.TBNOMBRE.Size = New System.Drawing.Size(497, 22)
+        Me.TBNOMBRE.Size = New System.Drawing.Size(497, 30)
         Me.TBNOMBRE.TabIndex = 227
         '
         'GroupBox2
@@ -332,7 +328,7 @@ Partial Class Frm_Proveedor
         Me.RBSI_ALMA.ForeColor = System.Drawing.Color.Black
         Me.RBSI_ALMA.Location = New System.Drawing.Point(12, 32)
         Me.RBSI_ALMA.Name = "RBSI_ALMA"
-        Me.RBSI_ALMA.Size = New System.Drawing.Size(40, 20)
+        Me.RBSI_ALMA.Size = New System.Drawing.Size(58, 29)
         Me.RBSI_ALMA.TabIndex = 234
         Me.RBSI_ALMA.Text = "SI"
         Me.RBSI_ALMA.UseVisualStyleBackColor = False
@@ -345,7 +341,7 @@ Partial Class Frm_Proveedor
         Me.RBNO_ALMA.ForeColor = System.Drawing.Color.Black
         Me.RBNO_ALMA.Location = New System.Drawing.Point(93, 29)
         Me.RBNO_ALMA.Name = "RBNO_ALMA"
-        Me.RBNO_ALMA.Size = New System.Drawing.Size(48, 20)
+        Me.RBNO_ALMA.Size = New System.Drawing.Size(69, 29)
         Me.RBNO_ALMA.TabIndex = 233
         Me.RBNO_ALMA.TabStop = True
         Me.RBNO_ALMA.Text = "NO"
@@ -372,7 +368,7 @@ Partial Class Frm_Proveedor
         Me.RBSI_IR.ForeColor = System.Drawing.Color.Black
         Me.RBSI_IR.Location = New System.Drawing.Point(12, 24)
         Me.RBSI_IR.Name = "RBSI_IR"
-        Me.RBSI_IR.Size = New System.Drawing.Size(40, 20)
+        Me.RBSI_IR.Size = New System.Drawing.Size(58, 29)
         Me.RBSI_IR.TabIndex = 231
         Me.RBSI_IR.Text = "SI"
         Me.RBSI_IR.UseVisualStyleBackColor = False
@@ -385,7 +381,7 @@ Partial Class Frm_Proveedor
         Me.RBNO_IR.ForeColor = System.Drawing.Color.Black
         Me.RBNO_IR.Location = New System.Drawing.Point(93, 24)
         Me.RBNO_IR.Name = "RBNO_IR"
-        Me.RBNO_IR.Size = New System.Drawing.Size(48, 20)
+        Me.RBNO_IR.Size = New System.Drawing.Size(69, 29)
         Me.RBNO_IR.TabIndex = 230
         Me.RBNO_IR.TabStop = True
         Me.RBNO_IR.Text = "NO"
@@ -400,7 +396,7 @@ Partial Class Frm_Proveedor
         Me.RBPVENAC.ForeColor = System.Drawing.Color.Black
         Me.RBPVENAC.Location = New System.Drawing.Point(379, 117)
         Me.RBPVENAC.Name = "RBPVENAC"
-        Me.RBPVENAC.Size = New System.Drawing.Size(155, 21)
+        Me.RBPVENAC.Size = New System.Drawing.Size(235, 29)
         Me.RBPVENAC.TabIndex = 240
         Me.RBPVENAC.TabStop = True
         Me.RBPVENAC.Text = "Proveedor Nacional"
@@ -414,7 +410,7 @@ Partial Class Frm_Proveedor
         Me.RBPVEINT.ForeColor = System.Drawing.Color.Black
         Me.RBPVEINT.Location = New System.Drawing.Point(379, 140)
         Me.RBPVEINT.Name = "RBPVEINT"
-        Me.RBPVEINT.Size = New System.Drawing.Size(185, 21)
+        Me.RBPVEINT.Size = New System.Drawing.Size(282, 29)
         Me.RBPVEINT.TabIndex = 241
         Me.RBPVEINT.Text = "Proveedor Internacional"
         Me.RBPVEINT.UseVisualStyleBackColor = False
@@ -443,98 +439,11 @@ Partial Class Frm_Proveedor
         Me.Btnsalir.TabIndex = 243
         Me.Btnsalir.Text = "Salir"
         '
-        'MetroStatusBar2
-        '
-        Me.MetroStatusBar2.BackColor = System.Drawing.Color.White
-        '
-        '
-        '
-        Me.MetroStatusBar2.BackgroundStyle.BackColor = System.Drawing.Color.DarkSeaGreen
-        Me.MetroStatusBar2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.MetroStatusBar2.ContainerControlProcessDialogKey = True
-        Me.MetroStatusBar2.Dock = System.Windows.Forms.DockStyle.Right
-        Me.MetroStatusBar2.DragDropSupport = True
-        Me.MetroStatusBar2.Font = New System.Drawing.Font("Segoe UI", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MetroStatusBar2.ForeColor = System.Drawing.Color.Black
-        Me.MetroStatusBar2.ItemSpacing = 10
-        Me.MetroStatusBar2.Location = New System.Drawing.Point(629, 10)
-        Me.MetroStatusBar2.Name = "MetroStatusBar2"
-        Me.MetroStatusBar2.Size = New System.Drawing.Size(11, 349)
-        Me.MetroStatusBar2.TabIndex = 257
-        Me.MetroStatusBar2.TabStop = False
-        Me.MetroStatusBar2.Text = "MetroStatusBar2"
-        '
-        'MetroStatusBar5
-        '
-        Me.MetroStatusBar5.BackColor = System.Drawing.Color.White
-        '
-        '
-        '
-        Me.MetroStatusBar5.BackgroundStyle.BackColor = System.Drawing.Color.DarkSeaGreen
-        Me.MetroStatusBar5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.MetroStatusBar5.ContainerControlProcessDialogKey = True
-        Me.MetroStatusBar5.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.MetroStatusBar5.DragDropSupport = True
-        Me.MetroStatusBar5.Font = New System.Drawing.Font("Segoe UI", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MetroStatusBar5.ForeColor = System.Drawing.Color.Black
-        Me.MetroStatusBar5.ItemSpacing = 10
-        Me.MetroStatusBar5.Location = New System.Drawing.Point(11, 359)
-        Me.MetroStatusBar5.Name = "MetroStatusBar5"
-        Me.MetroStatusBar5.Size = New System.Drawing.Size(629, 10)
-        Me.MetroStatusBar5.TabIndex = 256
-        Me.MetroStatusBar5.TabStop = False
-        Me.MetroStatusBar5.Text = "MetroStatusBar5"
-        '
-        'MetroStatusBar1
-        '
-        Me.MetroStatusBar1.BackColor = System.Drawing.Color.White
-        '
-        '
-        '
-        Me.MetroStatusBar1.BackgroundStyle.BackColor = System.Drawing.Color.DarkSeaGreen
-        Me.MetroStatusBar1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.MetroStatusBar1.ContainerControlProcessDialogKey = True
-        Me.MetroStatusBar1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.MetroStatusBar1.DragDropSupport = True
-        Me.MetroStatusBar1.Font = New System.Drawing.Font("Segoe UI", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MetroStatusBar1.ForeColor = System.Drawing.Color.Black
-        Me.MetroStatusBar1.ItemSpacing = 10
-        Me.MetroStatusBar1.Location = New System.Drawing.Point(0, 10)
-        Me.MetroStatusBar1.Name = "MetroStatusBar1"
-        Me.MetroStatusBar1.Size = New System.Drawing.Size(11, 359)
-        Me.MetroStatusBar1.TabIndex = 255
-        Me.MetroStatusBar1.TabStop = False
-        Me.MetroStatusBar1.Text = "MetroStatusBar1"
-        '
-        'MetroStatusBar4
-        '
-        Me.MetroStatusBar4.BackColor = System.Drawing.Color.White
-        '
-        '
-        '
-        Me.MetroStatusBar4.BackgroundStyle.BackColor = System.Drawing.Color.DarkSeaGreen
-        Me.MetroStatusBar4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.MetroStatusBar4.ContainerControlProcessDialogKey = True
-        Me.MetroStatusBar4.Dock = System.Windows.Forms.DockStyle.Top
-        Me.MetroStatusBar4.DragDropSupport = True
-        Me.MetroStatusBar4.Font = New System.Drawing.Font("Segoe UI", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MetroStatusBar4.ForeColor = System.Drawing.Color.Black
-        Me.MetroStatusBar4.ItemSpacing = 10
-        Me.MetroStatusBar4.Location = New System.Drawing.Point(0, 0)
-        Me.MetroStatusBar4.Name = "MetroStatusBar4"
-        Me.MetroStatusBar4.Size = New System.Drawing.Size(640, 10)
-        Me.MetroStatusBar4.TabIndex = 254
-        Me.MetroStatusBar4.TabStop = False
-        '
         'Frm_Proveedor
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 22.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(640, 369)
-        Me.Controls.Add(Me.MetroStatusBar2)
-        Me.Controls.Add(Me.MetroStatusBar5)
-        Me.Controls.Add(Me.MetroStatusBar1)
-        Me.Controls.Add(Me.MetroStatusBar4)
         Me.Controls.Add(Me.Btnsalir)
         Me.Controls.Add(Me.btnGuardar)
         Me.Controls.Add(Me.RBPVEINT)
@@ -563,6 +472,7 @@ Partial Class Frm_Proveedor
         Me.Controls.Add(Me.Label6)
         Me.DoubleBuffered = True
         Me.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ForeColor = System.Drawing.Color.Black
         Me.MaximizeBox = False
         Me.Name = "Frm_Proveedor"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -605,8 +515,4 @@ Partial Class Frm_Proveedor
     Friend WithEvents RBPVEINT As RadioButton
     Friend WithEvents btnGuardar As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents Btnsalir As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents MetroStatusBar2 As DevComponents.DotNetBar.Metro.MetroStatusBar
-    Friend WithEvents MetroStatusBar5 As DevComponents.DotNetBar.Metro.MetroStatusBar
-    Friend WithEvents MetroStatusBar1 As DevComponents.DotNetBar.Metro.MetroStatusBar
-    Friend WithEvents MetroStatusBar4 As DevComponents.DotNetBar.Metro.MetroStatusBar
 End Class

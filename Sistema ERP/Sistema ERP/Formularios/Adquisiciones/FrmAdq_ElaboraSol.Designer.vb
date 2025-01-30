@@ -156,6 +156,7 @@ Partial Class FrmAdq_ElaboraSol
         Me.Controls.Add(Me.barDockControlTop)
         Me.DoubleBuffered = True
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MaximizeBox = False
         Me.Name = "FrmAdq_ElaboraSol"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Elaboracion de Solicitudes de Compra"

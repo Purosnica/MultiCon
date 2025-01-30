@@ -23,19 +23,93 @@ Partial Class Frm_Servicios
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Frm_Servicios))
-        Me.MetroStatusBar2 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
-        Me.MetroStatusBar5 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
-        Me.MetroStatusBar1 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
-        Me.MetroStatusBar4 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
         Me.txtdescri = New DevExpress.XtraEditors.TextEdit()
         Me.txtauto = New DevExpress.XtraEditors.TextEdit()
         Me.Btnsalir = New DevExpress.XtraEditors.SimpleButton()
         Me.btnGuardar = New DevExpress.XtraEditors.SimpleButton()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.MetroStatusBar2 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
+        Me.MetroStatusBar5 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
+        Me.MetroStatusBar1 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
+        Me.MetroStatusBar4 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
         CType(Me.txtdescri.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtauto.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'txtdescri
+        '
+        Me.txtdescri.Location = New System.Drawing.Point(104, 61)
+        Me.txtdescri.Name = "txtdescri"
+        Me.txtdescri.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.txtdescri.Properties.Appearance.ForeColor = System.Drawing.Color.Black
+        Me.txtdescri.Properties.Appearance.Options.UseBackColor = True
+        Me.txtdescri.Properties.Appearance.Options.UseForeColor = True
+        Me.txtdescri.Size = New System.Drawing.Size(376, 26)
+        Me.txtdescri.TabIndex = 260
+        '
+        'txtauto
+        '
+        Me.txtauto.EditValue = "AUTO"
+        Me.txtauto.Enabled = False
+        Me.txtauto.Location = New System.Drawing.Point(104, 27)
+        Me.txtauto.Name = "txtauto"
+        Me.txtauto.Properties.Appearance.BackColor = System.Drawing.Color.White
+        Me.txtauto.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtauto.Properties.Appearance.ForeColor = System.Drawing.Color.Black
+        Me.txtauto.Properties.Appearance.Options.UseBackColor = True
+        Me.txtauto.Properties.Appearance.Options.UseFont = True
+        Me.txtauto.Properties.Appearance.Options.UseForeColor = True
+        Me.txtauto.Size = New System.Drawing.Size(77, 28)
+        Me.txtauto.TabIndex = 259
+        '
+        'Btnsalir
+        '
+        Me.Btnsalir.Appearance.ForeColor = System.Drawing.Color.Black
+        Me.Btnsalir.Appearance.Options.UseForeColor = True
+        Me.Btnsalir.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.Btnsalir.ImageOptions.Image = CType(resources.GetObject("Btnsalir.ImageOptions.Image"), System.Drawing.Image)
+        Me.Btnsalir.Location = New System.Drawing.Point(393, 108)
+        Me.Btnsalir.Name = "Btnsalir"
+        Me.Btnsalir.Size = New System.Drawing.Size(79, 29)
+        Me.Btnsalir.TabIndex = 258
+        Me.Btnsalir.Text = "Salir"
+        '
+        'btnGuardar
+        '
+        Me.btnGuardar.Appearance.ForeColor = System.Drawing.Color.Black
+        Me.btnGuardar.Appearance.Options.UseForeColor = True
+        Me.btnGuardar.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
+        Me.btnGuardar.ImageOptions.Image = CType(resources.GetObject("btnGuardar.ImageOptions.Image"), System.Drawing.Image)
+        Me.btnGuardar.Location = New System.Drawing.Point(292, 108)
+        Me.btnGuardar.Name = "btnGuardar"
+        Me.btnGuardar.Size = New System.Drawing.Size(84, 29)
+        Me.btnGuardar.TabIndex = 257
+        Me.btnGuardar.Text = "Guardar"
+        '
+        'Label2
+        '
+        Me.Label2.BackColor = System.Drawing.Color.White
+        Me.Label2.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.Black
+        Me.Label2.Location = New System.Drawing.Point(20, 26)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(77, 22)
+        Me.Label2.TabIndex = 256
+        Me.Label2.Text = "Codigo"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label6
+        '
+        Me.Label6.BackColor = System.Drawing.Color.White
+        Me.Label6.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.Black
+        Me.Label6.Location = New System.Drawing.Point(17, 59)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(80, 22)
+        Me.Label6.TabIndex = 254
+        Me.Label6.Text = "Descripcion "
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'MetroStatusBar2
         '
@@ -120,83 +194,9 @@ Partial Class Frm_Servicios
         Me.MetroStatusBar4.TabIndex = 250
         Me.MetroStatusBar4.TabStop = False
         '
-        'txtdescri
-        '
-        Me.txtdescri.Location = New System.Drawing.Point(104, 61)
-        Me.txtdescri.Name = "txtdescri"
-        Me.txtdescri.Properties.Appearance.BackColor = System.Drawing.Color.White
-        Me.txtdescri.Properties.Appearance.ForeColor = System.Drawing.Color.Black
-        Me.txtdescri.Properties.Appearance.Options.UseBackColor = True
-        Me.txtdescri.Properties.Appearance.Options.UseForeColor = True
-        Me.txtdescri.Size = New System.Drawing.Size(376, 20)
-        Me.txtdescri.TabIndex = 260
-        '
-        'txtauto
-        '
-        Me.txtauto.EditValue = "AUTO"
-        Me.txtauto.Enabled = False
-        Me.txtauto.Location = New System.Drawing.Point(104, 27)
-        Me.txtauto.Name = "txtauto"
-        Me.txtauto.Properties.Appearance.BackColor = System.Drawing.Color.White
-        Me.txtauto.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtauto.Properties.Appearance.ForeColor = System.Drawing.Color.Black
-        Me.txtauto.Properties.Appearance.Options.UseBackColor = True
-        Me.txtauto.Properties.Appearance.Options.UseFont = True
-        Me.txtauto.Properties.Appearance.Options.UseForeColor = True
-        Me.txtauto.Size = New System.Drawing.Size(77, 20)
-        Me.txtauto.TabIndex = 259
-        '
-        'Btnsalir
-        '
-        Me.Btnsalir.Appearance.ForeColor = System.Drawing.Color.Black
-        Me.Btnsalir.Appearance.Options.UseForeColor = True
-        Me.Btnsalir.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
-        Me.Btnsalir.ImageOptions.Image = CType(resources.GetObject("Btnsalir.ImageOptions.Image"), System.Drawing.Image)
-        Me.Btnsalir.Location = New System.Drawing.Point(393, 108)
-        Me.Btnsalir.Name = "Btnsalir"
-        Me.Btnsalir.Size = New System.Drawing.Size(79, 29)
-        Me.Btnsalir.TabIndex = 258
-        Me.Btnsalir.Text = "Salir"
-        '
-        'btnGuardar
-        '
-        Me.btnGuardar.Appearance.ForeColor = System.Drawing.Color.Black
-        Me.btnGuardar.Appearance.Options.UseForeColor = True
-        Me.btnGuardar.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.Office2003
-        Me.btnGuardar.ImageOptions.Image = CType(resources.GetObject("btnGuardar.ImageOptions.Image"), System.Drawing.Image)
-        Me.btnGuardar.Location = New System.Drawing.Point(292, 108)
-        Me.btnGuardar.Name = "btnGuardar"
-        Me.btnGuardar.Size = New System.Drawing.Size(84, 29)
-        Me.btnGuardar.TabIndex = 257
-        Me.btnGuardar.Text = "Guardar"
-        '
-        'Label2
-        '
-        Me.Label2.BackColor = System.Drawing.Color.White
-        Me.Label2.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(20, 26)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(77, 22)
-        Me.Label2.TabIndex = 256
-        Me.Label2.Text = "Codigo"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label6
-        '
-        Me.Label6.BackColor = System.Drawing.Color.White
-        Me.Label6.Font = New System.Drawing.Font("Times New Roman", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.Black
-        Me.Label6.Location = New System.Drawing.Point(17, 59)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(80, 22)
-        Me.Label6.TabIndex = 254
-        Me.Label6.Text = "Descripcion "
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
         'Frm_Servicios
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 23.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(497, 165)
         Me.Controls.Add(Me.txtdescri)
@@ -221,15 +221,14 @@ Partial Class Frm_Servicios
         Me.ResumeLayout(False)
 
     End Sub
-
-    Friend WithEvents MetroStatusBar2 As DevComponents.DotNetBar.Metro.MetroStatusBar
-    Friend WithEvents MetroStatusBar5 As DevComponents.DotNetBar.Metro.MetroStatusBar
-    Friend WithEvents MetroStatusBar1 As DevComponents.DotNetBar.Metro.MetroStatusBar
-    Friend WithEvents MetroStatusBar4 As DevComponents.DotNetBar.Metro.MetroStatusBar
     Friend WithEvents txtdescri As DevExpress.XtraEditors.TextEdit
     Friend WithEvents txtauto As DevExpress.XtraEditors.TextEdit
     Friend WithEvents Btnsalir As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents btnGuardar As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents Label2 As Label
     Friend WithEvents Label6 As Label
+    Friend WithEvents MetroStatusBar2 As DevComponents.DotNetBar.Metro.MetroStatusBar
+    Friend WithEvents MetroStatusBar5 As DevComponents.DotNetBar.Metro.MetroStatusBar
+    Friend WithEvents MetroStatusBar1 As DevComponents.DotNetBar.Metro.MetroStatusBar
+    Friend WithEvents MetroStatusBar4 As DevComponents.DotNetBar.Metro.MetroStatusBar
 End Class

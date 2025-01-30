@@ -1,9 +1,9 @@
-<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Frm_CreaSolAdq
     Inherits DevComponents.DotNetBar.Metro.MetroForm
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,13 +20,9 @@ Partial Class Frm_CreaSolAdq
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Frm_CreaSolAdq))
-        Me.MetroStatusBar2 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
-        Me.MetroStatusBar5 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
-        Me.MetroStatusBar1 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
-        Me.MetroStatusBar4 = New DevComponents.DotNetBar.Metro.MetroStatusBar()
         Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
         Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
@@ -86,89 +82,6 @@ Partial Class Frm_CreaSolAdq
         CType(Me.cmbdeptodes.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'MetroStatusBar2
-        '
-        Me.MetroStatusBar2.BackColor = System.Drawing.Color.White
-        '
-        '
-        '
-        Me.MetroStatusBar2.BackgroundStyle.BackColor = System.Drawing.Color.DarkSeaGreen
-        Me.MetroStatusBar2.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.MetroStatusBar2.ContainerControlProcessDialogKey = True
-        Me.MetroStatusBar2.Dock = System.Windows.Forms.DockStyle.Right
-        Me.MetroStatusBar2.DragDropSupport = True
-        Me.MetroStatusBar2.Font = New System.Drawing.Font("Segoe UI", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MetroStatusBar2.ForeColor = System.Drawing.Color.Black
-        Me.MetroStatusBar2.ItemSpacing = 10
-        Me.MetroStatusBar2.Location = New System.Drawing.Point(816, 10)
-        Me.MetroStatusBar2.Name = "MetroStatusBar2"
-        Me.MetroStatusBar2.Size = New System.Drawing.Size(11, 561)
-        Me.MetroStatusBar2.TabIndex = 285
-        Me.MetroStatusBar2.TabStop = False
-        Me.MetroStatusBar2.Text = "MetroStatusBar2"
-        '
-        'MetroStatusBar5
-        '
-        Me.MetroStatusBar5.BackColor = System.Drawing.Color.White
-        '
-        '
-        '
-        Me.MetroStatusBar5.BackgroundStyle.BackColor = System.Drawing.Color.DarkSeaGreen
-        Me.MetroStatusBar5.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.MetroStatusBar5.ContainerControlProcessDialogKey = True
-        Me.MetroStatusBar5.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.MetroStatusBar5.DragDropSupport = True
-        Me.MetroStatusBar5.Font = New System.Drawing.Font("Segoe UI", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MetroStatusBar5.ForeColor = System.Drawing.Color.Black
-        Me.MetroStatusBar5.ItemSpacing = 10
-        Me.MetroStatusBar5.Location = New System.Drawing.Point(11, 571)
-        Me.MetroStatusBar5.Name = "MetroStatusBar5"
-        Me.MetroStatusBar5.Size = New System.Drawing.Size(816, 10)
-        Me.MetroStatusBar5.TabIndex = 284
-        Me.MetroStatusBar5.TabStop = False
-        Me.MetroStatusBar5.Text = "MetroStatusBar5"
-        '
-        'MetroStatusBar1
-        '
-        Me.MetroStatusBar1.BackColor = System.Drawing.Color.White
-        '
-        '
-        '
-        Me.MetroStatusBar1.BackgroundStyle.BackColor = System.Drawing.Color.DarkSeaGreen
-        Me.MetroStatusBar1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.MetroStatusBar1.ContainerControlProcessDialogKey = True
-        Me.MetroStatusBar1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.MetroStatusBar1.DragDropSupport = True
-        Me.MetroStatusBar1.Font = New System.Drawing.Font("Segoe UI", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MetroStatusBar1.ForeColor = System.Drawing.Color.Black
-        Me.MetroStatusBar1.ItemSpacing = 10
-        Me.MetroStatusBar1.Location = New System.Drawing.Point(0, 10)
-        Me.MetroStatusBar1.Name = "MetroStatusBar1"
-        Me.MetroStatusBar1.Size = New System.Drawing.Size(11, 571)
-        Me.MetroStatusBar1.TabIndex = 283
-        Me.MetroStatusBar1.TabStop = False
-        Me.MetroStatusBar1.Text = "MetroStatusBar1"
-        '
-        'MetroStatusBar4
-        '
-        Me.MetroStatusBar4.BackColor = System.Drawing.Color.White
-        '
-        '
-        '
-        Me.MetroStatusBar4.BackgroundStyle.BackColor = System.Drawing.Color.DarkSeaGreen
-        Me.MetroStatusBar4.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
-        Me.MetroStatusBar4.ContainerControlProcessDialogKey = True
-        Me.MetroStatusBar4.Dock = System.Windows.Forms.DockStyle.Top
-        Me.MetroStatusBar4.DragDropSupport = True
-        Me.MetroStatusBar4.Font = New System.Drawing.Font("Segoe UI", 10.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MetroStatusBar4.ForeColor = System.Drawing.Color.Black
-        Me.MetroStatusBar4.ItemSpacing = 10
-        Me.MetroStatusBar4.Location = New System.Drawing.Point(0, 0)
-        Me.MetroStatusBar4.Name = "MetroStatusBar4"
-        Me.MetroStatusBar4.Size = New System.Drawing.Size(827, 10)
-        Me.MetroStatusBar4.TabIndex = 282
-        Me.MetroStatusBar4.TabStop = False
-        '
         'GroupControl1
         '
         Me.GroupControl1.Controls.Add(Me.SimpleButton2)
@@ -186,9 +99,9 @@ Partial Class Frm_CreaSolAdq
         Me.GroupControl1.Controls.Add(Me.GroupControl2)
         Me.GroupControl1.Controls.Add(Me.GroupControl3)
         Me.GroupControl1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.GroupControl1.Location = New System.Drawing.Point(11, 10)
+        Me.GroupControl1.Location = New System.Drawing.Point(0, 0)
         Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(805, 561)
+        Me.GroupControl1.Size = New System.Drawing.Size(827, 608)
         Me.GroupControl1.TabIndex = 286
         '
         'SimpleButton2
@@ -259,7 +172,7 @@ Partial Class Frm_CreaSolAdq
         '
         Me.txtcantidad.Location = New System.Drawing.Point(702, 218)
         Me.txtcantidad.Name = "txtcantidad"
-        Me.txtcantidad.Size = New System.Drawing.Size(95, 20)
+        Me.txtcantidad.Size = New System.Drawing.Size(95, 26)
         Me.txtcantidad.TabIndex = 295
         '
         'txtmedida
@@ -267,7 +180,7 @@ Partial Class Frm_CreaSolAdq
         Me.txtmedida.Enabled = False
         Me.txtmedida.Location = New System.Drawing.Point(611, 218)
         Me.txtmedida.Name = "txtmedida"
-        Me.txtmedida.Size = New System.Drawing.Size(88, 20)
+        Me.txtmedida.Size = New System.Drawing.Size(88, 26)
         Me.txtmedida.TabIndex = 294
         '
         'txtdescicod
@@ -275,7 +188,7 @@ Partial Class Frm_CreaSolAdq
         Me.txtdescicod.Enabled = False
         Me.txtdescicod.Location = New System.Drawing.Point(319, 218)
         Me.txtdescicod.Name = "txtdescicod"
-        Me.txtdescicod.Size = New System.Drawing.Size(286, 20)
+        Me.txtdescicod.Size = New System.Drawing.Size(286, 26)
         Me.txtdescicod.TabIndex = 293
         '
         'btnbuscar
@@ -290,7 +203,7 @@ Partial Class Frm_CreaSolAdq
         '
         Me.txtcodigo.Location = New System.Drawing.Point(123, 218)
         Me.txtcodigo.Name = "txtcodigo"
-        Me.txtcodigo.Size = New System.Drawing.Size(109, 20)
+        Me.txtcodigo.Size = New System.Drawing.Size(109, 26)
         Me.txtcodigo.TabIndex = 291
         '
         'Label10
@@ -317,10 +230,10 @@ Partial Class Frm_CreaSolAdq
         'grdsolicitud
         '
         Me.grdsolicitud.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.grdsolicitud.Location = New System.Drawing.Point(2, 20)
+        Me.grdsolicitud.Location = New System.Drawing.Point(3, 30)
         Me.grdsolicitud.MainView = Me.gvsolicitud
         Me.grdsolicitud.Name = "grdsolicitud"
-        Me.grdsolicitud.Size = New System.Drawing.Size(786, 305)
+        Me.grdsolicitud.Size = New System.Drawing.Size(784, 294)
         Me.grdsolicitud.TabIndex = 0
         Me.grdsolicitud.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.gvsolicitud})
         '
@@ -359,7 +272,7 @@ Partial Class Frm_CreaSolAdq
         '
         Me.txtobs.Location = New System.Drawing.Point(123, 146)
         Me.txtobs.Name = "txtobs"
-        Me.txtobs.Size = New System.Drawing.Size(630, 20)
+        Me.txtobs.Size = New System.Drawing.Size(630, 26)
         Me.txtobs.TabIndex = 290
         '
         'Label9
@@ -389,22 +302,22 @@ Partial Class Frm_CreaSolAdq
         'fecha
         '
         Me.fecha.EditValue = New Date(2019, 10, 31, 15, 46, 46, 0)
-        Me.fecha.Location = New System.Drawing.Point(551, 86)
+        Me.fecha.Location = New System.Drawing.Point(553, 85)
         Me.fecha.Name = "fecha"
         Me.fecha.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.fecha.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.fecha.Size = New System.Drawing.Size(202, 20)
+        Me.fecha.Size = New System.Drawing.Size(202, 26)
         Me.fecha.TabIndex = 285
         '
         'cmbuso
         '
         Me.cmbuso.EditValue = "USO DIRECTO"
-        Me.cmbuso.Location = New System.Drawing.Point(551, 56)
+        Me.cmbuso.Location = New System.Drawing.Point(553, 55)
         Me.cmbuso.Name = "cmbuso"
         Me.cmbuso.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cmbuso.Properties.DropDownRows = 2
         Me.cmbuso.Properties.Items.AddRange(New Object() {"USO DIRECTO", "EXISTENCIA"})
-        Me.cmbuso.Size = New System.Drawing.Size(202, 20)
+        Me.cmbuso.Size = New System.Drawing.Size(202, 26)
         Me.cmbuso.TabIndex = 284
         '
         'cmbcompraT
@@ -417,7 +330,7 @@ Partial Class Frm_CreaSolAdq
         Me.cmbcompraT.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cmbcompraT.Properties.DropDownRows = 2
         Me.cmbcompraT.Properties.Items.AddRange(New Object() {"COMPRA", "SERVICIOS"})
-        Me.cmbcompraT.Size = New System.Drawing.Size(202, 22)
+        Me.cmbcompraT.Size = New System.Drawing.Size(202, 28)
         Me.cmbcompraT.TabIndex = 283
         '
         'Label7
@@ -459,30 +372,30 @@ Partial Class Frm_CreaSolAdq
         'txtdepto
         '
         Me.txtdepto.Enabled = False
-        Me.txtdepto.Location = New System.Drawing.Point(136, 115)
+        Me.txtdepto.Location = New System.Drawing.Point(134, 110)
         Me.txtdepto.Name = "txtdepto"
-        Me.txtdepto.Size = New System.Drawing.Size(217, 20)
+        Me.txtdepto.Size = New System.Drawing.Size(217, 26)
         Me.txtdepto.TabIndex = 279
         '
         'txtcargo
         '
         Me.txtcargo.Enabled = False
-        Me.txtcargo.Location = New System.Drawing.Point(136, 84)
+        Me.txtcargo.Location = New System.Drawing.Point(134, 81)
         Me.txtcargo.Name = "txtcargo"
-        Me.txtcargo.Size = New System.Drawing.Size(217, 20)
+        Me.txtcargo.Size = New System.Drawing.Size(217, 26)
         Me.txtcargo.TabIndex = 278
         '
         'cmbcompra
         '
         Me.cmbcompra.EditValue = "Local"
-        Me.cmbcompra.Location = New System.Drawing.Point(136, 20)
+        Me.cmbcompra.Location = New System.Drawing.Point(134, 21)
         Me.cmbcompra.Name = "cmbcompra"
         Me.cmbcompra.Properties.Appearance.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbcompra.Properties.Appearance.Options.UseFont = True
         Me.cmbcompra.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cmbcompra.Properties.DropDownRows = 2
         Me.cmbcompra.Properties.Items.AddRange(New Object() {"LOCAL", "IMPORTACIONES"})
-        Me.cmbcompra.Size = New System.Drawing.Size(219, 22)
+        Me.cmbcompra.Size = New System.Drawing.Size(219, 28)
         Me.cmbcompra.TabIndex = 276
         '
         'Label4
@@ -544,30 +457,26 @@ Partial Class Frm_CreaSolAdq
         Me.cmbsolicitante.Properties.NullText = ""
         Me.cmbsolicitante.Properties.PopupSizeable = False
         Me.cmbsolicitante.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.cmbsolicitante.Size = New System.Drawing.Size(219, 22)
+        Me.cmbsolicitante.Size = New System.Drawing.Size(219, 28)
         Me.cmbsolicitante.TabIndex = 291
         '
         'cmbdeptodes
         '
-        Me.cmbdeptodes.Location = New System.Drawing.Point(551, 116)
+        Me.cmbdeptodes.Location = New System.Drawing.Point(553, 115)
         Me.cmbdeptodes.Name = "cmbdeptodes"
         Me.cmbdeptodes.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cmbdeptodes.Properties.NullText = ""
         Me.cmbdeptodes.Properties.PopupSizeable = False
         Me.cmbdeptodes.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.Standard
-        Me.cmbdeptodes.Size = New System.Drawing.Size(202, 20)
+        Me.cmbdeptodes.Size = New System.Drawing.Size(202, 26)
         Me.cmbdeptodes.TabIndex = 287
         '
         'Frm_CreaSolAdq
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 23.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(827, 581)
+        Me.ClientSize = New System.Drawing.Size(827, 608)
         Me.Controls.Add(Me.GroupControl1)
-        Me.Controls.Add(Me.MetroStatusBar2)
-        Me.Controls.Add(Me.MetroStatusBar5)
-        Me.Controls.Add(Me.MetroStatusBar1)
-        Me.Controls.Add(Me.MetroStatusBar4)
         Me.DoubleBuffered = True
         Me.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MaximizeBox = False
@@ -599,11 +508,6 @@ Partial Class Frm_CreaSolAdq
         Me.ResumeLayout(False)
 
     End Sub
-
-    Friend WithEvents MetroStatusBar2 As DevComponents.DotNetBar.Metro.MetroStatusBar
-    Friend WithEvents MetroStatusBar5 As DevComponents.DotNetBar.Metro.MetroStatusBar
-    Friend WithEvents MetroStatusBar1 As DevComponents.DotNetBar.Metro.MetroStatusBar
-    Friend WithEvents MetroStatusBar4 As DevComponents.DotNetBar.Metro.MetroStatusBar
     Friend WithEvents GroupControl1 As DevExpress.XtraEditors.GroupControl
     Friend WithEvents GroupControl2 As DevExpress.XtraEditors.GroupControl
     Friend WithEvents GroupControl3 As DevExpress.XtraEditors.GroupControl
